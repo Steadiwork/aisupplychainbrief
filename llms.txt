@@ -4,6 +4,7 @@
 - [The memory crunch sinks phone shipments, Taiwan moves to criminalize AI chip smuggling, and Amazon keeps shutting out shopping agents](https://steadiwork.github.io/aisupplychainbrief/issues/003.html)
 - [TSMC says AI chip demand still outruns supply, robot trucks take on routine freight, and robot brains go on tap](https://steadiwork.github.io/aisupplychainbrief/issues/002.html)
 - [AI hardware is sold out, agents are learning to shop, and the financing bill is coming due](https://steadiwork.github.io/aisupplychainbrief/issues/001.html)
+- [RFQ bid comparison example: a filled-in worksheet](https://steadiwork.github.io/aisupplychainbrief/guides/rfq-bid-comparison-example.html)
 - [Best AI tools for demand planning (2026)](https://steadiwork.github.io/aisupplychainbrief/guides/best-ai-tools-for-demand-planning-2026.html)
 - [AI prompts for freight RFQs](https://steadiwork.github.io/aisupplychainbrief/guides/ai-prompts-for-freight-rfqs.html)
 - [Autonomous supplier negotiation](https://steadiwork.github.io/aisupplychainbrief/use-cases/autonomous-supplier-negotiation.html)

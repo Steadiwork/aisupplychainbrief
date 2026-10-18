@@ -67,3 +67,12 @@ footer h4{color:#fff;margin:0 0 6px}footer ul{list-style:none;padding:0;margin:0
 .soshort{font-size:.88rem}.soshort strong{display:inline;margin-right:6px}
 .wygbtns{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;margin-top:12px}.wygbtns .wyglatest{margin-top:0}.wygnote{font-size:.8rem;color:#B8C4D4;margin:10px 0 0}.wygnote a{color:var(--teal)}.signnote{margin-top:8px!important;font-size:.82rem!important}
 .ucfind{padding:28px 0 4px}footer p a{color:#fff}
+.navwrap{margin-left:auto;min-width:0;display:flex;position:relative}.navwrap .nav{margin-left:0}
+@media(max-width:700px){.navwrap{flex:1 1 auto}.nav{padding-right:30px}.navwrap::after{content:"›";position:absolute;right:0;top:0;bottom:0;width:40px;display:flex;align-items:center;justify-content:flex-end;color:var(--teal);font-weight:800;font-size:1.25rem;line-height:1;background:linear-gradient(90deg,rgba(11,37,69,0),#0B2545 65%);pointer-events:none;transition:opacity .2s}.navwrap.end::after{opacity:0}}
+.hero h1.pos{font-size:clamp(1.65rem,4vw,2.45rem);margin:8px 0 10px}.herouc{margin-top:18px}.herolabel{font-weight:700;color:#fff!important;margin:0 0 8px!important;font-size:.98rem!important}
+.hero .chip{background:#102E52;color:#fff;border-color:#1D3F69;padding:7px 14px;font-size:.95rem}.hero .chip:hover{border-color:var(--teal);color:var(--teal)}.hero .chip.all{background:transparent;border-color:var(--teal);color:var(--teal)}
+.toplabel{background:var(--teal);color:#0B2545;font-size:.72rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:2px 9px;border-radius:999px}
+.next{background:var(--so);border-left:4px solid var(--teal);border-radius:8px;padding:10px 14px;margin:12px 0}.next strong{display:block;font-size:.78rem;text-transform:uppercase;letter-spacing:.06em}.next ol{margin:6px 0 0;padding-left:20px}
+.story .tipprompt{margin-top:8px}.tipnext{margin:12px 0 0;font-weight:600}.tipnext a{color:var(--teal)}
+.lost{padding:36px 0}.lost h1{margin:0 0 8px}
+.prose table{border-collapse:collapse;width:100%;font-size:.88rem;margin:10px 0 18px;display:block;overflow-x:auto}.prose th,.prose td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top}.prose thead th{background:var(--so)}
