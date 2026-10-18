@@ -34,7 +34,8 @@ section{padding:40px 0}h2.sec{font-size:1.45rem;margin:0 0 4px;letter-spacing:-.
 article h1{font-size:clamp(1.7rem,4vw,2.3rem);line-height:1.2;letter-spacing:-.02em;margin:8px 0 12px}
 .meta{color:var(--muted);font-size:.92rem}.story{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;margin:18px 0}
 .story h2{font-size:1.3rem;line-height:1.3;margin:8px 0}.src{font-size:.9rem;color:var(--muted);margin-top:12px;word-break:break-word}
-.prose h2{margin-top:1.8em}.prose pre{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;white-space:pre-wrap;font-size:.92rem}
+.prose h2{margin-top:1.8em}
+.pbox{margin:10px 0 14px}.pbox pre{margin-top:6px}.answer{margin:6px 0 22px;font-size:1rem}.faq h3{font-size:1.05rem;margin:1.2em 0 .3em}.faq p{margin:0 0 .8em}.glist li{margin:4px 0}.prose pre{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;white-space:pre-wrap;font-size:.92rem}
 .endcap{background:var(--card);border:2px solid var(--teal);border-radius:14px;padding:20px;margin:32px 0}
 footer{background:var(--navy);color:#D6E0EC;padding:32px 0;font-size:.92rem;margin-top:40px}footer a{color:#fff}footer .cols{display:grid;gap:18px}@media(min-width:760px){footer .cols{grid-template-columns:1.3fr 1fr 1fr}}
 footer h4{color:#fff;margin:0 0 6px}footer ul{list-style:none;padding:0;margin:0}footer li{margin:4px 0}

@@ -1,0 +1,145 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="follow.it-verification-code" content="yc9RmhFRtxMqH28C6AHj"/><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ChatGPT Prompts for Inventory Management (Worked Example)</title><meta name="description" content="Copy-paste ChatGPT prompts for planners: safety stock with lead-time variability, reorder points, ABC/XYZ and excess stock, with a worked example."><link rel="canonical" href="https://steadiwork.github.io/aisupplychainbrief/guides/chatgpt-prompts-for-inventory-management.html">
+<meta name="color-scheme" content="light dark"><meta name="theme-color" content="#0B2545">
+<meta property="og:type" content="article"><meta property="og:site_name" content="AI Supply Chain Brief"><meta property="og:title" content="ChatGPT Prompts for Inventory Management (Worked Example)"><meta property="og:description" content="Copy-paste ChatGPT prompts for planners: safety stock with lead-time variability, reorder points, ABC/XYZ and excess stock, with a worked example."><meta property="og:url" content="https://steadiwork.github.io/aisupplychainbrief/guides/chatgpt-prompts-for-inventory-management.html">
+<meta property="og:image" content="https://steadiwork.github.io/aisupplychainbrief/logo-icon-400.png"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://steadiwork.github.io/aisupplychainbrief/logo-icon-400.png">
+<link rel="icon" href="/aisupplychainbrief/favicon.ico?v=2" sizes="32x32"><link rel="apple-touch-icon" href="/aisupplychainbrief/apple-touch-icon.png?v=2">
+<link rel="alternate" type="application/rss+xml" title="AI Supply Chain Brief" href="/aisupplychainbrief/rss.xml"><link rel="stylesheet" href="/aisupplychainbrief/style.css"><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://steadiwork.github.io/aisupplychainbrief/#org", "name": "AI Supply Chain Brief", "url": "https://steadiwork.github.io/aisupplychainbrief/", "logo": {"@type": "ImageObject", "url": "https://steadiwork.github.io/aisupplychainbrief/logo-icon-400.png"}, "description": "AI Supply Chain Brief: a free weekday newsletter with one practical AI move for supply chain jobs, curated by a working buyer.", "disambiguatingDescription": "The free weekday email newsletter published at steadiwork.github.io/aisupplychainbrief, with a use-case directory, guides and a prompt kit. Not affiliated with other newsletters or posts that use a similar name.", "sameAs": ["https://www.linkedin.com/company/ai-supply-chain-brief/", "https://steadiwork.gumroad.com"]}, {"@type": "WebSite", "@id": "https://steadiwork.github.io/aisupplychainbrief/#website", "name": "AI Supply Chain Brief", "url": "https://steadiwork.github.io/aisupplychainbrief/", "description": "AI Supply Chain Brief: a free weekday newsletter with one practical AI move for supply chain jobs, curated by a working buyer.", "inLanguage": "en-US", "publisher": {"@id": "https://steadiwork.github.io/aisupplychainbrief/#org"}}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "ChatGPT prompts for inventory management: safety stock, reorder points and excess, worked through", "description": "Copy-paste ChatGPT prompts for planners: safety stock with lead-time variability, reorder points, ABC/XYZ and excess stock, with a worked example.", "datePublished": "2026-10-18", "dateModified": "2026-10-18", "author": {"@id": "https://steadiwork.github.io/aisupplychainbrief/#org"}, "publisher": {"@id": "https://steadiwork.github.io/aisupplychainbrief/#org"}, "isPartOf": {"@id": "https://steadiwork.github.io/aisupplychainbrief/#website"}, "mainEntityOfPage": "https://steadiwork.github.io/aisupplychainbrief/guides/chatgpt-prompts-for-inventory-management.html", "image": "https://steadiwork.github.io/aisupplychainbrief/logo-icon-400.png", "inLanguage": "en-US"}, {"@type": "FAQPage", "url": "https://steadiwork.github.io/aisupplychainbrief/guides/chatgpt-prompts-for-inventory-management.html", "mainEntity": [{"@type": "Question", "name": "How do I use ChatGPT for inventory management?", "acceptedAnswer": {"@type": "Answer", "text": "Export usage, lead-time and stock data, anonymize it, and give ChatGPT a prompt that spells out the formula and asks it to show each step. Use it for safety stock, reorder points, segmentation, excess lists and count plans. Recheck the math in Excel before acting."}}, {"@type": "Question", "name": "What is the safety stock formula with service level?", "acceptedAnswer": {"@type": "Answer", "text": "A common version is SS = z × √(LT × σd² + D² × σLT²). Here z comes from your target cycle service level (1.645 for 95%), D is average demand, σd is its standard deviation, LT is average lead time and σLT is its standard deviation. It assumes roughly normal demand and independent lead times."}}, {"@type": "Question", "name": "What is the reorder point formula with safety stock?", "acceptedAnswer": {"@type": "Answer", "text": "ROP = average demand × average lead time + safety stock. In the example on this page, that's 40 units a day × 9 days + 145 = 505 units. When inventory position (on-hand + on-order − backorders) falls to the reorder point, you order."}}, {"@type": "Question", "name": "How do I calculate safety stock in Excel?", "acceptedAnswer": {"@type": "Answer", "text": "Put D, σd, LT and σLT in cells, get z with =NORM.S.INV(service level), then use =z*SQRT(LT*σd^2+D^2*σLT^2) and round up with ROUNDUP. Keep all inputs in the same time unit, all days or all weeks."}}, {"@type": "Question", "name": "What's the safety stock formula with standard deviation?", "acceptedAnswer": {"@type": "Answer", "text": "If only demand varies, SS = z × σd × √LT. If lead time also varies, use the combined formula, which adds D² × σLT² under the square root. In this page's example the demand-only formula gives 60 units and the combined formula gives 145."}}, {"@type": "Question", "name": "Is AI actually useful for inventory and forecasting, or is it hype?", "acceptedAnswer": {"@type": "Answer", "text": "General AI assistants are useful for explaining, structuring and checking analysis like the examples here, as long as you verify the math. Purpose-built planning tools are a separate category. See the inventory optimization and demand forecasting use cases for sourced company examples."}}, {"@type": "Question", "name": "What is the reorder point formula without safety stock?", "acceptedAnswer": {"@type": "Answer", "text": "ROP = average demand × average lead time. In the example, that's 40 × 9 = 360 units. With no buffer, you'd run short whenever demand during the lead time comes in above average, which is why most items carry safety stock."}}]}]}</script></head><body>
+<header class="sticky"><div class="top"><div class="wrap"><a class="brand" href="/aisupplychainbrief/"><img src="/aisupplychainbrief/logo-64.png?v=2" alt="" width="32" height="32">AI Supply Chain Brief</a><div class="navwrap"><nav class="nav" aria-label="Site"><a href="/aisupplychainbrief/archive.html">Archive</a><a href="/aisupplychainbrief/use-cases.html">Use cases</a><a href="/aisupplychainbrief/guides.html">Guides</a><a href="/aisupplychainbrief/topics/">Topics</a><a href="/aisupplychainbrief/resources.html">Resources</a><a href="/aisupplychainbrief/about.html">About</a></nav></div><script>(function(){var n=document.querySelector(".nav"),w=n&&n.parentNode;if(!w)return;function u(){w.classList.toggle("end",n.scrollLeft+n.clientWidth>=n.scrollWidth-4)}n.addEventListener("scroll",u,{passive:true});addEventListener("resize",u);u()})();</script></div></div><div class="sbar" id="subscribe"><div class="wrap"><p>Free: one AI move for your job, every weekday.</p><form action="https://api.follow.it/subscription-form/bHlzcXlyRmpLUm4reHc3c2dIK0NISTkrbkhteEpyRTljRE42aHpmMUxxQm1hUzZrVWFmRk9JYVRyUXVaTGQ0RXFHWTRMNjlXYmE2ZjA4RUlDTnZMMDM3alNrMUJqeTI5aXhVNnhwSTRvV3lqOUpNUzhMalh1UEliK0plc0dkRmd8alFrdzZ1bkRZQUhTSGowMjZjQnZYMVdSeHBuTExBVEtqdlljV1FPa0hhZz0=/8" method="post"><label for="sbar-email" style="position:absolute;left:-9999px">Email address</label><input id="sbar-email" type="email" name="email" required placeholder="Enter your email" autocomplete="email"><button type="submit">Subscribe</button></form></div></div><script>document.addEventListener("click",function(ev){var a=ev.target.closest("[data-focus-signup]");if(!a)return;var i=document.getElementById("sbar-email");if(!i)return;ev.preventDefault();window.scrollTo({top:0,behavior:"smooth"});i.focus({preventScroll:true})});</script></header>
+<main class="narrow"><article><p class="meta"><a href="/aisupplychainbrief/guides.html">Guides</a> · Updated <time datetime="2026-10-18">2026-10-18</time></p><h1>ChatGPT prompts for inventory management: safety stock, reorder points and excess, worked through</h1><p class="so answer"><strong>Short answer</strong>Export usage, lead-time and on-hand data, anonymize it, and ask ChatGPT to calculate safety stock and reorder points with the formula written out, flag SKUs below their reorder point, and list excess stock. Make it show its math and assumptions, then recheck the numbers in Excel. Use it to draft and explain the analysis, not to replace your planning system.</p><div class="prose"><p class="so"><strong>Fictional example</strong>Example Motors Co., its suppliers and every number in this example are made up for illustration. Don't paste real supplier quotes, NDA pricing, personal data or export-controlled data into an AI tool. Anonymize first and follow your company's AI policy.</p>
+<p>ChatGPT is useful for inventory work when you treat it as an analyst who explains its math, not as your planning system. Below are five prompts for jobs planners and material managers do every week, with one fully worked safety stock and reorder point example you can check line by line.</p>
+<h2>What should you export from your ERP?</h2>
+<p>For each SKU: 12 months of usage (daily or weekly), lead-time history from receipts (PO date to receipt date), on-hand, on-order, backorders and unit cost. Replace part numbers and descriptions with codes like "SKU A" before you paste, and use your company's approved AI tool.</p>
+<h2>Prompt 1: Safety stock and reorder point</h2>
+<div class="pbox"><button class="copy" type="button" onclick="navigator.clipboard.writeText(this.nextElementSibling.innerText).then(()=>{this.textContent=&quot;Copied&quot;})">Copy prompt</button><pre>You are an inventory planner. For each SKU below, calculate safety stock with SS = z × sqrt(LT × σd² + D² × σLT²) at [SERVICE LEVEL] and the reorder point ROP = D × LT + SS. Show each input and each step. Round safety stock up. Then compare inventory position (on-hand + on-order − backorders) to the ROP and say &#x27;order&#x27; or &#x27;no order&#x27;. List any SKU with missing or suspicious data (zero lead time, negative demand) instead of guessing.
+
+[PASTE ANONYMIZED SKU DATA: SKU, D, σd, LT, σLT, on-hand, on-order, backorders]</pre></div>
+<h3>Worked example</h3>
+<p>Example Motors Co. stocks "Bearing 6204-2RS", a generic bearing size used here for illustration.</p>
+<table><thead><tr><th>Input</th><th>Symbol</th><th>Value</th></tr></thead><tbody><tr><td>Average daily demand</td><td>D</td><td>40 units</td></tr><tr><td>Standard deviation of daily demand</td><td>σd</td><td>12 units</td></tr><tr><td>Average lead time</td><td>LT</td><td>9 days</td></tr><tr><td>Standard deviation of lead time</td><td>σLT</td><td>2 days</td></tr><tr><td>Cycle service level target</td><td></td><td>95% → z = 1.645</td></tr><tr><td>On-hand</td><td></td><td>420 units</td></tr><tr><td>On-order</td><td></td><td>150 units</td></tr></tbody></table>
+<p><strong>The formula</strong> combines demand variability and lead-time variability:</p><pre>SS  = z × √(LT × σd² + D² × σLT²)
+    = 1.645 × √(9 × 144 + 1,600 × 4)
+    = 1.645 × √(1,296 + 6,400)
+    = 1.645 × √7,696
+    = 1.645 × 87.73 ≈ 144.3 → round up to 145 units
+
+ROP = D × LT + SS = 360 + 145 = 505 units</pre>
+<h3>What good output looks like</h3><table><thead><tr><th>SKU</th><th>D</th><th>LT</th><th>SS</th><th>ROP</th><th>Inventory position</th><th>Verdict</th></tr></thead><tbody><tr><td>Bearing 6204-2RS</td><td>40/day</td><td>9 days</td><td>145</td><td>505</td><td>420 + 150 = 570</td><td>No order yet (570 > 505)</td></tr></tbody></table>
+<p><strong>The insight:</strong> with the demand-only formula (z × σd × √LT = 1.645 × 12 × 3 ≈ 59.2, rounded up to <strong>60</strong>) you'd carry less than half the buffer. In this example the lead-time swing drives safety stock, so working with the supplier on lead-time consistency could matter more than tweaking the forecast.</p>
+<p><strong>What to check:</strong> recompute one SKU by hand or in Excel (z for a 95% service level is <code>=NORM.S.INV(0.95)</code>, about 1.645), and confirm that D, σd and LT use the same time unit, all days or all weeks.</p>
+<p><strong>Know the limits:</strong> this formula assumes demand is roughly normal and lead times vary independently of demand. Intermittent or lumpy demand, such as spare parts that sell a few times a year, needs a different method.</p>
+<h2>Prompt 2: Which SKUs need ordering now</h2>
+<div class="pbox"><button class="copy" type="button" onclick="navigator.clipboard.writeText(this.nextElementSibling.innerText).then(()=>{this.textContent=&quot;Copied&quot;})">Copy prompt</button><pre>For each SKU below, calculate inventory position = on-hand + on-order − backorders and compare it to the reorder point I&#x27;ve given. Output a table: SKU, inventory position, ROP, verdict (ORDER / OK), and days of supply at average demand. Sort ORDER rows first, lowest days of supply at the top. Flag any SKU with a missing ROP or zero demand instead of guessing.
+
+[PASTE ANONYMIZED DATA]</pre></div>
+<p><strong>What to check:</strong> backorders are subtracted, not added, and the on-order quantities are open POs that will actually arrive in time.</p>
+<h2>Prompt 3: ABC/XYZ segmentation and a policy per cell</h2>
+<div class="pbox"><button class="copy" type="button" onclick="navigator.clipboard.writeText(this.nextElementSibling.innerText).then(()=>{this.textContent=&quot;Copied&quot;})">Copy prompt</button><pre>Segment the SKUs below. ABC by annual usage value (A = top 80% of value, B = next 15%, C = last 5%). XYZ by coefficient of variation of monthly demand (X &lt; 0.5, Y 0.5–1.0, Z &gt; 1.0). Show the thresholds you used. Output the 9-cell matrix with SKU counts, then suggest a stocking policy for each cell (service level target, review frequency, stock or make to order). Mark suggestions as starting points.
+
+[PASTE ANONYMIZED 12-MONTH USAGE AND UNIT COST]</pre></div>
+<p><strong>What to check:</strong> the cut-offs are yours to set. Confirm the AI applied them as stated and didn't adjust them silently.</p>
+<h2>Prompt 4: Excess and obsolete action list</h2>
+<div class="pbox"><button class="copy" type="button" onclick="navigator.clipboard.writeText(this.nextElementSibling.innerText).then(()=>{this.textContent=&quot;Copied&quot;})">Copy prompt</button><pre>From the data below, list SKUs with more than [N] months of supply or no usage in [M] months. For each: on-hand value, months of supply, last usage date, and a suggested action (stop reorders, return to supplier, transfer, rework, sell, scrap) with a one-line reason. Total the value by action. Do not recommend scrapping anything with open demand or open orders.
+
+[PASTE ANONYMIZED DATA]</pre></div>
+<p><strong>What to check:</strong> service parts and items with long-tail demand. Write-offs and scrap decisions follow your company's approval process.</p>
+<h2>Prompt 5: Cycle-count plan</h2>
+<div class="pbox"><button class="copy" type="button" onclick="navigator.clipboard.writeText(this.nextElementSibling.innerText).then(()=>{this.textContent=&quot;Copied&quot;})">Copy prompt</button><pre>Design a cycle-count plan for [N] SKUs using the ABC classes below: count A items [monthly], B [quarterly], C [twice a year]. Spread the counts across [WORKING DAYS] so each day has a similar workload. Output counts per day, which classes are counted each week, and a tolerance rule for when to recount. Ask me for anything you need.</pre></div>
+<p><strong>What to check:</strong> the daily workload fits your team, and high-value or high-error locations are counted more often.</p>
+<h2>How do you check ChatGPT's inventory math?</h2>
+<ul><li><strong>Recompute in Excel.</strong> Put the AI's inputs into a sheet with the formula and compare.</li><li><strong>Use the data analysis tool if your version has one</strong>, so the math runs as code you can inspect instead of being estimated in text.</li><li><strong>Spot-check three SKUs by hand</strong>, including the largest and one with odd data.</li></ul>
+<p>This isn't excess caution. Researchers have documented that ChatGPT's <a href="https://arxiv.org/abs/2309.00095" rel="nofollow">accuracy on spreadsheet problems breaks down when information is limited or the problem is too complex</a>, and a 2023 paper on ChatGPT and Excel is titled, fittingly, <a href="https://arxiv.org/abs/2309.00120" rel="nofollow">"trust, but verify"</a>.</p>
+<p>For real company examples, see the <a href="/aisupplychainbrief/use-cases/inventory-optimization.html">inventory optimization</a> and <a href="/aisupplychainbrief/use-cases/demand-forecasting.html">demand forecasting</a> use cases, and Brief coverage tagged <a href="/aisupplychainbrief/tags/forecasting.html">#forecasting</a>. Buyers can use <a href="/aisupplychainbrief/guides/chatgpt-prompts-for-procurement.html">ChatGPT prompts for procurement</a>.</p></div><aside class="tip"><div class="tiphead"><span class="tiplabel">Matching prompts in the kit</span></div><p>The <a href="https://steadiwork.gumroad.com/l/bpcqpq?utm_content=guide&amp;utm_source=site&amp;utm_medium=web&amp;utm_campaign=guide-chatgpt-prompts-for-inventory-management">AI Prompt Kit for Supply Chain Teams</a> has ready-to-copy versions of these prompts, from its Inventory section:</p><ul><li><b>Safety stock explainer and calculation</b> <span class="meta">(Inventory, in the free sample)</span></li><li><b>Reorder point review</b> <span class="meta">(Inventory)</span></li><li><b>ABC/XYZ segmentation plan</b> <span class="meta">(Inventory)</span></li><li><b>Excess and obsolete action plan</b> <span class="meta">(Inventory)</span></li><li><b>Cycle count program design</b> <span class="meta">(Inventory)</span></li></ul><p><a class="copy" style="text-decoration:none;display:inline-block" href="https://steadiwork.gumroad.com/l/bpcqpq?utm_content=guide&amp;utm_source=site&amp;utm_medium=web&amp;utm_campaign=guide-chatgpt-prompts-for-inventory-management">Get all 41 prompts (from $7)</a> &nbsp; or <a href="https://steadiwork.gumroad.com/l/isdzan?utm_content=guide&amp;utm_source=site&amp;utm_medium=web&amp;utm_campaign=guide-chatgpt-prompts-for-inventory-management">try the free 8-prompt sample</a> (includes one of these). It is our own product.</p></aside><section class="faq"><h2 id="faq">FAQ</h2><h3>How do I use ChatGPT for inventory management?</h3><p>Export usage, lead-time and stock data, anonymize it, and give ChatGPT a prompt that spells out the formula and asks it to show each step. Use it for safety stock, reorder points, segmentation, excess lists and count plans. Recheck the math in Excel before acting.</p><h3>What is the safety stock formula with service level?</h3><p>A common version is SS = z × √(LT × σd² + D² × σLT²). Here z comes from your target cycle service level (1.645 for 95%), D is average demand, σd is its standard deviation, LT is average lead time and σLT is its standard deviation. It assumes roughly normal demand and independent lead times.</p><h3>What is the reorder point formula with safety stock?</h3><p>ROP = average demand × average lead time + safety stock. In the example on this page, that&#x27;s 40 units a day × 9 days + 145 = 505 units. When inventory position (on-hand + on-order − backorders) falls to the reorder point, you order.</p><h3>How do I calculate safety stock in Excel?</h3><p>Put D, σd, LT and σLT in cells, get z with =NORM.S.INV(service level), then use =z*SQRT(LT*σd^2+D^2*σLT^2) and round up with ROUNDUP. Keep all inputs in the same time unit, all days or all weeks.</p><h3>What&#x27;s the safety stock formula with standard deviation?</h3><p>If only demand varies, SS = z × σd × √LT. If lead time also varies, use the combined formula, which adds D² × σLT² under the square root. In this page&#x27;s example the demand-only formula gives 60 units and the combined formula gives 145.</p><h3>Is AI actually useful for inventory and forecasting, or is it hype?</h3><p>General AI assistants are useful for explaining, structuring and checking analysis like the examples here, as long as you verify the math. Purpose-built planning tools are a separate category. See the inventory optimization and demand forecasting use cases for sourced company examples.</p><h3>What is the reorder point formula without safety stock?</h3><p>ROP = average demand × average lead time. In the example, that&#x27;s 40 × 9 = 360 units. With no buffer, you&#x27;d run short whenever demand during the lead time comes in above average, which is why most items carry safety stock.</p></section></article><div class="endcap"><div class="signup"><h2>Get the next issue in your inbox</h2><p class="fine">Free · about a 4-min read · No spam</p><style>
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  margin-top: 30px !important;
+  padding: clamp(17px, 5%, 40px) clamp(17px, 7%, 50px) !important;
+  max-width: none !important;
+  border-radius: 6px !important;
+  box-shadow: 0 5px 25px rgba(34, 60, 47, 0.25) !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview,
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview * {
+  box-sizing: border-box !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-heading {
+  width: 100% !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-heading h5 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field {
+  margin-top: 20px !important;
+  width: 100% !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input {
+  width: 100% !important;
+  height: 40px !important;
+  border-radius: 6px !important;
+  border: 2px solid #e9e8e8 !important;
+  background-color: #fff;
+  outline: none !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input {
+  color: #000000 !important;
+  font-family: "Montserrat" !important;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input::placeholder {
+  color: #000000 !important;
+  opacity: 1 !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input:-ms-input-placeholder {
+  color: #000000 !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input::-ms-input-placeholder {
+  color: #000000 !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button {
+  margin-top: 10px !important;
+  width: 100% !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button button {
+  width: 100% !important;
+  height: 40px !important;
+  border: 0 !important;
+  border-radius: 6px !important;
+  line-height: 0px !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button button:hover {
+  cursor: pointer !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .powered-by-line {
+  color: #231f20 !important;
+  font-family: "Montserrat" !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  line-height: 25px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  display: flex !important;
+  width: 100% !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 10px !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .powered-by-line img {
+  margin-left: 10px !important;
+  height: 1.13em !important;
+  max-height: 1.13em !important;
+}
+
+  </style>
+  <div class="followit--follow-form-container" attr-a attr-b attr-c attr-d attr-e attr-f>
+    <form data-v-f93f6730="" action="https://api.follow.it/subscription-form/bHlzcXlyRmpLUm4reHc3c2dIK0NISTkrbkhteEpyRTljRE42aHpmMUxxQm1hUzZrVWFmRk9JYVRyUXVaTGQ0RXFHWTRMNjlXYmE2ZjA4RUlDTnZMMDM3alNrMUJqeTI5aXhVNnhwSTRvV3lqOUpNUzhMalh1UEliK0plc0dkRmd8alFrdzZ1bkRZQUhTSGowMjZjQnZYMVdSeHBuTExBVEtqdlljV1FPa0hhZz0=/8" method="post"><div data-v-f93f6730="" class="form-preview" style="background-color: rgb(255, 255, 255); position: relative; border-style: solid; border-width: 1px; border-color: rgb(204, 204, 204);"><div data-v-f93f6730="" class="preview-heading"><h5 data-v-f93f6730="" style="font-family: Arial; font-weight: bold; color: rgb(0, 0, 0); font-size: 16px; text-align: center; text-transform: none !important;">Get new posts by email:</h5></div><div data-v-f93f6730="" class="preview-input-field"><input data-v-f93f6730="" type="email" name="email" required="" placeholder="Enter your email" spellcheck="false" style="font-family: Arial; font-weight: normal; color: rgb(0, 0, 0); font-size: 14px; text-align: center; background-color: rgb(255, 255, 255); text-transform: none !important;"></div><div data-v-f93f6730="" class="preview-submit-button"><button data-v-f93f6730="" type="submit" style="font-family: Arial; font-weight: bold; color: rgb(255, 255, 255); font-size: 16px; text-align: center; background-color: rgb(0, 0, 0); text-transform: none !important;">Subscribe</button></div></div></form><a href="https://follow.it" class="powered-by-line">Powered by <img src="https://follow.it/images/colored-logo.svg" alt="follow.it" height="17px"/></a>
+  </div>
+<p class="fine signnote">After you subscribe, follow.it sends a confirmation email. Click the link to confirm (required in some regions). Then you get one email each weekday when the new issue is published. Unsubscribe anytime from any email. <a href="/aisupplychainbrief/privacy.html">Privacy</a></p></div></div></main><footer><div class="wrap cols"><div><h4>AI Supply Chain Brief</h4><p>AI Supply Chain Brief: a free weekday newsletter with one practical AI move for supply chain jobs, curated by a working buyer.</p><p>Independent summaries of public news and posts. Each item links to its source. Not affiliated with any company mentioned. Not investment or legal advice.</p></div>
+<div><h4>Explore</h4><ul><li><a href="/aisupplychainbrief/archive.html">Archive</a></li><li><a href="/aisupplychainbrief/use-cases.html">AI use-case directory</a></li><li><a href="/aisupplychainbrief/guides.html">Guides</a></li><li><a href="/aisupplychainbrief/topics/">Topics</a></li><li><a href="/aisupplychainbrief/resources.html">Resources</a></li><li><a href="/aisupplychainbrief/privacy.html">Privacy</a></li><li><a href="/aisupplychainbrief/rss.xml">RSS feed</a></li></ul></div>
+<div><h4>Our products</h4><ul><li><a href="https://steadiwork.gumroad.com/l/bpcqpq?utm_content=footer&amp;utm_source=site&amp;utm_medium=web&amp;utm_campaign=guide-chatgpt-prompts-for-inventory-management">AI Prompt Kit for Supply Chain Teams</a> (from $7)</li><li><a href="https://steadiwork.gumroad.com/l/isdzan?utm_content=footer&amp;utm_source=site&amp;utm_medium=web&amp;utm_campaign=guide-chatgpt-prompts-for-inventory-management">Free 8-prompt sample</a></li><li>Sister site: <a href="https://steadiwork.github.io/aicontextkit/">Context Kit</a></li></ul>
+<p class="label">Prompt kit = our own product. Context Kit = sister site. Neither is an affiliate link. Other links marked &quot;affiliate link&quot; may earn us a commission at no cost to you. <a href="/aisupplychainbrief/resources.html">Disclosure</a></p></div></div></footer></body></html>

@@ -1,27 +1,60 @@
 # AI Supply Chain Brief
-> AI news for the whole supply chain, in plain English, every weekday.
 
-- [The memory crunch sinks phone shipments, Taiwan moves to criminalize AI chip smuggling, and Amazon keeps shutting out shopping agents](https://steadiwork.github.io/aisupplychainbrief/issues/003.html)
-- [TSMC says AI chip demand still outruns supply, robot trucks take on routine freight, and robot brains go on tap](https://steadiwork.github.io/aisupplychainbrief/issues/002.html)
-- [AI hardware is sold out, agents are learning to shop, and the financing bill is coming due](https://steadiwork.github.io/aisupplychainbrief/issues/001.html)
-- [RFQ bid comparison example: a filled-in worksheet](https://steadiwork.github.io/aisupplychainbrief/guides/rfq-bid-comparison-example.html)
-- [Best AI tools for demand planning (2026)](https://steadiwork.github.io/aisupplychainbrief/guides/best-ai-tools-for-demand-planning-2026.html)
-- [AI prompts for freight RFQs](https://steadiwork.github.io/aisupplychainbrief/guides/ai-prompts-for-freight-rfqs.html)
-- [Autonomous supplier negotiation](https://steadiwork.github.io/aisupplychainbrief/use-cases/autonomous-supplier-negotiation.html)
-- [Spend classification](https://steadiwork.github.io/aisupplychainbrief/use-cases/spend-classification.html)
-- [Supplier risk monitoring](https://steadiwork.github.io/aisupplychainbrief/use-cases/supplier-risk-monitoring.html)
-- [Supplier contract review](https://steadiwork.github.io/aisupplychainbrief/use-cases/contract-review.html)
-- [RFQ drafting and sourcing events](https://steadiwork.github.io/aisupplychainbrief/use-cases/rfq-and-sourcing-events.html)
-- [AI supplier discovery](https://steadiwork.github.io/aisupplychainbrief/use-cases/supplier-discovery.html)
-- [Invoice capture and PO matching](https://steadiwork.github.io/aisupplychainbrief/use-cases/invoice-matching.html)
-- [AI demand forecasting](https://steadiwork.github.io/aisupplychainbrief/use-cases/demand-forecasting.html)
-- [Inventory optimization](https://steadiwork.github.io/aisupplychainbrief/use-cases/inventory-optimization.html)
-- [AI production scheduling](https://steadiwork.github.io/aisupplychainbrief/use-cases/production-scheduling.html)
-- [Predictive maintenance](https://steadiwork.github.io/aisupplychainbrief/use-cases/predictive-maintenance.html)
-- [AI visual quality inspection](https://steadiwork.github.io/aisupplychainbrief/use-cases/visual-quality-inspection.html)
-- [Route optimization](https://steadiwork.github.io/aisupplychainbrief/use-cases/route-optimization.html)
-- [AI freight audit and pay](https://steadiwork.github.io/aisupplychainbrief/use-cases/freight-audit.html)
-- [Shipment ETA prediction](https://steadiwork.github.io/aisupplychainbrief/use-cases/shipment-eta-prediction.html)
-- [AI-guided warehouse picking robots](https://steadiwork.github.io/aisupplychainbrief/use-cases/warehouse-picking-robots.html)
-- [HS code classification](https://steadiwork.github.io/aisupplychainbrief/use-cases/hs-code-classification.html)
-- [Trade and shipping document processing](https://steadiwork.github.io/aisupplychainbrief/use-cases/trade-document-processing.html)
+> AI Supply Chain Brief: a free weekday newsletter with one practical AI move for supply chain jobs, curated by a working buyer.
+
+The free weekday email newsletter published at steadiwork.github.io/aisupplychainbrief, with a use-case directory, guides and a prompt kit. Not affiliated with other newsletters or posts that use a similar name. Every news item links to its public source. All worked examples in the guides use fictional data. Updated 2026-10-18.
+
+## About
+
+- [About](https://steadiwork.github.io/aisupplychainbrief/about.html): who curates the Brief and how stories are chosen and checked
+- [Home](https://steadiwork.github.io/aisupplychainbrief/): subscribe to the free weekday email
+- [Archive](https://steadiwork.github.io/aisupplychainbrief/archive.html): every issue, with a searchable story finder
+
+## Guides
+
+- [How to respond to a supplier price increase: a reply letter, a cost check and an AI prompt](https://steadiwork.github.io/aisupplychainbrief/guides/supplier-price-increase-response.html): A buyer's reply to a supplier price increase: the holding letter, a worked cost-driver check (9% asked, about 3% supported) and a copy-paste AI prompt.
+- [Should-cost model example: a filled-in build-up and an AI prompt to make your own](https://steadiwork.github.io/aisupplychainbrief/guides/should-cost-model-example.html): A worked should-cost model for a molded part, line by line: material, cycle time, setup, scrap, overhead and margin, plus a prompt that won't invent rates.
+- [RFQ bid comparison example: a filled-in worksheet](https://steadiwork.github.io/aisupplychainbrief/guides/rfq-bid-comparison-example.html): A free, filled-in RFQ bid comparison with fictional data: landed cost, MOQ carrying cost, weighted scores, supplier questions and an AI prompt.
+- [Copilot prompts for procurement and supply chain: what to use in Word, Excel, Outlook and Teams](https://steadiwork.github.io/aisupplychainbrief/guides/copilot-prompts-for-procurement.html): Copy-paste Microsoft Copilot prompts for buyers and planners: RFQs in Word, bid tabs in Excel, supplier emails in Outlook and S&OP recaps in Teams.
+- [ChatGPT prompts for procurement: 12 prompts with worked examples](https://steadiwork.github.io/aisupplychainbrief/guides/chatgpt-prompts-for-procurement.html): 12 copy-paste ChatGPT prompts for buyers: RFQs, quote comparison, negotiation prep, contract terms. Each shows when to use it and what to check.
+- [ChatGPT prompts for inventory management: safety stock, reorder points and excess, worked through](https://steadiwork.github.io/aisupplychainbrief/guides/chatgpt-prompts-for-inventory-management.html): Copy-paste ChatGPT prompts for planners: safety stock with lead-time variability, reorder points, ABC/XYZ and excess stock, with a worked example.
+- [Best AI tools for demand planning (2026)](https://steadiwork.github.io/aisupplychainbrief/guides/best-ai-tools-for-demand-planning-2026.html): A plain-English guide to AI demand planning tools in 2026: enterprise planning suites, mid-market options, and do-it-yourself approaches, plus how to choose.
+- [AI prompts for freight RFQs](https://steadiwork.github.io/aisupplychainbrief/guides/ai-prompts-for-freight-rfqs.html): Copy-paste AI prompts for freight RFQs: building lane data, writing the RFQ, comparing carrier bids, catching accessorial traps, and preparing award recaps.
+
+## AI use-case directory
+
+- [AI use-case directory](https://steadiwork.github.io/aisupplychainbrief/use-cases.html): 18 supply chain AI use cases, each with a sourced company example, tools and a starter prompt
+- [Autonomous supplier negotiation](https://steadiwork.github.io/aisupplychainbrief/use-cases/autonomous-supplier-negotiation.html): An AI agent negotiates routine terms (price, payment days, volume) with many suppliers at once, inside limits the buyer sets, and escalates anything outside them to a human.
+- [Spend classification](https://steadiwork.github.io/aisupplychainbrief/use-cases/spend-classification.html): AI sorts messy purchase lines and free-text descriptions into a standard spend taxonomy so you can see what you actually buy, from whom, and where to consolidate.
+- [Supplier risk monitoring](https://steadiwork.github.io/aisupplychainbrief/use-cases/supplier-risk-monitoring.html): AI scans news, sanctions lists, financial signals and other sources across your supplier base and alerts you to events (fires, strikes, insolvency, compliance issues) before they hit your plants.
+- [Supplier contract review](https://steadiwork.github.io/aisupplychainbrief/use-cases/contract-review.html): AI reads supplier contracts against your playbook, flags risky or missing clauses, and suggests standard redlines so legal only spends time on real issues.
+- [RFQ drafting and sourcing events](https://steadiwork.github.io/aisupplychainbrief/use-cases/rfq-and-sourcing-events.html): AI drafts RFQs, builds bid sheets, invites suppliers and compares responses. Snowflake reports cutting its sourcing cycle time from 25 to 6.4 days.
+- [AI supplier discovery](https://steadiwork.github.io/aisupplychainbrief/use-cases/supplier-discovery.html): AI searches company data, websites and trade records to find and pre-screen new suppliers for a part or material in days instead of weeks.
+- [Invoice capture and PO matching](https://steadiwork.github.io/aisupplychainbrief/use-cases/invoice-matching.html): AI reads invoices in any layout, extracts the data, and matches it to purchase orders and receipts, so only exceptions need a person.
+- [AI demand forecasting](https://steadiwork.github.io/aisupplychainbrief/use-cases/demand-forecasting.html): Machine learning models combine sales history with signals like promotions, weather and seasonality to forecast demand. Walgreens reports a 15-point drop in forecast error.
+- [Inventory optimization](https://steadiwork.github.io/aisupplychainbrief/use-cases/inventory-optimization.html): AI sets safety stock and reorder points per item based on demand variability and target service levels, cutting excess stock without more stockouts.
+- [AI production scheduling](https://steadiwork.github.io/aisupplychainbrief/use-cases/production-scheduling.html): AI builds and re-builds production schedules around orders, machine capacity, changeovers and material availability, so lines run fuller and orders ship on time.
+- [Predictive maintenance](https://steadiwork.github.io/aisupplychainbrief/use-cases/predictive-maintenance.html): AI watches machine data (vibration, temperature, current) to predict failures weeks ahead, so maintenance and spare parts are planned instead of rushed.
+- [AI visual quality inspection](https://steadiwork.github.io/aisupplychainbrief/use-cases/visual-quality-inspection.html): Cameras plus AI models spot defects (weld spatter, paint flaws, cracks) on the line in near real time. At Audi, eight cameras check car underbodies for weld spatter on lines building about 1,000 cars a day.
+- [Route optimization](https://steadiwork.github.io/aisupplychainbrief/use-cases/route-optimization.html): Optimization algorithms plan delivery routes that cover all stops and time windows with fewer miles, fuel and drivers.
+- [AI freight audit and pay](https://steadiwork.github.io/aisupplychainbrief/use-cases/freight-audit.html): AI checks every carrier invoice against contracted rates, accessorials and shipment data, catching overcharges before payment.
+- [Shipment ETA prediction](https://steadiwork.github.io/aisupplychainbrief/use-cases/shipment-eta-prediction.html): AI predicts when ocean, air or truck shipments will really arrive using vessel positions, port congestion and history, so planners can act on delays early.
+- [AI-guided warehouse picking robots](https://steadiwork.github.io/aisupplychainbrief/use-cases/warehouse-picking-robots.html): Autonomous mobile robots navigate the warehouse with AI and bring work to pickers, raising picks per hour and cutting walking time.
+- [HS code classification](https://steadiwork.github.io/aisupplychainbrief/use-cases/hs-code-classification.html): AI suggests tariff (HS) codes from product descriptions with reasoning, so classifiers review suggestions instead of researching from scratch.
+- [Trade and shipping document processing](https://steadiwork.github.io/aisupplychainbrief/use-cases/trade-document-processing.html): AI extracts data from bills of lading, commercial invoices and customs forms and checks them for errors before filing.
+
+## Newsletter issues
+
+- [Issue #3: The memory crunch hits phones; Taiwan targets chip smuggling](https://steadiwork.github.io/aisupplychainbrief/issues/003.html) (2026-10-16)
+- [Issue #2: Robot trucks take routine freight as chip demand runs hot](https://steadiwork.github.io/aisupplychainbrief/issues/002.html) (2026-10-15)
+- [Issue #1: AI hardware is sold out, and agents learn to shop](https://steadiwork.github.io/aisupplychainbrief/issues/001.html) (2026-10-14)
+
+## Products
+
+- [AI Prompt Kit for Supply Chain Teams](https://steadiwork.gumroad.com/l/bpcqpq): our own product, 41 copy-paste prompts for RFQs, bid comparisons, supplier reviews, negotiation prep, inventory, freight, forecasting and S&OP, with a worked example (from $7)
+- [Free 8-prompt sample](https://steadiwork.gumroad.com/l/isdzan): a free sample of the kit
+
+## Notes
+
+- Independent summaries of public news. Not affiliated with any company mentioned. Not investment or legal advice.
+- [LinkedIn Page](https://www.linkedin.com/company/ai-supply-chain-brief/)
