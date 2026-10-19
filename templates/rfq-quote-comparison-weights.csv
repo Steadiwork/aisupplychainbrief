@@ -1,0 +1,10 @@
+Criterion,Weight (must total 100),Supplier A score (1-5),Supplier B score (1-5),Supplier C score (1-5)
+Year-one cost,40,3,5,3
+Lead time vs. requirement,20,4,3,5
+Meets spec,20,5,4,2
+Terms and flexibility,20,4,2,4
+Total weight,=SUM(B2:B5),,,
+Weight check,"=IF(B6=100,""OK"",""Weights must total 100"")",,,
+Weighted score (out of 5),,"=SUMPRODUCT($B$2:$B$5,C2:C5)/100","=SUMPRODUCT($B$2:$B$5,D2:D5)/100","=SUMPRODUCT($B$2:$B$5,E2:E5)/100"
+
+FICTIONAL EXAMPLE DATA. Set weights before you open the bids.
