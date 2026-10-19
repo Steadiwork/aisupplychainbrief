@@ -1,0 +1,9 @@
+SKU,On hand,Unit cost,Value,Usage/mo,Flag reason,Excess or obsolete,Action,Recovery assumption,Recovery low,Recovery high,Notes
+EX-101 gasket kit,1200,14.0,16800,0,No movement 14 mo,No movement,Return to vendor (still in catalog),60–85% (15% restocking fee; some cartons may be refused),10080,14280,FICTIONAL EXAMPLE DATA
+EX-204 valve body,300,85.0,25500,10,30 months of supply,Excess,Transfer 180 to Plant 2; keep 120 (=12 mo),"180 × $85 = $15,300 less $0–$400 freight",14900,15300,FICTIONAL EXAMPLE DATA
+EX-317 actuator v1,450,40.0,18000,0,Obsolete (v2 replaced it),Obsolete,Rework to v2 ($12/unit; v2 buy $48; use 30/mo),"360 × ($48−$12)=$12,960 high; 50% if limited to service",9000,12960,FICTIONAL EXAMPLE DATA
+EX-422 seal,8000,0.9,7200,250,32 months of supply,Excess,"Cancel open PO (5,000 pcs, $4,500) and hold",n/a (usable stock),,,FICTIONAL EXAMPLE DATA
+EX-509 bracket,2500,3.2,8000,0,No movement 9 mo,No movement,Discount sale to a broker,15–30% of cost,1200,2400,FICTIONAL EXAMPLE DATA
+EX-611 label stock (old logo),900,2.0,1800,0,Obsolete,Obsolete,Scrap (write down),0%,0,0,FICTIONAL EXAMPLE DATA
+
+"FICTIONAL EXAMPLE: Example Valve Co. Rule: >12 months of supply or no movement in 180 days. Recovery % are assumptions. Disposition SKUs total $70,100; recovery $35,180–$44,940; write-down exposure $25,160–$34,920. Cancel open PO $4,500 on EX-422."

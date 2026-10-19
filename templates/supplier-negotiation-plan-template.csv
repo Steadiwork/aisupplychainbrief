@@ -1,0 +1,25 @@
+Line,Value,Evidence / source,Assumption? (Y/N),Owner
+Objective,,,,
+BATNA (describe),,,,
+BATNA cost per unit,,,,
+Walk-away price,,,,
+Target price,,,,
+Opening position,,,,
+Supplier's likely floor (estimate),,,,
+Estimated ZOPA,,,,
+Trades we can give,,,,
+Trades we want,,,,
+Hardest questions,,,,
+
+FICTIONAL WORKED EXAMPLE (Example Pump Co.) — replace with your anonymized numbers
+Objective,"Keep supply continuity; land as close to +2% as possible, never above the walk-away",Renewal meeting notes,N,Buyer
+BATNA (describe),"Move 100% to qualified Supplier B at $2.58 + $12,000 one-time PPAP; 10 weeks to switch",Supplier B quote + quality plan,N,Buyer
+BATNA cost per unit,$2.61,"400,000 × $2.58 + $12,000 = $1,044,000 → $2.61/pc",N,Buyer
+Walk-away price,$2.61,Equals BATNA cost per unit,N,Buyer + manager
+Target price,$2.55 (+2%),Steel wire ≈ 40% of price (fictional should-cost); steel index +5% (fictional) → 0.40 × 5% = 2%,Y (index move),Buyer
+Opening position,"$2.50 flat for 12 months, then a steel index clause",Leaves room to trade,N,Buyer
+Supplier's likely floor (estimate),~$2.53–$2.55,Guess: cost pass-through plus some margin,Y,Buyer
+Estimated ZOPA,$2.53–$2.61,Supplier floor estimate to our walk-away,Y,Buyer
+Trades we can give,24-month term; quarterly 6-month forecast; keep net 45 instead of net 60,"Net 45 vs 60 ≈ $3,367/yr at 8% cost of capital on $1,024,000",Y (capital rate),Buyer
+Trades we want,Index clause both ways; 4-week lead time cap; no expedite fees inside forecast,,N,Buyer
+Hardest questions,Why not Supplier B already? Can you commit volume? Will you accept an index that can go up?,Prepare answers before the meeting,N,Buyer

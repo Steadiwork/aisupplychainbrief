@@ -1,0 +1,144 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="follow.it-verification-code" content="yc9RmhFRtxMqH28C6AHj"/><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Excess &amp; Obsolete Inventory Action Plan (Worked Example)</title><meta name="description" content="How to reduce excess and obsolete inventory: a fixed rule, one action per SKU, recovery ranges and the Finance hand-off, with a fictional six-SKU example."><link rel="canonical" href="https://steadiwork.github.io/aisupplychainbrief/guides/excess-and-obsolete-inventory-ai.html">
+<meta name="color-scheme" content="light dark"><meta name="theme-color" content="#0B2545">
+<meta property="og:type" content="article"><meta property="og:site_name" content="AI Supply Chain Brief"><meta property="og:title" content="Excess &amp; Obsolete Inventory Action Plan (Worked Example)"><meta property="og:description" content="How to reduce excess and obsolete inventory: a fixed rule, one action per SKU, recovery ranges and the Finance hand-off, with a fictional six-SKU example."><meta property="og:url" content="https://steadiwork.github.io/aisupplychainbrief/guides/excess-and-obsolete-inventory-ai.html">
+<meta property="og:image" content="https://steadiwork.github.io/aisupplychainbrief/logo-icon-400.png"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://steadiwork.github.io/aisupplychainbrief/logo-icon-400.png">
+<link rel="icon" href="/aisupplychainbrief/favicon.ico?v=2" sizes="32x32"><link rel="apple-touch-icon" href="/aisupplychainbrief/apple-touch-icon.png?v=2">
+<link rel="alternate" type="application/rss+xml" title="AI Supply Chain Brief" href="/aisupplychainbrief/rss.xml"><link rel="stylesheet" href="/aisupplychainbrief/style.css"><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://steadiwork.github.io/aisupplychainbrief/#org", "name": "AI Supply Chain Brief", "url": "https://steadiwork.github.io/aisupplychainbrief/", "logo": {"@type": "ImageObject", "url": "https://steadiwork.github.io/aisupplychainbrief/logo-icon-400.png"}, "description": "AI Supply Chain Brief: a free weekday newsletter with one practical AI move for supply chain jobs, curated by a working buyer.", "disambiguatingDescription": "The free weekday email newsletter published at steadiwork.github.io/aisupplychainbrief, with a use-case directory, guides and a prompt kit. Not affiliated with other newsletters or posts that use a similar name.", "sameAs": ["https://www.linkedin.com/company/ai-supply-chain-brief/", "https://steadiwork.gumroad.com"]}, {"@type": "WebSite", "@id": "https://steadiwork.github.io/aisupplychainbrief/#website", "name": "AI Supply Chain Brief", "url": "https://steadiwork.github.io/aisupplychainbrief/", "description": "AI Supply Chain Brief: a free weekday newsletter with one practical AI move for supply chain jobs, curated by a working buyer.", "inLanguage": "en-US", "publisher": {"@id": "https://steadiwork.github.io/aisupplychainbrief/#org"}}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Excess and obsolete inventory: a worked action plan for six SKUs, plus an AI prompt", "description": "How to reduce excess and obsolete inventory: a fixed rule, one action per SKU, recovery ranges and the Finance hand-off, with a fictional six-SKU example.", "datePublished": "2026-10-19", "dateModified": "2026-10-19", "author": {"@id": "https://steadiwork.github.io/aisupplychainbrief/#org"}, "publisher": {"@id": "https://steadiwork.github.io/aisupplychainbrief/#org"}, "isPartOf": {"@id": "https://steadiwork.github.io/aisupplychainbrief/#website"}, "mainEntityOfPage": "https://steadiwork.github.io/aisupplychainbrief/guides/excess-and-obsolete-inventory-ai.html", "image": "https://steadiwork.github.io/aisupplychainbrief/logo-icon-400.png", "inLanguage": "en-US"}, {"@type": "FAQPage", "url": "https://steadiwork.github.io/aisupplychainbrief/guides/excess-and-obsolete-inventory-ai.html", "mainEntity": [{"@type": "Question", "name": "What's the difference between excess and obsolete inventory?", "acceptedAnswer": {"@type": "Answer", "text": "Excess is still usable but more than you'll need. Obsolete has no future demand—superseded, redesigned or with no movement."}}, {"@type": "Question", "name": "How do you calculate excess inventory?", "acceptedAnswer": {"@type": "Answer", "text": "Months of supply = on hand ÷ average monthly usage (or forward demand). Flag SKUs above your threshold, such as 12 months."}}, {"@type": "Question", "name": "How do you treat obsolete inventory?", "acceptedAnswer": {"@type": "Answer", "text": "Work an action order: cancel open POs, transfer, return to vendor, rework, discount sale, then scrap. Get the right approvals for rework and write-downs."}}, {"@type": "Question", "name": "What is an E&O reserve, and who sets it?", "acceptedAnswer": {"@type": "Answer", "text": "For most cost methods, inventory is measured at the lower of cost and net realizable value (FASB ASU 2015-11). Your controller sets the reserve and any write-off. This page does not give journal entries or tax advice."}}, {"@type": "Question", "name": "How does return to vendor work?", "acceptedAnswer": {"@type": "Answer", "text": "Ask the supplier for an RMA, ask about restocking fees, and confirm the credit before you ship anything back."}}, {"@type": "Question", "name": "How do you prevent obsolete inventory?", "acceptedAnswer": {"@type": "Answer", "text": "Tighten MOQs, watch forecast bias, and require a disposition plan with every engineering change."}}, {"@type": "Question", "name": "Can ChatGPT find slow-moving inventory?", "acceptedAnswer": {"@type": "Answer", "text": "It can flag SKUs from an anonymized export against your rule and suggest actions with recovery ranges. Recheck the math and never let it invent demand."}}]}, {"@type": "HowTo", "name": "How to build an excess and obsolete inventory action plan", "url": "https://steadiwork.github.io/aisupplychainbrief/guides/excess-and-obsolete-inventory-ai.html", "step": [{"@type": "HowToStep", "position": 1, "name": "Set the rule", "text": "Agree months-of-supply and no-movement thresholds with Finance."}, {"@type": "HowToStep", "position": 2, "name": "Flag the SKUs", "text": "Apply the rule to the aged-inventory export."}, {"@type": "HowToStep", "position": 3, "name": "Choose one action per SKU", "text": "Cancel open POs first, then transfer, return, rework, sell or scrap."}, {"@type": "HowToStep", "position": 4, "name": "Estimate recovery as a range", "text": "State the percentage assumption next to each range."}, {"@type": "HowToStep", "position": 5, "name": "Hand write-downs to Finance", "text": "Pass the exposure range and evidence; do not set the reserve yourself."}]}, {"@type": "DigitalDocument", "name": "Excess and obsolete action-plan template (CSV, fictional example)", "encodingFormat": "text/csv", "url": "https://steadiwork.github.io/aisupplychainbrief/templates/excess-obsolete-action-plan-template.csv", "isPartOf": {"@id": "https://steadiwork.github.io/aisupplychainbrief/guides/excess-and-obsolete-inventory-ai.html"}, "isAccessibleForFree": true}]}</script></head><body>
+<header class="sticky"><div class="top"><div class="wrap"><a class="brand" href="/aisupplychainbrief/"><img src="/aisupplychainbrief/logo-64.png?v=2" alt="" width="32" height="32">AI Supply Chain Brief</a><div class="navwrap"><nav class="nav" aria-label="Site"><a href="/aisupplychainbrief/archive.html">Archive</a><a href="/aisupplychainbrief/use-cases.html">Use cases</a><a href="/aisupplychainbrief/guides.html">Guides</a><a href="/aisupplychainbrief/topics/">Topics</a><a href="/aisupplychainbrief/resources.html">Resources</a><a href="/aisupplychainbrief/about.html">About</a></nav></div><script>(function(){var n=document.querySelector(".nav"),w=n&&n.parentNode;if(!w)return;function u(){w.classList.toggle("end",n.scrollLeft+n.clientWidth>=n.scrollWidth-4)}n.addEventListener("scroll",u,{passive:true});addEventListener("resize",u);u()})();</script></div></div><div class="sbar" id="subscribe"><div class="wrap"><p>Free: one AI move for your job, every weekday.</p><form action="https://api.follow.it/subscription-form/bHlzcXlyRmpLUm4reHc3c2dIK0NISTkrbkhteEpyRTljRE42aHpmMUxxQm1hUzZrVWFmRk9JYVRyUXVaTGQ0RXFHWTRMNjlXYmE2ZjA4RUlDTnZMMDM3alNrMUJqeTI5aXhVNnhwSTRvV3lqOUpNUzhMalh1UEliK0plc0dkRmd8alFrdzZ1bkRZQUhTSGowMjZjQnZYMVdSeHBuTExBVEtqdlljV1FPa0hhZz0=/8" method="post"><label for="sbar-email" style="position:absolute;left:-9999px">Email address</label><input id="sbar-email" type="email" name="email" required placeholder="Enter your email" autocomplete="email"><button type="submit">Subscribe</button></form></div></div><script>document.addEventListener("click",function(ev){var a=ev.target.closest("[data-focus-signup]");if(!a)return;var i=document.getElementById("sbar-email");if(!i)return;ev.preventDefault();window.scrollTo({top:0,behavior:"smooth"});i.focus({preventScroll:true})});</script></header>
+<main class="narrow"><article><p class="meta"><a href="/aisupplychainbrief/guides.html">Guides</a> · Updated <time datetime="2026-10-19">2026-10-19</time></p><h1>Excess and obsolete inventory: a worked action plan for six SKUs, plus an AI prompt</h1><p class="so answer"><strong>Short answer</strong>Flag each SKU with a fixed rule, for example more than 12 months of supply or no movement in 180 days. Then pick one action per SKU: stop reorders, cancel open POs, transfer, return to vendor, rework, sell at a discount or scrap. Estimate the recovery as a range, and send any write-down to Finance for approval.</p><div class="prose"><p class="so"><strong>Fictional example</strong>Example Valve Co., its SKUs and every number below are made up. Recovery percentages are assumptions, shown as assumptions. Don't paste real cost files or export-controlled part data into an AI tool; see the <a href="/aisupplychainbrief/guides/is-chatgpt-safe-for-supplier-data.html">data-safety checklist</a>.</p>
+<p>The quick excess-and-obsolete prompt is <a href="/aisupplychainbrief/guides/chatgpt-prompts-for-inventory-management.html">Prompt 4 in the inventory guide</a>. This page adds what that prompt doesn't: a filled-in SKU table, a decision rule per action, a recovery range per SKU, and the write-down hand-off to Finance.</p>
+<h2>What's the difference between excess and obsolete inventory?</h2>
+<table><thead><tr><th></th><th>Excess</th><th>Obsolete</th></tr></thead><tbody>
+<tr><td>Meaning</td><td>Still usable, but more than you'll use in a reasonable horizon</td><td>No future demand (superseded, design change, or no movement)</td></tr>
+<tr><td>Typical flag</td><td>Months of supply above your threshold</td><td>No movement for N days, or a supersession note</td></tr>
+<tr><td>First question</td><td>Can we stop buying and use it down?</td><td>Can we return, rework, sell or must we write it down?</td></tr>
+</tbody></table>
+<h2>What rule should you use to flag E&amp;O?</h2>
+<p><strong>Months of supply = on hand ÷ average monthly usage</strong> (use forward demand if you have it). This page uses the same example thresholds as our prompt kit: <strong>more than 12 months of supply, or no movement in 180 days</strong>. Agree your own thresholds with Finance before the first review.</p>
+<h2>Which action fits which SKU?</h2>
+<p>Work the questions in this order (based on the VMA / Swain Smith inventory-disposal procedure's order of options: return to supplier, ask about a restocking fee, transfer, sell to a third party, scrap; Accounting processes write-offs—<a href="https://vma.swainsmith.com/wp-content/uploads/2019/06/M2-03-14-Inventory-Disposal-and-Investment-Recovery.pdf" rel="nofollow">VMA M2-03-14</a>):</p>
+<ol><li>Open PO → cancel or push out first</li>
+<li>Another site uses it → transfer</li>
+<li>Supplier will take it back → return to vendor (ask about the restocking fee)</li>
+<li>Superseded but reworkable → rework (engineering approval)</li>
+<li>Usable by others → discount sale or broker</li>
+<li>No value → scrap or donate (Finance and EHS rules)</li></ol>
+<h2>Worked example: six SKUs, $77,300 on hand</h2>
+<p><strong>Example Valve Co.</strong> quarter-end aged-inventory report. Rule: more than 12 months of supply, or no movement in 180 days.</p>
+<table><thead><tr><th>SKU</th><th>On hand</th><th>Unit cost</th><th>Value</th><th>Usage/mo</th><th>Flag</th><th>Action</th><th>Recovery assumption</th><th>Recovery range</th></tr></thead><tbody>
+<tr><td>EX-101 gasket kit</td><td>1,200</td><td>$14</td><td>$16,800</td><td>0 (14 mo)</td><td>No movement</td><td><strong>Return to vendor</strong></td><td>60–85%</td><td>$10,080–$14,280</td></tr>
+<tr><td>EX-204 valve body</td><td>300</td><td>$85</td><td>$25,500</td><td>10</td><td>30 mo supply</td><td><strong>Transfer</strong> 180 to Plant 2; keep 120</td><td>$15,300 − $0–$400 freight</td><td>$14,900–$15,300</td></tr>
+<tr><td>EX-317 actuator v1</td><td>450</td><td>$40</td><td>$18,000</td><td>0 (v2)</td><td>Obsolete</td><td><strong>Rework</strong> to v2 ($12/unit)</td><td>360 × ($48−$12)=$12,960 high; 50% if service-only</td><td>$9,000–$12,960</td></tr>
+<tr><td>EX-422 seal</td><td>8,000</td><td>$0.90</td><td>$7,200</td><td>250</td><td>32 mo supply</td><td><strong>Cancel open PO</strong> ($4,500) and <strong>hold</strong></td><td>n/a</td><td>Keep $7,200</td></tr>
+<tr><td>EX-509 bracket</td><td>2,500</td><td>$3.20</td><td>$8,000</td><td>0 (9 mo)</td><td>No movement</td><td><strong>Discount sale</strong></td><td>15–30% of cost</td><td>$1,200–$2,400</td></tr>
+<tr><td>EX-611 label stock</td><td>900</td><td>$2</td><td>$1,800</td><td>0</td><td>Obsolete</td><td><strong>Scrap</strong></td><td>0%</td><td>$0</td></tr>
+<tr><td><strong>Total</strong></td><td></td><td></td><td><strong>$77,300</strong></td><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody></table>
+<p><strong>Roll-up:</strong> disposition SKUs (all except EX-422) = $70,100. Recovery <strong>$35,180–$44,940</strong>. Write-down exposure for Finance <strong>$25,160–$34,920</strong>. Also cancel the $4,500 open PO on EX-422 and hold that SKU as usable stock.</p>
+<ul><li><strong>Cancel or push out open POs first</strong>—cheapest recovery, often skipped.</li>
+<li><strong>Excess is not a write-off.</strong> EX-422 is usable; the action is to stop buying.</li>
+<li><strong>Show recovery as a range with the assumption</strong> next to it.</li>
+<li><strong>Rework and scrap need outside sign-offs:</strong> engineering, Finance, EHS.</li></ul>
+<p><a href="/aisupplychainbrief/templates/excess-obsolete-action-plan-template.csv" download>Download the E&amp;O action-plan template (CSV)</a> with this fictional table filled in.</p>
+<h2>What to hand Finance</h2>
+<p>Give them the write-down exposure range and the evidence behind each row. Under FASB ASU 2015-11, inventory measured by methods other than LIFO and the retail inventory method is measured at the lower of cost and <strong>net realizable value</strong>—"the estimated selling prices in the ordinary course of business, less reasonably predictable costs of completion, disposal, and transportation" (<a href="https://storage.fasb.org/ASU%202015-11.pdf" rel="nofollow">ASU 2015-11</a>). Most companies use that rule; your controller decides the reserve. This page is not accounting advice.</p>
+<h2>Do it with AI</h2>
+<div class="pbox"><button class="copy" type="button" onclick="navigator.clipboard.writeText(this.nextElementSibling.innerText).then(()=>{this.textContent=&quot;Copied&quot;})">Copy prompt</button><pre>You are an inventory analyst. From the export below (SKU, on hand, unit cost, average monthly usage, last movement date, open PO qty, supersession note, other-site usage), flag every SKU with more than [12] months of supply or no movement in [180] days. For each flagged SKU, pick one action (cancel/push out PO, transfer, return to vendor, rework, discount sale, scrap, hold) and give the reason in one line. Estimate recovery as a low–high range and state the % assumption you used. Never recommend scrapping a SKU with open demand or open orders. Return a table, then totals: value flagged, recovery range, write-down exposure range, and open-PO value to cancel. List every SKU with missing data instead of guessing.</pre></div>
+<p><strong>What to check:</strong> confirm usage with forward demand; call the supplier before counting RTV money; get engineering sign-off on rework; let Finance own the reserve; recompute one row by hand.</p>
+<h2>How to stop it coming back</h2>
+<p>Three common drivers: MOQs that force overbuys, forecast bias (see <a href="/aisupplychainbrief/guides/chatgpt-for-demand-planning.html">ChatGPT for demand planning</a>), and engineering changes without a disposition plan. A Crowe working-capital case study listed four related causes of excess: inadequate forecasting and SIOP, poorly managed stocking strategies, insufficient management of procurement parameters, and no product life-cycle guidelines (<a href="https://www.crowe.com/insights/case-studies/working-capital-case-study-reducing-excess-inventory" rel="nofollow">Crowe</a>). For tool options, see the <a href="/aisupplychainbrief/use-cases/inventory-optimization.html">inventory optimization use case</a>.</p>
+</div><aside class="tip"><div class="tiphead"><span class="tiplabel">Matching prompts in the kit</span></div><p>The <a href="https://steadiwork.gumroad.com/l/bpcqpq?utm_content=guide&amp;utm_source=site&amp;utm_medium=web&amp;utm_campaign=guide-excess-and-obsolete-inventory-ai">AI Prompt Kit for Supply Chain Teams</a> has ready-to-copy versions of these prompts, from its Inventory section:</p><ul><li><b>Excess and obsolete action plan</b> <span class="meta">(Inventory)</span></li><li><b>Safety stock explainer and calculation</b> <span class="meta">(Inventory, in the free sample)</span></li></ul><p><a class="copy" style="text-decoration:none;display:inline-block" href="https://steadiwork.gumroad.com/l/bpcqpq?utm_content=guide&amp;utm_source=site&amp;utm_medium=web&amp;utm_campaign=guide-excess-and-obsolete-inventory-ai">Get all 41 prompts (from $7)</a> &nbsp; or <a href="https://steadiwork.gumroad.com/l/isdzan?utm_content=guide&amp;utm_source=site&amp;utm_medium=web&amp;utm_campaign=guide-excess-and-obsolete-inventory-ai">try the free 8-prompt sample</a> (includes one of these). It is our own product.</p></aside><section class="faq"><h2 id="faq">FAQ</h2><h3>What&#x27;s the difference between excess and obsolete inventory?</h3><p>Excess is still usable but more than you&#x27;ll need. Obsolete has no future demand—superseded, redesigned or with no movement.</p><h3>How do you calculate excess inventory?</h3><p>Months of supply = on hand ÷ average monthly usage (or forward demand). Flag SKUs above your threshold, such as 12 months.</p><h3>How do you treat obsolete inventory?</h3><p>Work an action order: cancel open POs, transfer, return to vendor, rework, discount sale, then scrap. Get the right approvals for rework and write-downs.</p><h3>What is an E&amp;O reserve, and who sets it?</h3><p>For most cost methods, inventory is measured at the lower of cost and net realizable value (FASB ASU 2015-11). Your controller sets the reserve and any write-off. This page does not give journal entries or tax advice.</p><h3>How does return to vendor work?</h3><p>Ask the supplier for an RMA, ask about restocking fees, and confirm the credit before you ship anything back.</p><h3>How do you prevent obsolete inventory?</h3><p>Tighten MOQs, watch forecast bias, and require a disposition plan with every engineering change.</p><h3>Can ChatGPT find slow-moving inventory?</h3><p>It can flag SKUs from an anonymized export against your rule and suggest actions with recovery ranges. Recheck the math and never let it invent demand.</p></section></article><div class="endcap"><div class="signup"><h2>Get the next issue in your inbox</h2><p class="fine">Free · about a 4-min read · No spam</p><style>
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  margin-top: 30px !important;
+  padding: clamp(17px, 5%, 40px) clamp(17px, 7%, 50px) !important;
+  max-width: none !important;
+  border-radius: 6px !important;
+  box-shadow: 0 5px 25px rgba(34, 60, 47, 0.25) !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview,
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview * {
+  box-sizing: border-box !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-heading {
+  width: 100% !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-heading h5 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field {
+  margin-top: 20px !important;
+  width: 100% !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input {
+  width: 100% !important;
+  height: 40px !important;
+  border-radius: 6px !important;
+  border: 2px solid #e9e8e8 !important;
+  background-color: #fff;
+  outline: none !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input {
+  color: #000000 !important;
+  font-family: "Montserrat" !important;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input::placeholder {
+  color: #000000 !important;
+  opacity: 1 !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input:-ms-input-placeholder {
+  color: #000000 !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input::-ms-input-placeholder {
+  color: #000000 !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button {
+  margin-top: 10px !important;
+  width: 100% !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button button {
+  width: 100% !important;
+  height: 40px !important;
+  border: 0 !important;
+  border-radius: 6px !important;
+  line-height: 0px !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button button:hover {
+  cursor: pointer !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .powered-by-line {
+  color: #231f20 !important;
+  font-family: "Montserrat" !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  line-height: 25px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  display: flex !important;
+  width: 100% !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 10px !important;
+}
+.followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .powered-by-line img {
+  margin-left: 10px !important;
+  height: 1.13em !important;
+  max-height: 1.13em !important;
+}
+
+  </style>
+  <div class="followit--follow-form-container" attr-a attr-b attr-c attr-d attr-e attr-f>
+    <form data-v-f93f6730="" action="https://api.follow.it/subscription-form/bHlzcXlyRmpLUm4reHc3c2dIK0NISTkrbkhteEpyRTljRE42aHpmMUxxQm1hUzZrVWFmRk9JYVRyUXVaTGQ0RXFHWTRMNjlXYmE2ZjA4RUlDTnZMMDM3alNrMUJqeTI5aXhVNnhwSTRvV3lqOUpNUzhMalh1UEliK0plc0dkRmd8alFrdzZ1bkRZQUhTSGowMjZjQnZYMVdSeHBuTExBVEtqdlljV1FPa0hhZz0=/8" method="post"><div data-v-f93f6730="" class="form-preview" style="background-color: rgb(255, 255, 255); position: relative; border-style: solid; border-width: 1px; border-color: rgb(204, 204, 204);"><div data-v-f93f6730="" class="preview-heading"><h5 data-v-f93f6730="" style="font-family: Arial; font-weight: bold; color: rgb(0, 0, 0); font-size: 16px; text-align: center; text-transform: none !important;">Get new posts by email:</h5></div><div data-v-f93f6730="" class="preview-input-field"><input data-v-f93f6730="" type="email" name="email" required="" placeholder="Enter your email" spellcheck="false" style="font-family: Arial; font-weight: normal; color: rgb(0, 0, 0); font-size: 14px; text-align: center; background-color: rgb(255, 255, 255); text-transform: none !important;"></div><div data-v-f93f6730="" class="preview-submit-button"><button data-v-f93f6730="" type="submit" style="font-family: Arial; font-weight: bold; color: rgb(255, 255, 255); font-size: 16px; text-align: center; background-color: rgb(0, 0, 0); text-transform: none !important;">Subscribe</button></div></div></form><a href="https://follow.it" class="powered-by-line">Powered by <img src="https://follow.it/images/colored-logo.svg" alt="follow.it" height="17px"/></a>
+  </div>
+<p class="fine signnote">After you subscribe, follow.it sends a confirmation email. Click the link to confirm (required in some regions). Then you get one email each weekday when the new issue is published. Unsubscribe anytime from any email. <a href="/aisupplychainbrief/privacy.html">Privacy</a></p></div></div></main><footer><div class="wrap cols"><div><h4>AI Supply Chain Brief</h4><p>AI Supply Chain Brief: a free weekday newsletter with one practical AI move for supply chain jobs, curated by a working buyer.</p><p>Independent summaries of public news and posts. Each item links to its source. Not affiliated with any company mentioned. Not investment or legal advice.</p></div>
+<div><h4>Explore</h4><ul><li><a href="/aisupplychainbrief/archive.html">Archive</a></li><li><a href="/aisupplychainbrief/use-cases.html">AI use-case directory</a></li><li><a href="/aisupplychainbrief/guides.html">Guides</a></li><li><a href="/aisupplychainbrief/topics/">Topics</a></li><li><a href="/aisupplychainbrief/resources.html">Resources</a></li><li><a href="/aisupplychainbrief/privacy.html">Privacy</a></li><li><a href="/aisupplychainbrief/rss.xml">RSS feed</a></li></ul></div>
+<div><h4>Our products</h4><ul><li><a href="https://steadiwork.gumroad.com/l/bpcqpq?utm_content=footer&amp;utm_source=site&amp;utm_medium=web&amp;utm_campaign=guide-excess-and-obsolete-inventory-ai">AI Prompt Kit for Supply Chain Teams</a> (from $7)</li><li><a href="https://steadiwork.gumroad.com/l/isdzan?utm_content=footer&amp;utm_source=site&amp;utm_medium=web&amp;utm_campaign=guide-excess-and-obsolete-inventory-ai">Free 8-prompt sample</a></li><li>Sister site: <a href="https://steadiwork.github.io/aicontextkit/">Context Kit</a></li></ul>
+<p class="label">Prompt kit = our own product. Context Kit = sister site. Neither is an affiliate link. Other links marked &quot;affiliate link&quot; may earn us a commission at no cost to you. <a href="/aisupplychainbrief/resources.html">Disclosure</a></p></div></div></footer></body></html>

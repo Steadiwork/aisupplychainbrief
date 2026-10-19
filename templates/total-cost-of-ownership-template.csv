@@ -1,0 +1,5 @@
+Supplier,Price,Freight,Duty %,Duty $,Brokerage,Landed,Transit weeks,Safety weeks,Total weeks,Carrying rate,Carrying $,Defect %,Cost per defect,Quality $,Mgmt $,Recurring $/unit,Annual volume,Years,One-time $,TCO,TCO/unit,Notes
+Offshore Supplier X,8.0,0.6,0.04,=B2*D2,0.1,=B2+C2+E2+F2,8,6,=H2+I2,0.25,=G2*J2/52*K2,0.015,20,=M2*N2,0.25,=G2+L2+O2+P2,20000,3,15000,=Q2*R2*S2+T2,=U2/(R2*S2),FICTIONAL EXAMPLE DATA. Duty is fictional.
+Domestic Supplier Y,9.4,0.15,0.0,=B3*D3,0.0,=B3+C3+E3+F3,1,2,=H3+I3,0.25,=G3*J3/52*K3,0.005,20,=M3*N3,0.05,=G3+L3+O3+P3,20000,3,22000,=Q3*R3*S3+T3,=U3/(R3*S3),FICTIONAL EXAMPLE DATA. Duty is fictional.
+
+"FICTIONAL EXAMPLE: Example Lighting Co. die-cast housing, 20,000/yr × 3 years. Carrying rate 25% (same fictional rate as the RFQ page). Cost per defective unit $20. 4% duty on X is fictional — get the real rate from your broker or the HTS."
