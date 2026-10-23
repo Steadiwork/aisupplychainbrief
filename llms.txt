@@ -2,7 +2,7 @@
 
 > AI Supply Chain Brief: a free weekday newsletter with one practical AI move for supply chain jobs, curated by a working buyer.
 
-The free weekday email newsletter published at steadiwork.github.io/aisupplychainbrief, with a use-case directory, guides and a prompt kit. Not affiliated with other newsletters or posts that use a similar name. Every news item links to its public source. All worked examples in the guides use fictional data. Updated 2026-10-19.
+The free weekday email newsletter published at steadiwork.github.io/aisupplychainbrief, with a use-case directory, guides and a prompt kit. Not affiliated with other newsletters or posts that use a similar name. Every news item links to its public source. All worked examples in the guides use fictional data. Updated 2026-10-23.
 
 ## About
 
@@ -52,6 +52,7 @@ The free weekday email newsletter published at steadiwork.github.io/aisupplychai
 
 ## Newsletter issues
 
+- [Issue #5: An AI agent joins the production planning meeting](https://steadiwork.github.io/aisupplychainbrief/issues/005.html) (2026-10-20)
 - [Issue #4: Free forecasting models pass a grocery test](https://steadiwork.github.io/aisupplychainbrief/issues/004.html) (2026-10-19)
 - [Issue #3: The memory crunch hits phones; Taiwan targets chip smuggling](https://steadiwork.github.io/aisupplychainbrief/issues/003.html) (2026-10-16)
 - [Issue #2: Robot trucks take routine freight as chip demand runs hot](https://steadiwork.github.io/aisupplychainbrief/issues/002.html) (2026-10-15)
