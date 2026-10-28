@@ -1,0 +1,6 @@
+Item code,Country of origin,Origin confirmed (Y/N),Customs value per unit ($),Annual units,Old duty rate,New duty rate,Old annual duty ($),New annual duty ($),Annual change ($),Change per unit ($)
+A,Country X,Y,12.00,40000,2.5%,27.5%,=D2*E2*F2,=D2*E2*G2,=I2-H2,=J2/E2
+B,Country X,Y,3.40,150000,0.0%,25.0%,=D3*E3*F3,=D3*E3*G3,=I3-H3,=J3/E3
+C,Country Y,Y,48.00,5000,3.9%,3.9%,=D4*E4*F4,=D4*E4*G4,=I4-H4,=J4/E4
+D,Country X or Y (check),N,7.75,20000,2.0%,27.0%,=D5*E5*F5,=D5*E5*G5,=I5-H5,=J5/E5
+Total,,,,,,,=SUM(H2:H5),=SUM(I2:I5),=SUM(J2:J5),

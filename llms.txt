@@ -2,7 +2,7 @@
 
 > AI Supply Chain Brief: a free weekday newsletter with one practical AI move for supply chain jobs, curated by a working buyer.
 
-The free weekday email newsletter published at steadiwork.github.io/aisupplychainbrief, with a use-case directory, guides and a prompt kit. Not affiliated with other newsletters or posts that use a similar name. Every news item links to its public source. All worked examples in the guides use fictional data. Updated 2026-10-27.
+The free weekday email newsletter published at steadiwork.github.io/aisupplychainbrief, with a use-case directory, guides and a prompt kit. Not affiliated with other newsletters or posts that use a similar name. Every news item links to its public source. All worked examples in the guides use fictional data. Updated 2026-10-28.
 
 ## About
 
@@ -12,6 +12,7 @@ The free weekday email newsletter published at steadiwork.github.io/aisupplychai
 
 ## Guides
 
+- [Tariff impact analysis example: a worked duty-change calculation, options and an AI prompt](https://steadiwork.github.io/aisupplychainbrief/guides/tariff-impact-analysis-example.html): A worked tariff impact analysis for four fictional imported items: the duty-change formula, which items to act on, mitigation options, a free CSV template and an AI prompt.
 - [Total cost of ownership example: a 3-year offshore vs domestic supplier comparison](https://steadiwork.github.io/aisupplychainbrief/guides/total-cost-of-ownership-example.html): A worked supplier TCO example: landed cost, pipeline inventory, quality, tooling and the duty rate that flips the decision, with a template and AI prompt.
 - [Supplier scorecard template: KPIs, weights and a worked quarterly example](https://steadiwork.github.io/aisupplychainbrief/guides/supplier-scorecard-template.html): A supplier performance scorecard you can copy: OTD and PPM formulas, score bands, weights, a worked quarterly example for 3 suppliers and an AI prompt.
 - [Supplier negotiation plan: a filled-in one-page example (BATNA, walk-away and trades) plus an AI prompt](https://steadiwork.github.io/aisupplychainbrief/guides/supplier-negotiation-plan-ai.html): A filled-in supplier negotiation plan: cost your BATNA, set a walk-away and target, estimate the ZOPA, price your trades, then pressure-test it with AI.
@@ -52,6 +53,7 @@ The free weekday email newsletter published at steadiwork.github.io/aisupplychai
 
 ## Newsletter issues
 
+- [Issue #9: Thieves are hijacking data center freight](https://steadiwork.github.io/aisupplychainbrief/issues/009.html) (2026-10-28)
 - [Issue #8: A U.S. robot factory says it beat China's PCB lead time](https://steadiwork.github.io/aisupplychainbrief/issues/008.html) (2026-10-27)
 - [Issue #7: Most supply chain teams aren't ready for their AI](https://steadiwork.github.io/aisupplychainbrief/issues/007.html) (2026-10-26)
 - [Issue #6: Walmart opens its doors to AI shopping agents](https://steadiwork.github.io/aisupplychainbrief/issues/006.html) (2026-10-23)
