@@ -1,17 +1,18 @@
 # AI Supply Chain Brief
 
-> AI Supply Chain Brief: a free weekday newsletter with one practical AI move for supply chain jobs, curated by a working buyer.
+> AI Supply Chain Brief: a free newsletter every Monday, Wednesday and Friday with one practical AI move for supply chain jobs, curated by a working buyer.
 
-The free weekday email newsletter published at steadiwork.github.io/aisupplychainbrief, with a use-case directory, guides and a prompt kit. Not affiliated with other newsletters or posts that use a similar name. Every news item links to its public source. All worked examples in the guides use fictional data. Updated 2026-11-02.
+The free Mon/Wed/Fri email newsletter published at steadiwork.github.io/aisupplychainbrief, with a use-case directory, guides and a prompt kit. Not affiliated with other newsletters or posts that use a similar name. Every news item links to its public source. All worked examples in the guides use fictional data. Updated 2026-11-04.
 
 ## About
 
 - [About](https://steadiwork.github.io/aisupplychainbrief/about.html): who curates the Brief and how stories are chosen and checked
-- [Home](https://steadiwork.github.io/aisupplychainbrief/): subscribe to the free weekday email
+- [Home](https://steadiwork.github.io/aisupplychainbrief/): subscribe to the free email (every Monday, Wednesday and Friday)
 - [Archive](https://steadiwork.github.io/aisupplychainbrief/archive.html): every issue, with a searchable story finder
 
 ## Guides
 
+- [Safety stock calculation example: the formula worked for four items, plus an AI prompt](https://steadiwork.github.io/aisupplychainbrief/guides/safety-stock-calculation-example.html): A worked safety stock calculation for four fictional items: the formula with demand and lead-time variability, reorder points, what to check, a free CSV template and an AI prompt.
 - [Tariff impact analysis example: a worked duty-change calculation, options and an AI prompt](https://steadiwork.github.io/aisupplychainbrief/guides/tariff-impact-analysis-example.html): A worked tariff impact analysis for four fictional imported items: the duty-change formula, which items to act on, mitigation options, a free CSV template and an AI prompt.
 - [Total cost of ownership example: a 3-year offshore vs domestic supplier comparison](https://steadiwork.github.io/aisupplychainbrief/guides/total-cost-of-ownership-example.html): A worked supplier TCO example: landed cost, pipeline inventory, quality, tooling and the duty rate that flips the decision, with a template and AI prompt.
 - [Supplier scorecard template: KPIs, weights and a worked quarterly example](https://steadiwork.github.io/aisupplychainbrief/guides/supplier-scorecard-template.html): A supplier performance scorecard you can copy: OTD and PPM formulas, score bands, weights, a worked quarterly example for 3 suppliers and an AI prompt.
@@ -53,6 +54,7 @@ The free weekday email newsletter published at steadiwork.github.io/aisupplychai
 
 ## Newsletter issues
 
+- [Issue #13: Memory costs reach the warehouse floor](https://steadiwork.github.io/aisupplychainbrief/issues/013.html) (2026-11-04)
 - [Issue #12: Three trade clocks run out the same week](https://steadiwork.github.io/aisupplychainbrief/issues/012.html) (2026-11-02)
 - [Issue #11: A million robots, measured in cost to serve](https://steadiwork.github.io/aisupplychainbrief/issues/011.html) (2026-10-30)
 - [Issue #10: Robot tariffs are on hold, not off the table](https://steadiwork.github.io/aisupplychainbrief/issues/010.html) (2026-10-29)

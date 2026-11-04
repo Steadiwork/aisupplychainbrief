@@ -1,0 +1,6 @@
+Item code,Average daily demand (units),Std dev of daily demand (units),Average lead time (days),Std dev of lead time (days),Target cycle service level,Z value,Unit cost ($),Combined std dev (units),Safety stock (units),Reorder point (units),Safety stock value ($)
+A,40,12,10,2,95%,=NORM.S.INV(F2),8.00,=SQRT(D2*C2^2+B2^2*E2^2),=ROUNDUP(G2*I2,0),=B2*D2+J2,=J2*H2
+B,5,4,30,8,98%,=NORM.S.INV(F3),120.00,=SQRT(D3*C3^2+B3^2*E3^2),=ROUNDUP(G3*I3,0),=B3*D3+J3,=J3*H3
+C,200,30,5,1,90%,=NORM.S.INV(F4),1.50,=SQRT(D4*C4^2+B4^2*E4^2),=ROUNDUP(G4*I4,0),=B4*D4+J4,=J4*H4
+D,12,6,20,6,95%,=NORM.S.INV(F5),45.00,=SQRT(D5*C5^2+B5^2*E5^2),=ROUNDUP(G5*I5,0),=B5*D5+J5,=J5*H5
+Total,,,,,,,,,,,=SUM(L2:L5)
