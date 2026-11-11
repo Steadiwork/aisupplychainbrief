@@ -1,0 +1,8 @@
+Location,Item code,ABC class,System qty,Counted qty,Variance (units),Variance %,Tolerance %,Within tolerance,Unit cost ($),Variance value ($),Absolute variance value ($)
+L-01,A-101,A,120,118,=E2-D2,"=IF(D2=0,"""",F2/D2)",0%,"=IF(ABS(F2)<=H2*D2,""Yes"",""No"")",25.00,=F2*J2,=ABS(K2)
+L-02,A-114,A,40,40,=E3-D3,"=IF(D3=0,"""",F3/D3)",0%,"=IF(ABS(F3)<=H3*D3,""Yes"",""No"")",60.00,=F3*J3,=ABS(K3)
+L-03,B-220,B,500,495,=E4-D4,"=IF(D4=0,"""",F4/D4)",2%,"=IF(ABS(F4)<=H4*D4,""Yes"",""No"")",4.00,=F4*J4,=ABS(K4)
+L-04,B-245,B,80,74,=E5-D5,"=IF(D5=0,"""",F5/D5)",2%,"=IF(ABS(F5)<=H5*D5,""Yes"",""No"")",12.00,=F5*J5,=ABS(K5)
+L-05,C-310,C,1000,1030,=E6-D6,"=IF(D6=0,"""",F6/D6)",5%,"=IF(ABS(F6)<=H6*D6,""Yes"",""No"")",0.40,=F6*J6,=ABS(K6)
+L-06,C-377,C,60,0,=E7-D7,"=IF(D7=0,"""",F7/D7)",5%,"=IF(ABS(F7)<=H7*D7,""Yes"",""No"")",2.50,=F7*J7,=ABS(K7)
+Total,,,,,,,,"=COUNTIF(I2:I7,""Yes"")/COUNTA(I2:I7)",,=SUM(K2:K7),=SUM(L2:L7)
