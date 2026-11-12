@@ -1,0 +1,195 @@
+{
+  "num": 4,
+  "date": "2026-10-19",
+  "title": "Free forecasting models pass a grocery test",
+  "short_title": "Free forecasting models pass a grocery test",
+  "hook": "In an independent grocery test, Mistral's new Timestral and Google's TimesFM made 4.5% to 6.3% less forecast error than a classic statistical method, with no training on the data. A modern forecasting model is now worth an afternoon backtest. Just read the license before you fall in love.",
+  "intro": "Five stories from the past week across planning, procurement, freight, trade and warehousing. Every item links to the original source; summaries are our own.",
+  "inside": [
+    "Free forecasting models beat a classic method",
+    "Microsoft exits a power-starved UK data center",
+    "An AI operator audits LTL invoices",
+    "China drafts AI and solar tech export controls",
+    "Robots learn to pick shoeboxes"
+  ],
+  "stories": [
+    {
+      "top": true,
+      "h": "Free AI forecasting models just beat a classic method on grocery data",
+      "sum": "4.5% to 6.3% less forecast error, with no training on the data. That's what Superlinear found when it tested Mistral's new Timestral models and Google's TimesFM against ETS, a classic statistical method many planning systems still rely on, using Walmart M5 food sales and a fresh-food dataset. Mistral released Timestral on October 15: four open-weight time-series models, from 5 million to 209 million parameters, that produce probabilistic forecasts, accept known future inputs such as planned promotions, and run on an ordinary CPU. In Superlinear's test, the small 28M version came within 0.4% of the largest model's accuracy in about a fifth of the time. Two cautions: Superlinear says Timestral is free only for companies under $20 million in monthly revenue, and it advises judging a forecast on service level, waste and stock, not error alone.",
+      "so": "You can test a modern forecasting model against your current numbers on your own history without buying anything. Run a small, anonymized backtest before your next S&OP cycle, and judge it on bias and service level, not only error.",
+      "so_short": "You can test a modern forecasting model on your own history this week without buying anything.",
+      "next": [
+        "Pick 50 to 100 anonymized items with at least two years of weekly history, hold out the last 12 weeks, and compare an open model's forecast with your current system's.",
+        "Score both on bias, service level and stock, not just forecast error, and look separately at promo weeks and slow movers.",
+        "Have IT or legal check the model's license and your company's AI policy before any real data or production use."
+      ],
+      "prompt": "You are a demand planning analyst. Below is a 12-week backtest for [NUMBER] anonymized items. Columns: item code, week, actual units, current system forecast, AI model forecast (median), AI model 10th percentile, AI model 90th percentile, promo week (Y/N).\n[PASTE TABLE]\n1) For each item, calculate WAPE (total absolute error divided by total actual units) and bias for both forecasts. Show your math for the first item.\n2) Say which forecast wins overall, on promo weeks, and on the lowest-volume 20% of items.\n3) Check how often actuals fell between the AI model's 10th and 90th percentiles (about 80% is the target).\n4) Name the 5 items where the AI forecast did worst and suggest a likely reason for each.\nOutput: a table with columns item code, WAPE current, WAPE AI, bias current, bias AI, winner; then 3 short takeaways. Keep it under 300 words. Use anonymized data only. List any missing or inconsistent data instead of guessing.",
+      "src": [
+        [
+          "Mistral announcement",
+          "https://mistral.ai/news/timestral/",
+          "Company announcement"
+        ],
+        [
+          "Superlinear grocery test",
+          "https://superlinear.eu/insights/articles/timestral-vs-timesfm-ai-forecasting-grocery-benchmark",
+          "Research/data"
+        ],
+        [
+          "Timestral model card and license (Hugging Face)",
+          "https://huggingface.co/mistralai/Timestral-209M",
+          "Company announcement"
+        ]
+      ],
+      "cat": "Planning",
+      "audience": "Planners",
+      "img": "img/planning-4.webp",
+      "alt": "Flat illustration of an upward forecast chart with a small warehouse icon",
+      "tags": [
+        "forecasting",
+        "AI adoption"
+      ],
+      "lens": "AI in supply chain"
+    },
+    {
+      "h": "Microsoft walks away from the UK's biggest planned AI data center over power",
+      "sum": "No grid power until the 2030s: that's what Nscale was told about its planned data center in Loughton, Essex, which was meant to house about 23,000 Nvidia chips and open next year. Microsoft, its only publicly announced customer for the site, has ended its agreement, the BBC and the Guardian reported on October 18; Microsoft declined to comment. Nscale says it remains committed, is exploring alternative power sources, and that its Microsoft projects in Norway, Portugal and the US are unaffected.",
+      "so": "A signed AI capacity deal is only as firm as the site's power connection. If you're buying data-center, colocation or cloud capacity tied to a new site, ask for the confirmed grid connection date in writing and agree up front what happens, including exit terms, if it slips.",
+      "so_short": "A signed AI capacity deal is only as firm as the site's power connection, so get the power date in writing.",
+      "src": [
+        [
+          "BBC News",
+          "https://www.bbc.com/news/articles/c9m26kl5y7epo",
+          "Independent reporting"
+        ],
+        [
+          "The Guardian",
+          "https://www.theguardian.com/uk-news/2026/oct/18/microsoft-drops-huge-ai-datacentre-project-in-essex-over-power-supply-concerns",
+          "Independent reporting"
+        ],
+        [
+          "Euronews (Sept. 29 power delay)",
+          "https://www.euronews.com/2026/09/29/uks-biggest-ai-supercomputer-may-have-to-wait-until-2030s-for-enough-power",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Procurement",
+      "audience": "Procurement leaders",
+      "img": "img/manufacturing-6.webp",
+      "alt": "Flat illustration of electrical switchgear cabinets connected to a transformer",
+      "tags": [
+        "data centers",
+        "GPU compute"
+      ],
+      "lens": "Supply chain for AI"
+    },
+    {
+      "h": "An AI operator is auditing every LTL invoice at one freight broker",
+      "sum": "Nearly 3,500 audit decisions in two months, at 97% accuracy by the vendor's own count. That's what startup Evos reports for the AI operator that freight brokerage MyFreightWorld uses to check every LTL carrier invoice against its TMS; Evos says it closed out more than $600,000 of invoice value in the last five weeks. Evos came out of stealth on October 14 with $9 million in pre-seed funding, and it hasn't disclosed pricing or how much money the audits actually recovered.",
+      "so": "Freight audit is a good first job for AI because every decision can be checked against a contract rate. If you pilot one, track disputes won and dollars recovered, not just invoices processed, and keep a person approving disputes at the start.",
+      "so_short": "Freight audit suits AI because every call can be checked against a rate. Track dollars recovered, not invoices processed.",
+      "src": [
+        [
+          "Evos announcement",
+          "https://getevos.ai/resources/blog/evos-raises-9m",
+          "Company announcement"
+        ],
+        [
+          "Carrier Atlas",
+          "https://carrieratlas.com/news/evos-ai-operator-audited-600-000-in-ltl-billing-errors-in-five-weeks",
+          "Independent reporting"
+        ],
+        [
+          "The Next Web",
+          "https://thenextweb.com/news/evos-9m-pre-seed-autonomous-operators-physical-economy",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Logistics",
+      "audience": "Logistics leads",
+      "img": "img/logistics-6.webp",
+      "alt": "Flat illustration of a stack of freight invoices under a magnifying glass, next to a box truck",
+      "tags": [
+        "freight",
+        "AI agents",
+        "funding"
+      ],
+      "lens": "AI in supply chain"
+    },
+    {
+      "h": "China drafts export controls on AI and solar manufacturing technology",
+      "sum": "40 technologies, 23 of them in AI. On October 16, China's commerce and science ministries published a draft adding large models, AI agents and computing clusters, plus 12 solar manufacturing technologies covering polysilicon, wafers, cells and the key equipment that carries them, to the country's restricted-export technology list. Comments run until November 15, but registration starts now: transferring or licensing listed technology abroad, or shifting its ownership or control to a foreign entity, must be registered first. Technology already open-sourced or published is excluded.",
+      "so": "If your company licenses technology from Chinese partners, plans plants abroad that rely on Chinese solar or AI know-how, or has China-based teams sharing models with overseas sites, check whether those transfers now need registration, and allow extra time in project schedules.",
+      "so_short": "If you license or move AI or solar know-how out of China, check whether it now needs pre-export registration.",
+      "src": [
+        [
+          "MOFCOM and MOST notice No. 48 (Chinese)",
+          "https://www.mofcom.gov.cn/zcfb/blgg/gg/2026/art/2026/art_05e2643a8ca04eb9adf9dd0542991fe4.html",
+          "Government document"
+        ],
+        [
+          "AP News",
+          "https://apnews.com/article/china-export-restrictions-ai-chips-solar-us-5ac381c0c6d6628bbea2e0da7d855a5b",
+          "Independent reporting"
+        ],
+        [
+          "Bloomberg Law",
+          "https://news.bloomberglaw.com/artificial-intelligence/china-proposes-export-controls-on-ai-models-chips-and-agents",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Trade",
+      "audience": "Trade compliance",
+      "img": "img/trade-8.webp",
+      "alt": "Flat illustration of a solar panel and a wafer behind a checkpoint barrier, with a shield",
+      "tags": [
+        "export controls",
+        "manufacturing capacity"
+      ],
+      "lens": "Supply chain for AI"
+    },
+    {
+      "h": "Robots are learning to pick shoeboxes at an s.Oliver warehouse",
+      "sum": "Shoeboxes have been close to impossible for general-purpose picking robots, according to Nomagic, and s.Oliver Group now plans to put the startup's Shoebox Picker to work. The fashion group selected Nomagic on October 14 to automate induction of a wide range of items, shoeboxes included, at its logistics site in Dettelbach, Germany, using AI vision and flexible robot handling. Neither company has given a go-live date, robot count or pick rates.",
+      "so": "Robot picking is reaching awkward item types that used to stay manual. If boxed or mixed goods keep your induction stations staffed, ask vendors for live pick and exception rates on your own SKUs before you sign.",
+      "so_short": "Robot picking is reaching awkward items like shoeboxes. Ask vendors for live rates on your own SKUs before signing.",
+      "src": [
+        [
+          "Nomagic announcement",
+          "https://nomagic.ai/news/nomagic-selected-by-s-oliver-group-to-advance-ai-powered-automation-in-fashion-logistics/",
+          "Company announcement"
+        ],
+        [
+          "Logistics Manager",
+          "https://www.logisticsmanager.com/s-oliver-adopts-ai-powered-robotic-picking-at-german-warehouse/",
+          "Independent reporting"
+        ],
+        [
+          "IN Supply",
+          "https://in-supply.co.uk/nomagic-selected-for-s-oliver-warehouse-picking-automation/",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Warehousing",
+      "audience": "Warehouse managers",
+      "img": "img/warehousing-5.webp",
+      "alt": "Flat illustration of a robot arm lifting a box from a warehouse shelf",
+      "tags": [
+        "robotics",
+        "warehouse automation"
+      ],
+      "lens": "AI in supply chain"
+    }
+  ],
+  "tip": {
+    "role": "Buyers",
+    "title": "Have AI flag every exception hiding in a supplier quote",
+    "how": "Suppliers often accept your RFQ on page one and take exceptions in the fine print: price-adjustment clauses, bigger minimums, longer lead times, different Incoterms. Before you compare prices, paste each quote's terms (supplier names removed) next to your RFQ requirements and have your approved AI assistant list every deviation. You still read the quote, but you start with a checklist instead of a highlighter.",
+    "prompt": "You are a procurement analyst reviewing RFQ responses. Below are our RFQ requirements and one supplier's quote terms, both anonymized.\nRFQ requirements: item description, annual volume, required lead time, Incoterms, payment terms, price validity, quality and certification requirements.\n[PASTE REQUIREMENTS]\nQuote from Supplier [CODE]: unit price, tooling or one-time charges, MOQ, lead time, Incoterms, payment terms, price validity, price-adjustment clauses, exceptions and notes.\n[PASTE QUOTE TERMS]\n1) Compare the quote with each requirement and mark it Meets, Deviates or Not stated.\n2) For each deviation, explain the likely cost or risk in one sentence.\n3) Flag any clause that lets price or lead time change after award.\n4) Draft 3 clarification questions for the supplier, with [PLACEHOLDERS] for names.\nOutput: a table with columns requirement, our requirement, supplier response, status, impact; then the questions. Keep it under 300 words. List any missing or inconsistent data instead of guessing.",
+    "next": {
+      "text": "See a filled-in RFQ bid comparison, free",
+      "url": "/guides/rfq-bid-comparison-example.html"
+    }
+  }
+}

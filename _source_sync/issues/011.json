@@ -1,0 +1,173 @@
+{
+  "num": 11,
+  "date": "2026-10-30",
+  "title": "A million robots, measured in cost to serve",
+  "short_title": "A million robots, measured in cost to serve",
+  "hook": "Amazon says more than one million robots now work in its fulfillment network, and it doubled its fleet of robotic arms this year. The number your leadership will borrow is not the robot count, though. It's cost to serve, and that's the yardstick every automation pitch now has to beat.",
+  "intro": "Four stories from the last three days, across warehousing, freight and data-center financing. Every item links to the original source; summaries are our own.",
+  "inside": [
+    "Amazon passes one million robots",
+    "Kodiak signs 75 driverless trucks",
+    "Nvidia weighs backing a data center loan",
+    "Berkshire Grey teaches robots to unload trailers"
+  ],
+  "email_top_story": "More than one million robots now work in Amazon's fulfillment network, CEO Andy Jassy said on the October 29 earnings call, and Amazon doubled its robotic-arm fleet in 2026. It also said it lowered its overall cost to serve in the third quarter. Why it matters: the biggest shipper is judging automation by cost to serve, so expect any robot proposal you see to be measured the same way.",
+  "email_steps": [
+    "Split your cost to serve per order for the last four quarters into labor, shipping and line haul, and see which part grows faster than volume.",
+    "List your three most repetitive, high-volume warehouse tasks with today's cost and error rate before any automation pitch arrives."
+  ],
+  "stories": [
+    {
+      "top": true,
+      "h": "Amazon says it now runs more than a million warehouse robots, and the last 100 yards are next",
+      "sum": "More than one million. That's how many robots Amazon now has in its fulfillment network, CEO Andy Jassy said on the company's third-quarter call on October 29. Amazon doubled its fleet of robotic arms such as Cardinal and Sparrow in 2026, said new same-day facilities will rely heavily on robotics, and is exploring robots for the last 100 yards to the customer's door. Jassy said deployment depends on whether the machines improve productivity, safety, cost and delivery speed. Amazon also said it lowered its overall cost to serve in the quarter through better inventory placement, shorter shipping distances and package consolidation: shipping costs rose 11% against 12% unit growth, or 8% excluding fuel and line-haul inflation. On the same call it kept 2026 cash capital spending at about $220 billion, mostly for AWS, with meaningfully more planned for 2027. Why it matters: the largest shipper around is scoring automation on cost to serve, not robot count, and your next automation business case will be judged the same way.",
+      "so": "Know your own cost to serve per order, split by labor, shipping and line haul, before anyone pitches you robots or asks why Amazon's costs grow slower than volume.",
+      "so_short": "Know your cost to serve per order, split by labor, shipping and line haul, before the robot pitch arrives.",
+      "next": [
+        "Pull cost to serve per order (or per unit) for the last four quarters and split it into fulfillment labor, outbound shipping and line haul, so you can see which part grows faster than volume.",
+        "List your three most repetitive, high-volume warehouse tasks with today's cost, error rate and injury record for each, so automation proposals are compared against real numbers.",
+        "For any automation request in the 2027 budget, add one line showing the expected change in cost to serve, not just labor hours saved."
+      ],
+      "prompt": "You are a supply chain cost analyst breaking down cost to serve. Inputs, anonymized, one row per quarter: quarter, orders shipped, units shipped, fulfillment labor cost, outbound shipping cost, line-haul cost, fuel surcharge, other fulfillment cost.\n[PASTE TABLE]\n1) Calculate cost per order and cost per unit for each quarter, in total and for each cost line.\n2) Compare each cost line's growth with order and unit growth, quarter over quarter and year over year.\n3) Show shipping cost growth with and without fuel surcharge.\n4) Name the two cost lines growing fastest relative to volume and one likely driver to check for each.\nOutput: a table with columns quarter, cost per order, labor per order, shipping per order, line haul per order, growth vs volume; then the two lines to investigate. Keep it under 300 words. Use anonymized data only. List any missing or inconsistent data instead of guessing.",
+      "src": [
+        [
+          "Amazon Q3 2026 results",
+          "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+          "Company announcement"
+        ],
+        [
+          "Amazon Q3 2026 earnings call transcript (Investing.com)",
+          "https://www.investing.com/news/transcripts/earnings-call-transcript-amazon-q3-2026-misses-eps-as-shares-fall-after-hours-93CH-4985489",
+          "Independent reporting"
+        ],
+        [
+          "PYMNTS",
+          "https://www.pymnts.com/earnings/2026/amazon-puts-a-million-robots-behind-its-ai-ambitions/",
+          "Independent reporting"
+        ],
+        [
+          "MarketWatch",
+          "https://www.marketwatch.com/livecoverage/amazon-earnings-stock-results-amzn-q3/card/1-million-robots-across-amazon-and-more-coming-iNCvTHd3kKUNhVC2mYlD",
+          "Independent reporting"
+        ]
+      ],
+      "x": "https://x.com/wallstengine/status/2115923702969983239",
+      "embed": "https://x.com/wallstengine/status/2115923702969983239",
+      "cat": "Warehousing",
+      "audience": "Supply chain managers",
+      "img": "img/warehousing-1.webp",
+      "alt": "Flat illustration of pallet racks and floor robots carrying boxes in a warehouse aisle",
+      "tags": [
+        "robotics",
+        "warehouse automation",
+        "data centers"
+      ],
+      "lens": "AI in supply chain"
+    },
+    {
+      "h": "Kodiak signs a carrier to run 75 of its driverless trucks on Texas and Sun Belt lanes",
+      "sum": "Seventy-five trucks, owned by the carrier, driven by software. On October 28 Kodiak AI signed a binding agreement with DTL Transport, a Fresno, California carrier that runs team loads for grocers, to put the Kodiak Driver on 75 DTL-owned trucks for a per-mile fee. The first lanes are Interstate 10 between Dallas and El Paso and Interstate 20 between Dallas and Atlanta. FreightWaves notes Kodiak has not yet run a driverless truck on a public highway, and the per-mile rate, contract term and start date were not disclosed.",
+      "so": "If you ship on Texas or I-20 lanes, ask your carriers whether autonomous capacity is in their 2027 plans and how they would price it.",
+      "so_short": "On Texas and I-20 lanes, ask carriers about 2027 autonomous capacity and pricing.",
+      "src": [
+        [
+          "Kodiak AI announcement (Nasdaq)",
+          "https://www.nasdaq.com/press-release/kodiak-ai-and-dtl-transport-reach-historic-agreement-deploy-75-driverless-trucks-part",
+          "Company announcement"
+        ],
+        [
+          "FreightWaves",
+          "https://www.freightwaves.com/news/kodiak-dtl-75-driverless-trucks",
+          "Independent reporting"
+        ],
+        [
+          "Industrial AI Dispatch",
+          "https://www.industrialaidispatch.com/edition/2026-10-29",
+          "Independent reporting"
+        ]
+      ],
+      "x": "https://x.com/NicomartLogist/status/2115871079285633152",
+      "embed": "https://x.com/NicomartLogist/status/2115871079285633152",
+      "cat": "Logistics",
+      "audience": "Logistics leads",
+      "img": "img/logistics-1.webp",
+      "alt": "Flat illustration of two trucks on a highway with map pins and a dotted route",
+      "tags": [
+        "autonomous trucks",
+        "freight"
+      ],
+      "lens": "AI in supply chain"
+    },
+    {
+      "h": "Nvidia is in talks to guarantee debt for a data center Anthropic plans to use",
+      "sum": "Billions in guarantees, not yet signed. Nvidia is in talks to give AI cloud provider Nscale billions of dollars in credit guarantees to back debt for a West Virginia data center that Anthropic plans to use, The Information reported on October 29, according to Reuters. The support would help fund power infrastructure and construction, and terms could still change. Nscale's September prospectus says Anthropic can end a delivery tranche without liability if Nscale misses its delivery window.",
+      "so": "When a capacity or data-center supplier's delivery dates depend on financing that hasn't closed, ask for funding status and milestone dates before you plan around their schedule.",
+      "so_short": "If a supplier's delivery depends on unclosed financing, get funding status and milestones first.",
+      "src": [
+        [
+          "Reuters via The Economic Times",
+          "https://economictimes.indiatimes.com/tech/artificial-intelligence/nvidia-in-talks-to-give-credit-support-for-nscales-deal-with-anthropic/articleshow/135341285.cms",
+          "Independent reporting"
+        ],
+        [
+          "CTOL Digital Solutions",
+          "https://www.ctol.digital/news/nscale-anthropic-contract-nvidia-guarantee/",
+          "Independent reporting"
+        ],
+        [
+          "Techmeme",
+          "https://www.techmeme.com/261029/p59",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Procurement",
+      "audience": "Procurement leaders",
+      "img": "img/procurement-8.webp",
+      "alt": "Flat illustration of a financing document with a seal and a stack of coins",
+      "tags": [
+        "data centers",
+        "GPU compute",
+        "funding"
+      ],
+      "lens": "Supply chain for AI"
+    },
+    {
+      "h": "Berkshire Grey adds AI perception to its trailer-unloading robot",
+      "sum": "Trailer unloading is the dock job robots keep coming back to. On October 29 Berkshire Grey, a SoftBank Group subsidiary, said its BG Pilot software now gives its Scoop unloader real-time visual and 3D perception to find trailer walls, spot obstructions and flag items that need a person. The update also adds AI orchestration for store replenishment and machine-learning box selection for packing. The company says new business opportunities rose more than 65% over the past six months.",
+      "so": "Before a trailer-unloading demo, send vendors photos of your worst mixed loads and ask what share of items their system hands back to a person.",
+      "so_short": "Show unloading vendors your worst mixed loads and ask how many items go back to a person.",
+      "src": [
+        [
+          "Berkshire Grey announcement",
+          "https://www.berkshiregrey.com/resources/press-release/berkshire-grey-unveils-enhanced-ai-capabilities-powered-by-bg-pilot-software/",
+          "Company announcement"
+        ],
+        [
+          "Business Wire",
+          "https://www.businesswire.com/news/home/20261029194714/en/Berkshire-Grey-Unveils-Enhanced-AI-Capabilities-Powered-by-BG-Pilot-Software",
+          "Company announcement"
+        ]
+      ],
+      "cat": "Warehousing",
+      "audience": "Warehouse managers",
+      "img": "img/warehousing-8.webp",
+      "alt": "Flat illustration of a robot arm unloading boxes from a truck at a warehouse dock",
+      "tags": [
+        "robotics",
+        "warehouse automation",
+        "packaging"
+      ],
+      "lens": "AI in supply chain"
+    }
+  ],
+  "tip": {
+    "role": "Supply chain managers",
+    "title": "Have AI build the award scorecard before the quotes arrive",
+    "how": "Once prices are in, everyone suddenly remembers that price was always the top priority. Agree the scoring weights with quality, engineering and finance before bids open, then ask your approved AI tool to turn those priorities into a weighted scorecard with plain scoring rules. Date it and share it before anyone opens a quote.",
+    "prompt": "You are a sourcing lead setting award criteria before an RFQ closes. Inputs, anonymized: category description, team priorities with a rough importance for each (for example price, quality history, lead time, capacity, payment terms, risk), any must-have requirements, number of bidders expected.\n[PASTE PRIORITIES]\n1) Turn the priorities into 4 to 6 scoring criteria with weights that add up to 100.\n2) For each criterion, write a 1 to 5 scoring rule with a concrete description of a 1, a 3 and a 5.\n3) List must-haves as pass or fail gates, scored before the weighted criteria.\n4) Flag any criteria that overlap or that we can't measure from a typical quote.\nOutput: a table with columns criterion, weight, how to score 1/3/5, data source; then the pass or fail gates and the flags. Keep it under 300 words. Use anonymized data only. List any missing or inconsistent data instead of guessing.",
+    "next": {
+      "text": "See a filled-in RFQ bid comparison, free",
+      "url": "/guides/rfq-bid-comparison-example.html"
+    }
+  }
+}

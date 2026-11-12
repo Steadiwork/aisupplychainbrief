@@ -1,0 +1,168 @@
+{
+ "num": 15,
+ "date": "2026-11-09",
+ "title": "What your AI tools can see, and who else might",
+ "short_title": "What your AI tools can see, and who else might",
+ "hook": "One in six supply chain, logistics and distribution managers in a new InstaLILY survey say an AI tool exposed, shared or wrongly accessed supplier or customer data in the past year. In logistics, that can mean a carrier rate turning up in a customer quote. Find out what your AI tools can see before a customer does.",
+ "intro": "Four stories from the past week, from a survey on AI and confidential rates to this morning's Taiwan trade numbers, across freight, warehousing and trade. Every item links to the original source; summaries are our own.",
+ "inside": [
+  "One in six report AI data exposure",
+  "GXO's early replenishment flags",
+  "Kodiak doubles driverless freight",
+  "Taiwan's record AI-driven exports"
+ ],
+ "email_top_story": "One in six supply chain, logistics, distribution and wholesale managers told InstaLILY their company had an AI tool expose, share or wrongly access supplier or customer data in the past year, in a survey of 250 published November 4. 78% say their AI tools can see customer pricing and margins. Why it matters: logistics teams hold both sides of the deal, so a carrier rate can end up in a customer quote.",
+ "email_steps": [
+  "List every AI tool your team uses, including AI features inside your TMS, WMS and email, and note which ones can read carrier rates, customer prices, margins or rebates.",
+  "Run one test per tool: have it draft a customer quote or rate reply, and check whether any carrier cost, margin or other customer's terms show up."
+ ],
+ "stories": [
+  {
+   "top": true,
+   "h": "One in six supply chain leaders say an AI tool exposed supplier or customer data",
+   "sum": "One in six. That's the share of 250 supply chain, logistics, distribution and wholesale managers who told InstaLILY their company had an incident in the past year in which supplier or customer data was exposed, shared or accessed incorrectly through an AI tool. The AI-agent vendor published the survey on November 4. The reach is wide: 78% say their AI tools can access customer pricing and margins, and 67% say the same for supplier pricing and rebate data. Even so, 87% are very or somewhat confident their AI keeps that data separated. The results are self-reported, and the survey does not measure how serious the incidents were. Why it matters: logistics teams sit on both sides of the deal. InstaLILY's own example is an AI tool showing a shipper the carrier rate behind a broker's margin. With peak season adding quotes and rate requests, it's a good week to check what your AI tools can see and test whether they repeat it.",
+   "so": "Map which AI tools can read carrier rates and customer prices, then test one quote per tool before peak volume hits.",
+   "so_short": "Map which AI tools see carrier rates and customer prices, and test one quote per tool before peak.",
+   "next": [
+    "List every AI tool your team uses, including AI features inside your TMS, WMS and email, and note which ones can read carrier rates, customer prices, margins or rebates.",
+    "Run one test per tool: have it draft a customer quote or rate reply, and check whether any carrier cost, margin or other customer's terms show up.",
+    "Write down which AI replies need a human approval before they reach a customer or carrier, and send the list to whoever owns each tool."
+   ],
+   "prompt": "You are a logistics operations analyst mapping what our AI tools can see. Inputs, anonymized, one row per tool: tool code (Tool A/B/C), where it runs (TMS, WMS, email, chat, spreadsheet add-in), data it can read (carrier rates, customer prices, margins, rebates, shipment details), who can use it, and whether its output reaches customers or carriers without review (yes/no).\n[PASTE TABLE]\n1) Flag every tool that can read both cost-side data (carrier rates, supplier rebates) and customer-facing data (customer prices, quotes).\n2) For each flagged tool, write one test request that could pull cost data into a customer reply (for example, \"draft a quote for lane [LANE CODE]\").\n3) Rank the tools by risk: output sent without review first, then the number of sensitive data types each can read.\n4) For the top three, say where a human approval step should sit.\nOutput: a table with columns tool, sensitive data it can read, output reviewed (yes/no), risk rank, test request, approval point. Keep it under 300 words. Use anonymized data only. List any missing or inconsistent data instead of guessing.",
+   "src": [
+    [
+     "InstaLILY survey announcement (ACCESS Newswire)",
+     "https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/instalily-research-finds-one-in-six-leaders-across-the-supply-cha-1245759",
+     "Company announcement"
+    ],
+    [
+     "InstaLILY, Shared Risk report and methodology",
+     "https://www.instalily.ai/reports/shared-risk",
+     "Research/data"
+    ],
+    [
+     "DC Velocity",
+     "https://www.dcvelocity.com/technology/artificial-intelligence/survey-one-in-six-say-an-ai-tool-has-exposed-supplier-or-customer-data",
+     "Independent reporting"
+    ]
+   ],
+   "x": "https://x.com/DCVelocity/status/2118403134666035238",
+   "embed": "https://x.com/DCVelocity/status/2118403134666035238",
+   "cat": "Logistics",
+   "audience": "Logistics leads",
+   "img": "img/logistics-7.webp",
+   "alt": "Flat illustration of a shield and a padlock over a network of connected nodes",
+   "tags": [
+    "AI adoption",
+    "pricing",
+    "freight"
+   ],
+   "lens": "AI in supply chain"
+  },
+  {
+   "h": "GXO's AI flags replenishment before the pick face runs dry",
+   "sum": "Before the pick location runs out, not when it does. GXO says a tool it demonstrated for a fashion retail customer uses historical ordering patterns to flag when to replenish ahead of a stockout. CEO Patrick Kelleher told Logistics Management that GXO IQ, its AI middleware and data lake, is on track for more than 50 operations this year, and that GXO goes into peak with about 25% more seasonal headcount than last year. GXO reported third-quarter results on November 3.",
+   "so": "If your replenishment triggers fire at empty, ask your WMS vendor or 3PL whether they can trigger on order history instead, and test it on one zone.",
+   "so_short": "Replenishment firing at empty? Ask if your WMS or 3PL can trigger on order history, and test one zone.",
+   "src": [
+    [
+     "GXO third quarter 2026 results (SEC filing)",
+     "https://www.sec.gov/Archives/edgar/data/1852244/000185224426000051/gxo2026q3earningsreleaseex.htm",
+     "Company announcement"
+    ],
+    [
+     "Logistics Management interview with GXO's CEO",
+     "https://www.logisticsmgmt.com/article/gxo_delivers_strong_q3_growth_expands_ai_and_automation_initiatives",
+     "Independent reporting"
+    ]
+   ],
+   "x": "https://x.com/LogisticsMgmt/status/2118443831209185770",
+   "embed": "https://x.com/LogisticsMgmt/status/2118443831209185770",
+   "cat": "Warehousing",
+   "audience": "Warehouse managers",
+   "img": "img/warehousing-6.webp",
+   "alt": "Flat illustration of a tall scanning robot in a rack aisle, with one box glowing",
+   "tags": [
+    "warehouse automation",
+    "AI agents",
+    "AI adoption"
+   ],
+   "lens": "AI in supply chain"
+  },
+  {
+   "h": "Kodiak's driverless trucks double their freight as IKEA Supply lines up for long-haul",
+   "sum": "More than 396,000 tons in one quarter, over double the quarter before. That's how much freight Kodiak AI's autonomous trucks moved in the third quarter, the company said on November 5. It named IKEA Supply as its first launch partner for unsupervised long-haul service, starting on the Dallas-to-Houston corridor, and says its internal Autonomy Readiness Measure has reached 99% ahead of a targeted year-end launch. Kodiak has passed 58,000 paid driverless hours and nearly 30,000 loads.",
+   "so": "If you ship Texas lanes, ask your carriers whether autonomous capacity is in their 2027 plans and what would change for pickup and delivery appointments.",
+   "so_short": "Ship Texas lanes? Ask carriers if autonomous capacity is in their 2027 plans and what changes at the dock.",
+   "src": [
+    [
+     "Kodiak AI third quarter 2026 results",
+     "https://investors.kodiak.ai/news-releases/news-release-details/kodiak-ai-reports-third-quarter-2026-results-secures-landmark",
+     "Company announcement"
+    ],
+    [
+     "Truck News",
+     "https://www.trucknews.com/transportation/kodiak-doubles-freight-volumes-to-396000-tons-in-q3/1003224615/",
+     "Independent reporting"
+    ]
+   ],
+   "cat": "Logistics",
+   "audience": "Logistics leads",
+   "img": "img/logistics-4.webp",
+   "alt": "Flat illustration of a single truck on a highway with a map pin and a dotted route",
+   "tags": [
+    "autonomous trucks",
+    "freight"
+   ],
+   "lens": "AI in supply chain"
+  },
+  {
+   "h": "Taiwan's exports hit a record $96.76 billion on AI demand as Asia air space tightens",
+   "sum": "US$96.76 billion, up 58.9% from a year earlier. Taiwan's Ministry of Finance said on Monday that October exports set a monthly record, and it credited heavy investment in AI infrastructure. Shipments to the U.S. rose 55.9% to a record US$32.93 billion, CNA's Focus Taiwan reported, and the ministry expects US$94.2 billion to US$96.7 billion in November. C.H. Robinson's November air update says servers, chip equipment and data-center components from Taiwan and nearby origins are tightening trans-Pacific capacity, with Asia-origin rates expected to rise through November.",
+   "so": "If Asia-made electronics or data-center parts are on your inbound plan, add air booking lead time now and flag which lines could move by ocean instead.",
+   "so_short": "Asia electronics on your inbound plan? Add air booking lead time now and flag lines that could go by ocean.",
+   "src": [
+    [
+     "Taiwan Ministry of Finance, Summary of Exports and Imports for October 2026",
+     "https://www.mof.gov.tw/Eng/singlehtml/f48d641f159a4866b1d31c0916fbcc71?cntId=25f99a5315f04f15a626000b148eb28d",
+     "Government document"
+    ],
+    [
+     "Focus Taiwan (CNA)",
+     "https://focustaiwan.tw/business/202611090020",
+     "Independent reporting"
+    ],
+    [
+     "C.H. Robinson November 2026 air freight market update",
+     "https://www.chrobinson.com/en-us/resources/insights-and-advisories/north-america-freight-insights/nov-2026-freight-market-update/air/",
+     "Research/data"
+    ]
+   ],
+   "cat": "Trade",
+   "audience": "Planners",
+   "img": "img/trade-2.webp",
+   "alt": "Flat illustration of a world map with cargo ships on curved trade routes",
+   "tags": [
+    "data centers",
+    "AI hardware",
+    "freight"
+   ],
+   "lens": "Supply chain for AI"
+  }
+ ],
+ "tip": {
+  "role": "Logistics and warehouse teams",
+  "title": "Have AI turn your SOPs into checklists for peak-season hires",
+  "how": "Peak brings new faces to the dock, and nobody reads a 12-page SOP on day one. Paste one procedure (site names and customer details removed) into your approved AI tool and ask for a short numbered checklist with the safety and quality steps marked. Then walk it with a lead on the floor before you print it: the AI drafts, the floor corrects.",
+  "prompt": "You are a warehouse training lead turning a procedure into a checklist for new seasonal staff. Input: one standard operating procedure, anonymized, with site names, customer names and system passwords removed.\n[PASTE SOP TEXT]\nThe checklist is for: [NEW PICKER / RECEIVER / LOADER]\n1) Rewrite the procedure as a numbered checklist of no more than [15] steps, one action per step, in plain words.\n2) Mark every safety step with [SAFETY] and every step where a mistake causes a quality or inventory error with [CHECK].\n3) List any step in the SOP that is unclear, out of order, or missing a tool, scanner screen or approval.\n4) Add three questions a supervisor can ask to confirm the new hire understood.\nOutput: the checklist, then the unclear-steps list, then the three questions. Keep it under 300 words. Use anonymized data only. List any missing or inconsistent data instead of guessing.",
+  "next": {
+   "text": "Training new hires all season? The full kit's \"Explain a supply chain concept to a new hire\" prompt covers the why behind the steps",
+   "url": "https://steadiwork.gumroad.com/l/bpcqpq"
+  }
+ },
+ "crosspromo": {
+  "text": "Make AI remember your site, your role and your rules so you stop re-explaining them:",
+  "link": "grab the free Mini Context Card",
+  "url": "https://steadiwork.gumroad.com/l/zwoyz"
+ }
+}

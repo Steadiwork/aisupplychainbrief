@@ -1,0 +1,222 @@
+{
+  "num": 3,
+  "date": "2026-10-16",
+  "title": "The memory crunch sinks phone shipments, Taiwan moves to criminalize AI chip smuggling, and Amazon keeps shutting out shopping agents",
+  "intro": "Six stories from the past week across planning, trade, manufacturing, freight, warehousing and sourcing. Every item links to the original source; summaries are our own.",
+  "stories": [
+    {
+      "h": "AI's appetite for memory just caused the worst quarter on record for smartphones",
+      "sum": "IDC's preliminary numbers show global smartphone shipments fell 22% year over year in the third quarter to about 255 million units, the steepest quarterly drop it has ever recorded. IDC blames the AI-driven memory shortage: memory costs are up roughly 350% from a year ago, and vendors have cut low-end models and raised prices. IDC expects pressure to last through 2027 and warns that some makers built ahead of next year's expected component squeeze, which could leave excess inventory if demand stays soft.",
+      "so": "If any of your products use DRAM or flash, treat memory as a constrained, fast-moving cost input in your plan. Re-run 2027 demand and cost scenarios with current memory pricing, watch for customers pulling back on budget models, and be careful not to build inventory ahead of a squeeze that weak demand may never absorb.",
+      "src": [
+        [
+          "9to5Mac",
+          "https://9to5mac.com/2026/10/15/idc-apple-closes-in-on-samsung-as-global-smartphone-shipments-see-record-decline-in-q3/",
+          "Independent reporting"
+        ],
+        [
+          "Mobile World Live",
+          "https://www.mobileworldlive.com/devices/smartphone-shipments-tank-to-record-quarterly-low/",
+          "Independent reporting"
+        ],
+        [
+          "FoneArena",
+          "https://www.fonearena.com/blog/495163/global-smartphone-shipments-q3-2026-idc.html",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Planning",
+      "audience": "Planners",
+      "img": "img/planning-5.webp",
+      "alt": "Flat illustration of a falling chart beside a smartphone and a stack of chips",
+      "tags": [
+        "memory",
+        "chips",
+        "data centers",
+        "forecasting"
+      ],
+      "lens": "Supply chain for AI",
+      "so_short": "If any of your products use DRAM or flash, treat memory as a constrained, fast-moving cost input in your plan."
+    },
+    {
+      "h": "Taiwan plans to make unauthorized AI chip shipments to China a crime",
+      "sum": "Taiwan's economics minister, Kung Ming-hsin, told Bloomberg that Taipei will add AI servers and leading-edge semiconductors to its list of controlled goods, in line with commitments under its trade agreement with the US. Once the change takes effect, shipping restricted AI hardware to China without authorization would become a criminal offense under Taiwan's Foreign Trade Act. Today, Taiwan can only pursue suspected smugglers under other laws. No start date has been given.",
+      "so": "Expect tighter screening on AI servers and accelerators that ship from or through Taiwan. Check that your end-use and end-user documentation for this hardware is complete, ask your distributors how they plan to comply, and build some extra lead time into orders while the new rules are being set up.",
+      "src": [
+        [
+          "Bloomberg",
+          "https://www.bloomberg.com/news/articles/2026-10-16/taiwan-to-curb-ai-chip-exports-to-china-as-part-of-us-trade-deal",
+          "Independent reporting"
+        ],
+        [
+          "The Straits Times",
+          "https://www.straitstimes.com/asia/east-asia/taiwan-to-curb-ai-chip-exports-to-china-as-part-of-us-trade-deal",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Trade",
+      "audience": "Trade compliance",
+      "img": "img/trade-5.webp",
+      "alt": "Flat illustration of a crate stopped by a barrier at a checkpoint, with a shield",
+      "tags": [
+        "export controls",
+        "chips"
+      ],
+      "lens": "Supply chain for AI",
+      "so_short": "Expect tighter screening on AI servers and accelerators that ship from or through Taiwan."
+    },
+    {
+      "h": "Adani and Jabil sign up to build AI racks and servers in India",
+      "sum": "Adani Enterprises and contract manufacturer Jabil signed a non-binding memorandum of understanding on October 13 for a 50:50 joint venture to make and assemble AI racks, servers, storage, networking gear, power distribution, liquid cooling and transformers in India, plus installation and commissioning. The companies are aiming for multi-gigawatt rack capacity for Indian and export customers. No investment figure or production date was given, and the deal still needs definitive agreements and approvals.",
+      "so": "Another region is lining up to build AI data-center hardware, which could widen your options for racks, power and cooling over time. Note it on your supplier map, but don't count on it as capacity until there's a signed JV, a plant and a qualified product.",
+      "src": [
+        [
+          "Adani Enterprises release",
+          "https://www.adani.com/newsroom/media-releases/adani-enterprises-jabil-sign-mou-for-50-50-data-centre-hardware-joint-venture",
+          "Company announcement"
+        ],
+        [
+          "CNBC-TV18",
+          "https://www.cnbctv18.com/market/stocks/adani-enterprises-share-price-jabil-sign-mou-for-5050-jv-to-manufacture-ai-data-centre-hardware-20011035.htm",
+          "Independent reporting"
+        ],
+        [
+          "Voice&Data",
+          "https://www.voicendata.com/data-centre/adani-and-jabil-sign-pact-for-ai-data-centre-equipment-12674851",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Manufacturing",
+      "audience": "Supply chain managers",
+      "img": "img/manufacturing-8.webp",
+      "alt": "Flat illustration of a robot arm placing circuit boards on a line beside a server rack",
+      "tags": [
+        "AI hardware",
+        "data centers",
+        "manufacturing capacity"
+      ],
+      "lens": "Supply chain for AI",
+      "so_short": "Another region is lining up to build AI data-center hardware, which could widen your options for racks, power and cooling over time."
+    },
+    {
+      "h": "Kodiak's autonomous trucks now run reefer and dry freight to Laredo",
+      "sum": "Kodiak AI and carrier Charger Logistics are hauling refrigerated and dry-van freight for food, beverage and consumer-goods shippers on the 435-mile lane between Dallas and Laredo, the busiest US land port of entry. The first load ran September 8, and a safety driver is still on board until Kodiak finishes its safety case. Charger owns the trucks and runs Kodiak's driving system under a driver-as-a-service model, and it has a separate autonomy deal with Aurora on the same lane.",
+      "so": "Autonomous capacity is reaching cross-border feeder lanes, not just Dallas to Houston. If you move freight toward Laredo, ask carriers which loads might ride autonomous trucks, how handoffs to Mexican carriers work, and what changes in tracking, liability and service commitments.",
+      "src": [
+        [
+          "Kodiak AI news release",
+          "https://kodiak.ai/news/kodiak-charger-usa-autonomous-trucking-dallas-laredo",
+          "Company announcement"
+        ],
+        [
+          "FreightWaves",
+          "https://www.freightwaves.com/news/kodiak-charger-autonomous-trucks-dallas-laredo",
+          "Independent reporting"
+        ],
+        [
+          "CCJ",
+          "https://www.ccjdigital.com/equipment-controls/article/15837369/charger-logistics-inks-deal-with-kodiak-for-autonomous-hauls",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Logistics",
+      "audience": "Logistics leads",
+      "img": "img/logistics-4.webp",
+      "alt": "Flat illustration of a single truck on a highway with a map pin and a dotted route",
+      "tags": [
+        "autonomous trucks",
+        "freight"
+      ],
+      "lens": "AI in supply chain",
+      "so_short": "Autonomous capacity is reaching cross-border feeder lanes, not just Dallas to Houston."
+    },
+    {
+      "h": "Robots are sorting Zalando's fashion returns without item-by-item training",
+      "sum": "Sereact's two-armed robots are now sorting Zalando returns in live operations at CEVA Logistics sites in Greven, Germany, and Świebodzin, Poland. Sereact says its Cortex software lets the robots pick, identify and sort crumpled items they've never seen, without per-product setup or a fixed item list. The system is sold as robotics-as-a-service, and staff move to supervising stations, handling exceptions and checking quality. The companies call it the first step toward automating returns across Europe.",
+      "so": "Returns are among the hardest jobs to automate, so this is a useful test case. If returns volume is a pain point, ask vendors for live rates on mixed, messy items, what share of items still fall to people, and how pricing works under a service contract.",
+      "src": [
+        [
+          "Sereact announcement",
+          "https://sereact.ai/posts/zalando-ceva-returns-handling",
+          "Company announcement"
+        ],
+        [
+          "The Next Web",
+          "https://thenextweb.com/news/sereact-zalando-ceva-robots-fashion-returns-germany-poland",
+          "Independent reporting"
+        ],
+        [
+          "International Transport Journal",
+          "https://transportjournal.com/2026/10/08/ceva-logistics-automates-returns-in-germany-poland/",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Warehousing",
+      "audience": "Warehouse managers",
+      "img": "img/warehousing-4.webp",
+      "alt": "Flat illustration of two robot arms sorting folded clothes on a table",
+      "tags": [
+        "robotics",
+        "warehouse automation",
+        "returns"
+      ],
+      "lens": "AI in supply chain",
+      "so_short": "Returns are among the hardest jobs to automate, so this is a useful test case."
+    },
+    {
+      "h": "Amazon keeps blocking outside AI shopping agents, and now Grok Bot hits the wall",
+      "sum": "On October 15, users posted screenshots showing xAI's Grok Bot being stopped from ordering on Amazon with a notice that access by an unauthorized AI agent breaks Amazon's Conditions of Use. Elon Musk replied that users could buy elsewhere and floated starting an Amazon competitor, without giving details. Amazon hasn't publicly commented on Grok Bot, but it confirmed last month that it blocked Meta's Muse agent and is fighting Perplexity in court, arguing that agents should identify themselves and get the store's agreement.",
+      "so": "Agent-driven buying will depend on which sellers and marketplaces let agents in. Before you pilot AI agents for purchasing, check each supplier's terms on automated ordering, favor channels with official agent or punchout integrations, and keep a person approving orders and payment details.",
+      "src": [
+        [
+          "Teslarati",
+          "https://www.teslarati.com/elon-musk-grok-bot-amazon-shopping/",
+          "Independent reporting"
+        ],
+        [
+          "Investing.com",
+          "https://www.investing.com/news/stock-market-news/musk-floats-amazon-rival-as-ai-shopping-battle-comes-into-focus-4952059",
+          "Independent reporting"
+        ],
+        [
+          "GeekWire (Muse block)",
+          "https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Procurement",
+      "audience": "Procurement leaders",
+      "img": "img/procurement-7.webp",
+      "alt": "Flat illustration of a laptop storefront with product cards, a cart button, a cursor, and a shield",
+      "tags": [
+        "AI agents",
+        "agentic commerce"
+      ],
+      "lens": "AI in supply chain",
+      "so_short": "Agent-driven buying will depend on which sellers and marketplaces let agents in."
+    }
+  ],
+  "tip": {
+    "role": "Supply chain managers",
+    "title": "Use AI to run a quick what-if on your riskiest single-source parts",
+    "how": "Pick the ten items where one supplier or one region would hurt most if it went down. Give your approved AI assistant an anonymized table of those items and ask it to walk through a four-week outage for each: what runs out first, what it costs, and which fallback buys the most time. It won't replace a full risk model, but it turns a vague worry into a ranked list you can act on this quarter.",
+    "prompt": "You are a supply chain risk analyst. Below are our 10 highest-exposure items (anonymized): item code, supplier code, supplier region, weeks of stock on hand, weekly usage, lead time in weeks, whether an alternate source is qualified (Y/N), and margin impact per week of lost output.\n[PASTE TABLE]\nScenario: the supplier for each item is unable to ship for [NUMBER] weeks.\n1) For each item, estimate the week we run out and the total margin at risk. Show your math.\n2) Rank the items by margin at risk.\n3) For the top 3, suggest two realistic mitigations (for example: buffer stock, qualify an alternate, re-sequence production) and roughly what each would cost or require.\n4) List any data that's missing or looks inconsistent instead of guessing.\nUse a table for steps 1 and 2. Keep the whole answer under 300 words.",
+    "next": {
+      "text": "Next step: Supplier risk monitoring, with real examples and the matching kit prompts (Supply risk heat map, Disruption first-48-hours playbook)",
+      "url": "/use-cases/supplier-risk-monitoring.html"
+    }
+  },
+  "crosspromo": {
+    "text": "Make AI remember your role, your parts and your rules so you stop re-explaining them:",
+    "link": "grab the free Mini Context Card",
+    "url": "https://steadiwork.gumroad.com/l/zwoyz"
+  },
+  "short_title": "The memory crunch hits phones; Taiwan targets chip smuggling",
+  "inside": [
+    "Memory crunch sinks phone shipments",
+    "Taiwan moves to criminalize AI chip smuggling",
+    "Kodiak trucks run freight to Laredo",
+    "Robots sort Zalando returns",
+    "Amazon blocks outside shopping agents"
+  ]
+}

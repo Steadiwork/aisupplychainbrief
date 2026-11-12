@@ -1,0 +1,163 @@
+{
+  "num": 9,
+  "date": "2026-10-28",
+  "title": "Thieves are hijacking data center freight",
+  "short_title": "Thieves are hijacking data center freight",
+  "hook": "Thieves have taken more than $100 million in data center freight off U.S. highways since June, NBC News reports, often by first taking over freight broker accounts. If you ship servers, memory or power gear, checking who actually picks up the load is now part of the buy.",
+  "intro": "Four stories from the last three days, across logistics, procurement and warehousing. Every item links to the original source; summaries are our own.",
+  "inside": [
+    "Thieves target data center freight",
+    "SK hynix memory sold out through 2029",
+    "SAP sends warehouse tasks to robots",
+    "Amazon Business answers spend questions"
+  ],
+  "stories": [
+    {
+      "top": true,
+      "h": "Thieves have stolen more than $100 million in data center freight since June",
+      "sum": "More than $100 million. That's how much data center cargo thieves have taken off U.S. highways since June, NBC News reported on October 26, based on accounts from industry executives, consultants and investigators who advise police. Targets include servers, memory chips, fiber-optic cable, copper wire and data center power and cooling gear. In early June, a trailer with about $13 million in server equipment headed for Fayetteville, Georgia, was among the losses. The method is mostly digital: thieves take over freight broker accounts on load boards, post fake loads, send malware links to carriers that respond, then use those carriers' accounts to bid on real shipments. Some use fake driver's licenses, and in one large theft the tracking signal was spoofed. Scott Cornell, chair of TAPA Americas, told FreightWaves in August that two escorted loads were lost after escorts were deliberately hit, and he tied both to drivers who weren't properly vetted. Why it matters: the weak point is carrier and driver verification, which buyers and logistics teams can check before the load moves.",
+      "so": "For every high-value AI hardware shipment in the next 60 days, confirm in writing how the carrier and driver are verified at pickup, and treat any emailed change to pickup details as suspect until confirmed by phone.",
+      "so_short": "Confirm how carriers and drivers are verified before high-value AI hardware leaves the dock.",
+      "next": [
+        "List open orders and shipments for servers, memory, optics, power and cooling gear due in the next 60 days, and note who books the carrier for each (you, the supplier or a broker).",
+        "Ask each broker or 3PL on those lanes for a written answer: how they verify the carrier, how they check the driver at pickup, and how they track the load if GPS goes dark.",
+        "Set one rule with your team: any change to carrier, pickup time or delivery address that arrives by email gets confirmed by phone, using a number you already have on file, before release."
+      ],
+      "prompt": "You are a logistics security analyst reviewing upcoming high-value shipments for theft risk. Inputs, all anonymized, one row per shipment: shipment code, item type (server, memory, optics, power, cooling, other), declared value, ship date, origin state, destination state, who books the carrier (us, supplier, broker), carrier verification method on file (or 'unknown'), tracking method, escort (yes/no).\n[PASTE TABLE]\nHigh-value threshold: [AMOUNT].\n1) Flag shipments above the threshold.\n2) For each flagged row, rate verification as strong, partial or unknown, and say why in one phrase.\n3) Rank flagged shipments by value and weakest verification.\n4) For the top 5, write the one question to send the broker or carrier before pickup.\nOutput: a table with columns shipment code, value, verification rating, rank, question. Keep it under 300 words. Use anonymized data only. List any missing or inconsistent data instead of guessing.",
+      "src": [
+        [
+          "NBC News",
+          "https://www.nbcnews.com/tech/security/grand-theft-ai-highway-thieves-are-stealing-millions-data-center-gear-rcna603733",
+          "Independent reporting"
+        ],
+        [
+          "Ars Technica",
+          "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
+          "Independent reporting"
+        ],
+        [
+          "FreightWaves (TAPA Americas chair interview, Aug 14)",
+          "https://www.freightwaves.com/news/nearly-111m-in-data-center-freight-stolen-as-thieves-test-bump-and-run-tactic",
+          "Independent reporting"
+        ],
+        [
+          "Proofpoint threat research",
+          "https://www.proofpoint.com/us/blog/threat-insight/beyond-breach-inside-cargo-theft-actors-post-compromise-playbook",
+          "Research/data"
+        ]
+      ],
+      "cat": "Logistics",
+      "audience": "Logistics leads",
+      "img": "img/logistics-8.webp",
+      "alt": "Flat illustration of a box truck on a highway at night, with a padlock above the trailer",
+      "tags": [
+        "data centers",
+        "freight",
+        "AI hardware"
+      ],
+      "lens": "Supply chain for AI"
+    },
+    {
+      "h": "SK hynix says its DRAM and HBM output is effectively sold out through 2029",
+      "sum": "Sold out through 2029. SK hynix said on its third-quarter earnings call on October 28 that, counting long-term agreements and deals under discussion, its DRAM and high-bandwidth memory output for the next three years is effectively spoken for, and it expects memory demand to outrun supply through 2030. The company said customer requests for HBM are more than twice what it can supply, and that long-term agreements already cover more than half its capacity for 2027 and 2028. It also expects PC and phone shipments to fall as memory costs rise.",
+      "so": "If your products use DRAM or SSDs, ask your distributors now for 2027 allocation and pricing in writing, and flag any build plan that assumes today's memory lead times.",
+      "so_short": "Ask distributors now for 2027 memory allocation and pricing in writing.",
+      "src": [
+        [
+          "SK hynix newsroom",
+          "https://news.skhynix.com/en/q3-2026-business-results/",
+          "Company announcement"
+        ],
+        [
+          "Seoul Economic Daily",
+          "https://en.sedaily.com/finance/2026/10/28/sk-hynix-says-dram-hbm-output-sold-out-through-2029",
+          "Independent reporting"
+        ],
+        [
+          "Seoul Economic Daily (earnings call detail)",
+          "https://en.sedaily.com/finance/2026/10/28/sk-hynix-rejects-memory-peak-talk-says-hbm-sold-out-through",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Procurement",
+      "audience": "Buyers",
+      "img": "img/manufacturing-2.webp",
+      "alt": "Flat illustration of a large processor chip centered on a circuit board",
+      "tags": [
+        "memory",
+        "data centers",
+        "lead times"
+      ],
+      "lens": "Supply chain for AI"
+    },
+    {
+      "h": "SAP starts sending warehouse tasks straight to robots, and logging what they did",
+      "sum": "A humanoid robot at Arçelik-LG now takes its inbound storage tasks from SAP and records the result there. SAP showed the setup at TechEd on October 27 as part of new physical AI capabilities that send tasks from SAP Extended Warehouse Management to robots and write status and exceptions back. In a proof of concept at Intel's Chengdu site, SAP and Intel say material moves were automated end to end, with shorter transport distances and less manual handling; neither company gave figures.",
+      "so": "Before your next robot pilot, ask whether the robot takes tasks from your WMS and reports back to it. A robot outside the system of record creates its own inventory errors.",
+      "so_short": "Ask robot vendors whether they take tasks from your WMS and report results back to it.",
+      "src": [
+        [
+          "SAP News Center",
+          "https://news.sap.com/2026/10/sap-unveils-physical-ai-extends-autonomous-enterprise-real-world-sap-teched/",
+          "Company announcement"
+        ],
+        [
+          "Robotics 24/7",
+          "https://www.robotics247.com/article/intel-and-sap-demonstrate-physical-ai-and-the-autonomous-warehouse-in-action",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Warehousing",
+      "audience": "Warehouse managers",
+      "img": "img/warehousing-1.webp",
+      "alt": "Flat illustration of pallet racks and floor robots carrying boxes in a warehouse aisle",
+      "tags": [
+        "robotics",
+        "warehouse automation"
+      ],
+      "lens": "AI in supply chain"
+    },
+    {
+      "h": "Amazon Business lets buyers ask spend questions in plain language",
+      "sum": "Two years of purchase history and more than 60 reporting fields now sit behind a typed question, according to the National Association of Wholesaler-Distributors' MDM. Amazon Business said on October 27 at its Reshape event in Nashville that its Business Assistant can now answer spend questions, track orders and approvals, and suggest how to allocate payments for U.S. customers, with existing permissions and approval rules left in place. It also launched Value Intelligence, a report that combines savings, efficiency and policy compliance, with methods customers can review and adjust.",
+      "so": "Before you share AI-calculated savings with leadership, check which reference prices they are measured against and adjust the method if it doesn't match how your team counts savings.",
+      "so_short": "Check the reference prices behind any AI savings number before it reaches leadership.",
+      "src": [
+        [
+          "Amazon Business announcement",
+          "https://business.amazon.com/en/blog/reshape-tech-premiere-2026",
+          "Company announcement"
+        ],
+        [
+          "MDM (NAW)",
+          "https://www.naw.org/mdm/news/amazon-business-adds-ai-procurement-tools-building-on-60b-marketplace-momentum/",
+          "Independent reporting"
+        ],
+        [
+          "Digital Commerce 360",
+          "https://www.digitalcommerce360.com/2026/10/27/amazon-business-procurement-announcements/",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Procurement",
+      "audience": "Procurement leaders",
+      "img": "img/procurement-9.webp",
+      "alt": "Flat illustration of an analytics dashboard with a line chart, a dot calendar, and donut charts",
+      "tags": [
+        "AI agents",
+        "AI adoption"
+      ],
+      "lens": "AI in supply chain"
+    }
+  ],
+  "tip": {
+    "role": "Material managers",
+    "title": "Have AI write the formula that flags short and late receipts",
+    "how": "Your receiving report already holds the answer; the slow part is building the filter. Describe the check in plain words, give your approved AI tool only the column headers, and ask for the Excel formula plus a one-line explanation. Test it on a copy with a few rows where you already know the right answer.",
+    "prompt": "You are an Excel expert helping a materials manager build a receiving exception check. Inputs (headers only, no real data): my columns [e.g. A: PO line, B: Part code, C: Qty ordered, D: Qty received, E: Due date, F: Receipt date]; sheet name [SHEET]; Excel version [VERSION].\n1) Write one formula for a new column that returns SHORT if qty received is less than qty ordered, LATE if the receipt date is after the due date (or the due date has passed with nothing received), SHORT+LATE if both, and stays blank otherwise.\n2) Explain the formula in one line.\n3) Give a conditional formatting rule that highlights flagged rows.\n4) Make 3 test rows with made-up values and the expected result for each.\nOutput: the formula in a code block, then the explanation, the rule, and a test table with columns row, inputs, expected flag. Keep it under 250 words. List any missing or inconsistent data instead of guessing.",
+    "next": {
+      "text": "Next step: Invoice matching with AI, where the same receipt data meets the supplier's invoice",
+      "url": "/use-cases/invoice-matching.html"
+    }
+  }
+}

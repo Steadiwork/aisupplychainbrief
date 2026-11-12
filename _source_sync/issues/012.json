@@ -1,0 +1,186 @@
+{
+ "num": 12,
+ "date": "2026-11-02",
+ "title": "Three trade clocks run out the same week",
+ "short_title": "Three trade clocks run out the same week",
+ "hook": "All 178 remaining Section 301 tariff exclusions on Chinese goods expire at 11:59 p.m. ET on November 9, and as of November 1 no extension had been published. The U.S. pause on China port fees ends the same night. Expect your customs broker's phone to be busy this week.",
+ "intro": "Four stories since Friday, across trade, data-center financing, freight billing and factory robots. Every item links to the original source; summaries are our own.",
+ "inside": [
+  "178 tariff exclusions expire Nov. 9",
+  "Amazon's $80B hardware loan facility",
+  "AI agents clear freight billing exceptions",
+  "HD Hyundai cuts robot fix time 63%"
+ ],
+ "email_top_story": "All 178 remaining Section 301 tariff exclusions on Chinese goods expire at 11:59 p.m. ET on November 9, and no extension had been published as of November 1. The U.S. pause on China port fees ends the same night unless a proposed extension to January 9, 2027 is finalized. Why it matters: goods that relied on an exclusion would pay the full tariff from November 10, and carriers could pass port fees through.",
+ "email_steps": [
+  "Ask your customs broker which of your entries claim an expiring exclusion and whether goods in transit can be entered before 11:59 p.m. ET on November 9.",
+  "Ask your ocean carriers in writing how they would pass through U.S. port fees if the suspension lapses, and check your contracts' change-in-law and surcharge-notice terms."
+ ],
+ "stories": [
+  {
+   "top": true,
+   "h": "178 tariff exclusions, U.S. port fees and China's export-control pause all hit their end dates the week of November 9",
+   "sum": "One week, three expiry dates. All 178 remaining Section 301 product exclusions on Chinese goods end at 11:59 p.m. ET on November 9 under the extension USTR published in December 2025, and the International Compliance Professionals Association's tracker said on November 1 that no notice extending them had been published. Goods entered on or after November 10 that relied on an exclusion would pay the full List rate, which runs from 7.5% to 25%. The suspension of U.S. port fees on Chinese-operated and Chinese-built vessels ends the same night: USTR proposed on October 26 to extend it to January 9, 2027, but had not finalized that as of November 1. On China's side, the legal text suspending its October 2025 export controls on rare earths, battery materials and superhard materials still reads \"until November 10, 2026,\" even though Beijing said the wider trade arrangement now runs to January 10, 2027, according to a review of the texts by Nami Tech Solutions. Why it matters: buyers who rely on an exclusion, ship on Chinese-built vessels or source those materials could see cost or licensing changes within days.",
+   "so": "Find out this week which of your parts claim an expiring exclusion and which suppliers or carriers could pass new costs to you after November 9.",
+   "so_short": "Check this week which parts claim an expiring exclusion and who could pass new costs to you after Nov. 9.",
+   "next": [
+    "Ask your customs broker which of your entries claim headings 9903.88.69 or 9903.88.70, and whether any goods in transit can be entered before 11:59 p.m. ET on November 9.",
+    "Ask your ocean carriers or forwarder in writing how they would pass through U.S. port fees if the suspension lapses, and check your contracts' change-in-law and surcharge-notice terms.",
+    "For any rare earth, magnet, battery-material or synthetic diamond inputs from China, ask suppliers in writing whether shipments after November 10 would need an export licence."
+   ],
+   "prompt": "You are a buyer checking exposure to expiring tariff exclusions. Inputs, anonymized, one row per open PO line or recent entry: part code, HTS code, country of origin, Chapter 99 heading claimed (if any), entered value, expected entry date, current duty rate (%).\n[PASTE TABLE]\nExpiring exclusion headings or product descriptions from your broker: [PASTE LIST]\nRate that would apply after expiry, by HTS code: [PASTE RATES]\nExpiry date and time: [DATE AND TIME]\n1) Flag every line that claims an exclusion or matches the pasted list.\n2) For flagged lines expected to enter after the expiry, calculate the extra duty in dollars.\n3) Mark flagged lines that could still enter before the expiry, based on expected entry date.\n4) Rank parts by extra duty and list the top five to raise with your broker.\nOutput: a table with columns part code, HTS code, exclusion claimed (yes/no), expected entry date, extra duty, action; then the top five. Keep it under 300 words. Use anonymized data only, and have your broker confirm every classification. List any missing or inconsistent data instead of guessing.",
+   "src": [
+    [
+     "USTR notice extending the exclusions to Nov. 9, 2026 (Federal Register)",
+     "https://www.federalregister.gov/documents/2025/12/01/2025-21671/notice-of-product-exclusion-extensions-chinas-acts-policies-and-practices-related-to-technology",
+     "Government document"
+    ],
+    [
+     "USTR request for comments on extending the port-fee suspension (Federal Register)",
+     "https://www.federalregister.gov/documents/2026/10/26/2026-21755/request-for-comments-on-further-suspension-of-section-301-action-chinas-targeting-of-the-maritime",
+     "Government document"
+    ],
+    [
+     "ICPA Section 301 Tracker",
+     "https://www.icpainc.org/section-301-tracker/",
+     "Industry association"
+    ],
+    [
+     "Holland & Knight",
+     "https://www.hklaw.com/en/insights/publications/2026/10/ustr-proposes-2-month-extension-of-suspension-of-section-301",
+     "Independent reporting"
+    ],
+    [
+     "Nami Tech Solutions, China export-control suspension scenarios",
+     "https://nami-ts.com/en/insights/nov-2026-suspension-scenarios",
+     "Research/data"
+    ]
+   ],
+   "cat": "Trade",
+   "audience": "Buyers",
+   "img": "img/logistics-2.webp",
+   "alt": "Flat illustration of a container ship at sea, with a crane and a lighthouse on the shore",
+   "tags": [
+    "tariffs",
+    "trade policy",
+    "ocean shipping",
+    "critical materials"
+   ],
+   "lens": "AI in supply chain"
+  },
+  {
+   "h": "Amazon can borrow up to $80 billion against the hardware it buys",
+   "sum": "Up to $80 billion, secured by the equipment itself. In its October 30 quarterly filing, Amazon disclosed a supplier-financing loan facility for \"technology infrastructure\" purchases that it can draw on from early 2027 through the third quarter of 2028, with each borrowing maturing five years later. Lenders get a security interest in certain purchased assets, unlike Amazon's bonds and credit lines, and the amount can vary with the timing of purchase orders and pricing terms. Bloomberg ties the move to Amazon's AI buildout; the filing names no lenders, suppliers or assets.",
+   "so": "If you buy servers or data-center equipment, ask suppliers how much of their 2027 and 2028 output is already committed to the biggest buyers, and get your delivery dates in writing.",
+   "so_short": "Ask server and data-center suppliers how much 2027–28 output is already committed, and get dates in writing.",
+   "src": [
+    [
+     "Amazon Q3 2026 Form 10-Q",
+     "https://fortune.com/company-assets/1491/quartr/quarterly-report-10-q-198a19c697901f569b837541014aaf28-2026-10-30-10-03-27.pdf",
+     "Company announcement"
+    ],
+    [
+     "Bloomberg via Yahoo Finance",
+     "https://finance.yahoo.com/technology/ai/articles/amazon-taps-80-billion-supplier-163614475.html",
+     "Independent reporting"
+    ],
+    [
+     "TSN",
+     "https://tsnmedia.org/amazon-loan-facility-80bn/",
+     "Independent reporting"
+    ]
+   ],
+   "cat": "Procurement",
+   "audience": "Procurement leaders",
+   "img": "img/manufacturing-4.webp",
+   "alt": "Flat illustration of a robot arm installing a server into racks on a conveyor",
+   "tags": [
+    "data centers",
+    "AI hardware",
+    "funding"
+   ],
+   "lens": "Supply chain for AI"
+  },
+  {
+   "h": "AI agents cut Worldwide Express's freight billing exception backlog by 75%",
+   "sum": "From $15 million to $4 million. That's how far the backlog of unresolved LTL freight billing exceptions fell at Worldwide Express in the six months after it launched three AI agents built on Amazon Bedrock, according to an AWS case study published October 30. The agents handle invoice mismatches, pricing variances and accessorial charges such as liftgate fees, each checking that carrier's own billing rules, and people approved every recommendation until accuracy passed 99%. AWS says the agents now close about 10,000 exceptions a week with an error rate under 1%.",
+   "so": "Before you buy an exceptions tool, count your open freight billing exceptions by type and dollar value, so you know which kind to automate first.",
+   "so_short": "Count open freight billing exceptions by type and dollar value before you pick one to automate.",
+   "src": [
+    [
+     "AWS case study",
+     "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/",
+     "Company announcement"
+    ],
+    [
+     "Fathom",
+     "https://www.fathom.news/bedrock-freight-ai-shipping-firm-frees-up/",
+     "Independent reporting"
+    ],
+    [
+     "Drop Agentic",
+     "https://dropagentic.com/worldwide-express-amazon-bedrock-multi-agent-freight/",
+     "Independent reporting"
+    ]
+   ],
+   "cat": "Logistics",
+   "audience": "Logistics leads",
+   "img": "img/logistics-6.webp",
+   "alt": "Flat illustration of a stack of freight invoices under a magnifying glass, next to a box truck",
+   "tags": [
+    "freight",
+    "AI agents"
+   ],
+   "lens": "AI in supply chain"
+  },
+  {
+   "h": "HD Hyundai Robotics says AI agents cut robot-program fixes from 21.5 days to 7.9",
+   "sum": "From 21.5 days to 7.9. That's the average time HD Hyundai Robotics says it now needs to resolve robot programming problems since it began piloting AI agents built with Palantir in August. The agents review existing robot programs and suggest changes, and engineers refine them using what they know from the floor. The Korean company, which disclosed the results on November 1, expects robot programming costs to fall by more than 50% and plans to retrain field engineers to define problems and apply AI-based fixes.",
+   "so": "If robot changes on your lines wait on one expert, ask your robot vendor whether AI-assisted program review is on its roadmap and what it would do to commissioning time.",
+   "so_short": "If robot changes wait on one expert, ask your vendor about AI-assisted program review.",
+   "src": [
+    [
+     "Yonhap News Agency",
+     "https://en.yna.co.kr/view/AEN20261101001300320",
+     "Independent reporting"
+    ],
+    [
+     "The Korea Herald",
+     "https://www.koreaherald.com/article/10921723",
+     "Independent reporting"
+    ],
+    [
+     "The Korea Times",
+     "https://www.koreatimes.co.kr/business/tech-science/20261101/hd-hyundai-robotics-palantir-to-slash-robot-programming-costs-with-ai",
+     "Independent reporting"
+    ]
+   ],
+   "x": "https://x.com/kedglobal/status/2117062387568460106",
+   "embed": "https://x.com/kedglobal/status/2117062387568460106",
+   "cat": "Manufacturing",
+   "audience": "Operations and plant managers",
+   "img": "img/manufacturing-1.webp",
+   "alt": "Flat illustration of two machining centers and two robot arms welding on a factory line",
+   "tags": [
+    "robotics",
+    "AI agents"
+   ],
+   "lens": "AI in supply chain"
+  }
+ ],
+ "tip": {
+  "role": "Buyers",
+  "title": "Have AI pull the surcharge and change-in-law terms out of your contracts",
+  "how": "When a tariff or port fee changes, the first question is who pays, and the answer is usually buried on page 14. Paste a supplier or carrier contract (names and prices removed) into your approved AI tool and have it list the payment, delivery, surcharge, change-in-law and notice terms with section numbers. Then read those sections yourself: the AI finds them, you decide what they mean.",
+  "prompt": "You are a procurement analyst reviewing a contract for cost pass-through terms. Input: the contract text, anonymized, with company names, prices and personal details removed.\n[PASTE CONTRACT TEXT]\n1) List every clause on payment terms, delivery terms, surcharges or fees, tariffs or duties, change in law, price adjustment and notice periods, with section numbers.\n2) For each clause, say in one sentence who bears the cost of a new tariff, duty or port fee, and how much notice is required.\n3) Flag anything unusual, one-sided or ambiguous.\n4) List three questions to ask the supplier or carrier before the next cost change.\nOutput: a table with columns section, topic, what it says, who pays, notice required; then the flags and the three questions. Keep it under 300 words. Quote section numbers so I can check the original. Use anonymized data only. List any missing or inconsistent data instead of guessing.",
+  "next": {
+   "text": "Next step: see how teams use AI for contract review",
+   "url": "/use-cases/contract-review.html"
+  }
+ },
+ "crosspromo": {
+  "text": "Make AI remember your role, your parts and your rules so you stop re-explaining them:",
+  "link": "grab the free Mini Context Card",
+  "url": "https://steadiwork.gumroad.com/l/zwoyz"
+ }
+}
