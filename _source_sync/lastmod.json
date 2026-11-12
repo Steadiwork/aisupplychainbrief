@@ -1,0 +1,370 @@
+{
+"404.html": {
+"hash": "032ccfa564bb9d044b55b642771e4d4872432393",
+"date": "2026-11-11"
+},
+"about.html": {
+"hash": "8b6284c62298546d1673ca52fa6dbe5d627bdc55",
+"date": "2026-11-04"
+},
+"archive.html": {
+"hash": "ce2c9a429a58f377033554c2ea8dce78cc166db1",
+"date": "2026-11-11"
+},
+"guides.html": {
+"hash": "a770c0d4d52231eaf1f3c531c31bbfac08723117",
+"date": "2026-11-11"
+},
+"guides/ai-prompts-for-freight-rfqs.html": {
+"hash": "a1b4c2b011769a5877ba07d31ce8c2ce09da3152",
+"date": "2026-11-04"
+},
+"guides/best-ai-tools-for-demand-planning-2026.html": {
+"hash": "349118ad32b08e75fd5f3b52c3c680de247737cc",
+"date": "2026-11-04"
+},
+"guides/chatgpt-for-demand-planning.html": {
+"hash": "85553b3c677cdac3a6d5fc4fc2531d17f5e5bcce",
+"date": "2026-11-04"
+},
+"guides/chatgpt-prompts-for-inventory-management.html": {
+"hash": "9b877ec1ba9620421b2a3ddf3428b73e8563a41d",
+"date": "2026-11-04"
+},
+"guides/chatgpt-prompts-for-procurement.html": {
+"hash": "54552deb5a595303c902dde870b4e0189c60d027",
+"date": "2026-11-04"
+},
+"guides/copilot-prompts-for-procurement.html": {
+"hash": "9ca2c959dfbbfb7d5cf769d66cc9eb010ef7b619",
+"date": "2026-11-04"
+},
+"guides/cycle-count-program-example.html": {
+"hash": "05790508a2f7667b8464dae51b64a4284df798c9",
+"date": "2026-11-11"
+},
+"guides/excess-and-obsolete-inventory-ai.html": {
+"hash": "6007985810e2d123867ef7c8a8649ac9465c9cb9",
+"date": "2026-11-04"
+},
+"guides/is-chatgpt-safe-for-supplier-data.html": {
+"hash": "3084ca8bb735d6654be01d5dd4a9cd478f7e3214",
+"date": "2026-11-04"
+},
+"guides/rfq-bid-comparison-example.html": {
+"hash": "7b97c31053ba78a664a58e67caf59617e948526a",
+"date": "2026-11-04"
+},
+"guides/safety-stock-calculation-example.html": {
+"hash": "4f173fef617ec87736ea7829c56db8b3a75a2430",
+"date": "2026-11-04"
+},
+"guides/should-cost-model-example.html": {
+"hash": "b048c8663c859261a0b29ceee44c2c3cad793f4a",
+"date": "2026-11-04"
+},
+"guides/supplier-follow-up-email-ai.html": {
+"hash": "d757a35878c0e70c27a2743c0246c2855c70d6f4",
+"date": "2026-11-04"
+},
+"guides/supplier-negotiation-plan-ai.html": {
+"hash": "9e98c09d03b070d09b1515c7be8a274c256ecf8e",
+"date": "2026-11-04"
+},
+"guides/supplier-price-increase-response.html": {
+"hash": "43a97838d1877b2ade4dc919bacfe75f28c8175b",
+"date": "2026-11-04"
+},
+"guides/supplier-scorecard-template.html": {
+"hash": "c8ee193d6837a1a6c01012e875776644d70aa97f",
+"date": "2026-11-04"
+},
+"guides/tariff-impact-analysis-example.html": {
+"hash": "643d2eb14de8238487ebbe0c4d2a247e1dc71aae",
+"date": "2026-11-04"
+},
+"guides/total-cost-of-ownership-example.html": {
+"hash": "c047afe65c4d717e314a55dbf6b58c450339f189",
+"date": "2026-11-04"
+},
+"index.html": {
+"hash": "94b840b672d74667d3ed119b3c60b85b772a23df",
+"date": "2026-11-12"
+},
+"issues/001.html": {
+"hash": "896e5665b0f4b3bd335044877a0c761b6fa7d62d",
+"date": "2026-11-12"
+},
+"issues/002.html": {
+"hash": "747b599995972dd3798cbc327ba167504bcbaf40",
+"date": "2026-11-12"
+},
+"issues/003.html": {
+"hash": "5703785293fe8b7e60d1b1ee3cb3e93175f45f2d",
+"date": "2026-11-12"
+},
+"issues/004.html": {
+"hash": "a4ca82f5594751371584808bf0bbbbd837294caf",
+"date": "2026-11-12"
+},
+"issues/005.html": {
+"hash": "c4796f6ba2232223f26c7be2e5810b85c793d7f8",
+"date": "2026-11-12"
+},
+"issues/006.html": {
+"hash": "1e3649c141b32612634cfe07f88c52904ac0ac16",
+"date": "2026-11-12"
+},
+"issues/007.html": {
+"hash": "988d9c5e03463e075ae86bc7fc78f1cb2859103b",
+"date": "2026-11-12"
+},
+"issues/008.html": {
+"hash": "f2382e461aa8ff001bf38ab4e9d2e68ad4b89140",
+"date": "2026-11-12"
+},
+"issues/009.html": {
+"hash": "d61f1383c046ad71ed8731ded1b2413b676c09cc",
+"date": "2026-11-12"
+},
+"issues/010.html": {
+"hash": "00599a459668f3f74b0b3f31db517db129a63e2e",
+"date": "2026-11-12"
+},
+"issues/011.html": {
+"hash": "31ac111dfcc7e2da9037e750bbe8e3ba53153598",
+"date": "2026-11-12"
+},
+"issues/012.html": {
+"hash": "2dbb8d22af748e6637ecc43d433e976cf98db6aa",
+"date": "2026-11-12"
+},
+"issues/013.html": {
+"hash": "5bba1c09d508de1c3dc0efcb5e58447b4de0ba42",
+"date": "2026-11-12"
+},
+"issues/014.html": {
+"hash": "dfd13fe80ab3dfac6cadf648037ebe9a34d07baa",
+"date": "2026-11-12"
+},
+"issues/015.html": {
+"hash": "e400ffdc02e1f601739fbdb633f83bf35d5388fb",
+"date": "2026-11-12"
+},
+"issues/016.html": {
+"hash": "a43f1a745346ac9866a0d2b214ce6861fa493c68",
+"date": "2026-11-12"
+},
+"privacy.html": {
+"hash": "504dc1622c1ac5241a975a6f906bfb4043b77caa",
+"date": "2026-11-04"
+},
+"resources.html": {
+"hash": "c3cebf407754753b5fff3a619cbb6f315d551314",
+"date": "2026-11-11"
+},
+"tags/agentic-commerce.html": {
+"hash": "9f84388bbed438afe4e2b3662b553cab89c3ff99",
+"date": "2026-11-12"
+},
+"tags/ai-adoption.html": {
+"hash": "d6c635f82183056e63135d7b6b910310cb96f8eb",
+"date": "2026-11-12"
+},
+"tags/ai-agents.html": {
+"hash": "9686072bd6303cf83485d3c6bcac74475f056f55",
+"date": "2026-11-12"
+},
+"tags/ai-hardware.html": {
+"hash": "ed17c0c4264d4b108b9b5fb6d8fc1e14c902e5a3",
+"date": "2026-11-12"
+},
+"tags/autonomous-trucks.html": {
+"hash": "7683d824a0f6626c1da890629640903f255b213e",
+"date": "2026-11-12"
+},
+"tags/chips.html": {
+"hash": "bbf91f33b263ca745a917223da13bc506cf645df",
+"date": "2026-11-12"
+},
+"tags/critical-materials.html": {
+"hash": "b3c5cdad8b1ce879510de319657bc0e3fe2bce06",
+"date": "2026-11-12"
+},
+"tags/data-centers.html": {
+"hash": "4ea6f3faec2a8831801f4914d2c600e2171f7350",
+"date": "2026-11-12"
+},
+"tags/export-controls.html": {
+"hash": "b88b76c236e4b237350678464d19a1f656023a6d",
+"date": "2026-11-12"
+},
+"tags/forecasting.html": {
+"hash": "a61ab8bb2369d7e28c1b95d6391671fbc868aa10",
+"date": "2026-11-12"
+},
+"tags/freight.html": {
+"hash": "a4805d47a1a7db63dbc9f945262deae1db8a979c",
+"date": "2026-11-12"
+},
+"tags/funding.html": {
+"hash": "32a311567fb34b392a641e22c5130b95512631c3",
+"date": "2026-11-12"
+},
+"tags/gpu-compute.html": {
+"hash": "56b70d851eb6ffae4162151a21208719f474f919",
+"date": "2026-11-12"
+},
+"tags/lead-times.html": {
+"hash": "b9149fab7e6874615ee3ad8fd1c6ee201a1e6d2a",
+"date": "2026-11-12"
+},
+"tags/manufacturing-capacity.html": {
+"hash": "aef090fe412b0c6bd8338c33f4a830715c3e1355",
+"date": "2026-11-12"
+},
+"tags/memory.html": {
+"hash": "7ea60ba6b733f314ba0559608db4cc11d6e82715",
+"date": "2026-11-12"
+},
+"tags/ocean-shipping.html": {
+"hash": "81e579554c6f0300d74e08fb9ea79728b9c7f03c",
+"date": "2026-11-12"
+},
+"tags/optics.html": {
+"hash": "09dffcb64aa0ad8d0ab73e470901b557e0f501f9",
+"date": "2026-11-12"
+},
+"tags/packaging.html": {
+"hash": "03e21c02e03f5a833cab27f477037cdc6a29d709",
+"date": "2026-11-12"
+},
+"tags/pricing.html": {
+"hash": "a95fed061d72a1995b45ea711359c28950cd408d",
+"date": "2026-11-12"
+},
+"tags/returns.html": {
+"hash": "717c87a95fab3c08cab09edf578a8f25dd1c9a54",
+"date": "2026-11-12"
+},
+"tags/robotics.html": {
+"hash": "8ad424f2ec74a791e3a2f76228bfd8f7eb4e2aec",
+"date": "2026-11-12"
+},
+"tags/tariffs.html": {
+"hash": "c9b52d8e05aedc911b98da9555f58743e9515523",
+"date": "2026-11-12"
+},
+"tags/trade-policy.html": {
+"hash": "84e75df205ca89cb0985d7dab3a4a59ad1d29cd7",
+"date": "2026-11-12"
+},
+"tags/warehouse-automation.html": {
+"hash": "fd803709ea0210fc9a321b41ba51115d64420b40",
+"date": "2026-11-12"
+},
+"topics/index.html": {
+"hash": "c66ef3e3cc6a3541dda83b2a0db459ab5104f278",
+"date": "2026-11-11"
+},
+"topics/logistics.html": {
+"hash": "6608819efabc0267fc0dbc237f9279dda9551fd1",
+"date": "2026-11-12"
+},
+"topics/manufacturing.html": {
+"hash": "21fb0214340c25ea49efde4ecd310eb087606525",
+"date": "2026-11-12"
+},
+"topics/planning.html": {
+"hash": "c3e54914d9e4c6aa0c5f08739f96cf664fab032c",
+"date": "2026-11-12"
+},
+"topics/procurement.html": {
+"hash": "c5a873e278f886d5224e576982a7702dcc69d9f5",
+"date": "2026-11-12"
+},
+"topics/trade.html": {
+"hash": "c33bcc4e862858d879936a066b8fb578b377b022",
+"date": "2026-11-12"
+},
+"topics/warehousing.html": {
+"hash": "02bcfc86200e0abf610a7e9de84691bb5ffcaa18",
+"date": "2026-11-12"
+},
+"use-cases.html": {
+"hash": "7876d7c74d0d7abdab1aa49d876f9a7f0b38192c",
+"date": "2026-11-04"
+},
+"use-cases/autonomous-supplier-negotiation.html": {
+"hash": "0620f520afaddd7c3e18465ac6101c334f92d6ea",
+"date": "2026-11-11"
+},
+"use-cases/contract-review.html": {
+"hash": "5263ba0aa41aa19b957b74b3b91fb01626bc80fb",
+"date": "2026-11-11"
+},
+"use-cases/demand-forecasting.html": {
+"hash": "a666e1c19a10e72939e8525f13c0fb13cc1fab78",
+"date": "2026-11-04"
+},
+"use-cases/freight-audit.html": {
+"hash": "a085c9b92d1131ffdd47766331808100363b355b",
+"date": "2026-11-09"
+},
+"use-cases/hs-code-classification.html": {
+"hash": "5e1bb7d9f2b7e5a16328dad203b6937ad99dc963",
+"date": "2026-11-02"
+},
+"use-cases/inventory-optimization.html": {
+"hash": "a137755571b98e0b06eff1d669cb72c985f7fb2d",
+"date": "2026-11-11"
+},
+"use-cases/invoice-matching.html": {
+"hash": "6c19e0e38324bdc06931f47c77ac82c244310eec",
+"date": "2026-11-11"
+},
+"use-cases/predictive-maintenance.html": {
+"hash": "e652cef36a30296b1fb35fb732c1c5088c2f1538",
+"date": "2026-11-11"
+},
+"use-cases/production-scheduling.html": {
+"hash": "bcb25a2af12561aa2e56f2d64df75637b2f21451",
+"date": "2026-11-11"
+},
+"use-cases/rfq-and-sourcing-events.html": {
+"hash": "db8749bc84c3c5d3dac2b15e0295d80be84f0ed4",
+"date": "2026-11-11"
+},
+"use-cases/route-optimization.html": {
+"hash": "5714ca90fd6188dab3ea1a178481003ecaf2c344",
+"date": "2026-11-09"
+},
+"use-cases/shipment-eta-prediction.html": {
+"hash": "3ef3682530c71fa651de9ea7158757bf406c828d",
+"date": "2026-11-09"
+},
+"use-cases/spend-classification.html": {
+"hash": "e9e01e2b79fba538307fcc649f0dd6f7c9a44b58",
+"date": "2026-11-11"
+},
+"use-cases/supplier-discovery.html": {
+"hash": "61b315ff7331d7f13db5625292a831e65568a942",
+"date": "2026-11-11"
+},
+"use-cases/supplier-risk-monitoring.html": {
+"hash": "c4bc35f4b6549fb574ee71500f907ebc6fac55df",
+"date": "2026-11-11"
+},
+"use-cases/trade-document-processing.html": {
+"hash": "01bbbedb9e6e803ef68f2309bf86185b71642bdc",
+"date": "2026-11-09"
+},
+"use-cases/visual-quality-inspection.html": {
+"hash": "35e918e17bf6b3f35e01f536074a98d7c922240c",
+"date": "2026-11-11"
+},
+"use-cases/warehouse-picking-robots.html": {
+"hash": "df1a6d5404e76388cec24f8dacb6e7b96e3f4cf9",
+"date": "2026-11-11"
+}
+}

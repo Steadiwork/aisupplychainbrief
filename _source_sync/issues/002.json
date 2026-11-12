@@ -1,0 +1,257 @@
+{
+  "num": 2,
+  "date": "2026-10-15",
+  "title": "TSMC says AI chip demand still outruns supply, robot trucks take on routine freight, and robot brains go on tap",
+  "intro": "Eight stories from the past week across freight, warehousing, factories, planning, sourcing and trade. Every item links to the original source; summaries are our own.",
+  "stories": [
+    {
+      "h": "TSMC: AI chip demand is still bigger than its capacity, and it's scouting Texas",
+      "sum": "TSMC reported third-quarter revenue of about $46.7B, up roughly 51% from a year ago, and guided fourth-quarter revenue to $52.3B to $54.3B. Management said AI-related demand remains very strong and the gap between demand and supply is still large, with 2026 capital spending planned at $60B to $64B. The WSJ reported that TSMC has sent teams to Texas to evaluate expansion beyond Arizona.",
+      "so": "Don't plan on leading-edge chip or advanced-packaging lead times easing in 2027. For anything with AI accelerators or high-end logic inside, keep forecasts current with your distributors, confirm allocation in writing, and ask which builds depend on CoWoS packaging capacity.",
+      "src": [
+        [
+          "TSMC press release",
+          "https://pr.tsmc.com/english/news/3346",
+          "Company announcement"
+        ],
+        [
+          "Wall Street Journal",
+          "https://www.wsj.com/tech/ai-demand-extends-tsmcs-record-earnings-streak-95bbef62",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Manufacturing",
+      "audience": "Buyers",
+      "img": "img/manufacturing-2.webp",
+      "alt": "Flat illustration of a large processor chip centered on a circuit board",
+      "tags": [
+        "chips",
+        "manufacturing capacity",
+        "data centers",
+        "lead times"
+      ],
+      "lens": "Supply chain for AI",
+      "so_short": "Don't plan on leading-edge chip or advanced-packaging lead times easing in 2027."
+    },
+    {
+      "h": "A Texas carrier adds Waabi's autonomous trucks to haul repeat freight",
+      "sum": "Warrior Logistics, an asset-based carrier with 200+ trucks, is running recurring food, beverage and consumer-goods loads on Waabi Driver-powered trucks between Dallas and Houston. Waabi says those routes have so far delivered 100% on-time pickup and delivery with no safety incidents, though neither company shared truck or load counts. Waabi also says its load volume on the lane is up more than 80% this year.",
+      "so": "Autonomous capacity is showing up on steady, repeatable Texas lanes first. If you ship regular freight in that corridor, ask your carriers whether autonomous trucks are in their network, and how service levels, liability and tracking change on those loads.",
+      "src": [
+        [
+          "FreightWaves",
+          "https://www.freightwaves.com/news/waabi-warrior-logistics-autonomous-freight-dallas-houston",
+          "Independent reporting"
+        ],
+        [
+          "AJOT",
+          "https://www.ajot.com/news/waabi-and-warrior-logistics-partner-on-autonomous-trucking-operations-in-texas",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Logistics",
+      "audience": "Logistics leads",
+      "img": "img/logistics-1.webp",
+      "alt": "Flat illustration of two trucks on a highway with map pins and a dotted route",
+      "tags": [
+        "autonomous trucks",
+        "freight"
+      ],
+      "lens": "AI in supply chain",
+      "so_short": "Autonomous capacity is showing up on steady, repeatable Texas lanes first."
+    },
+    {
+      "h": "Ultra raises $50M to lease packing robots to warehouses by the month",
+      "sum": "Brooklyn-based Ultra closed a $50M Series A led by Framework Ventures, bringing total funding to $62M. It installs its OP1 packing robots at warehouses and third-party logistics sites for an upfront integration fee plus a monthly service fee, rather than a big capital purchase. The company says its robots have packed over 500,000 orders, and it relies on Physical Intelligence for the AI models that run them.",
+      "so": "Robots-as-a-service turns automation into an operating expense you can pilot. Before signing, pin down the trial terms, uptime and throughput guarantees, who handles exceptions the robot can't, and what happens to pricing at renewal.",
+      "embed": "https://twitter.com/fundable_ai/status/2110383841923981386",
+      "x": "https://x.com/fundable_ai/status/2110383841923981386",
+      "src": [
+        [
+          "Fortune",
+          "https://fortune.com/2026/10/09/ultra-raises-62-million-fast-growing-robots-service-tie-up-ai-research-firm-physical-intelligence/",
+          "Independent reporting"
+        ],
+        [
+          "SiliconANGLE",
+          "https://siliconangle.com/2026/10/09/warehouse-robot-maker-ultra-robotics-bags-62m/",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Warehousing",
+      "audience": "Warehouse managers",
+      "img": "img/warehousing-2.webp",
+      "alt": "Flat illustration of a robot arm above a conveyor of boxes, with a scanner gate",
+      "tags": [
+        "robotics",
+        "warehouse automation",
+        "funding"
+      ],
+      "lens": "AI in supply chain",
+      "so_short": "Robots-as-a-service turns automation into an operating expense you can pilot."
+    },
+    {
+      "h": "Kao's AI agent drafts demand plans, and people still make the call",
+      "sum": "In an English release this week, Japanese consumer-goods maker Kao detailed Kao-MIKOMIL, an AI agent that layers planned promotions, channels and pricing on top of forecasts from its in-house AI forecasting model, then proposes a demand plan with its reasoning. Business staff review and approve the plan. It went live for the KATE cosmetics brand in July and will expand to other brands, as part of Kao's goal to cut cosmetics inventory about 25% by 2027 versus 2024.",
+      "so": "The useful pattern here is the split: a forecasting model for the baseline, and an AI agent that explains how promotions and launches change it. Ask for the rationale with every AI-suggested plan, and track whether it actually beats your current forecast before you trust it.",
+      "src": [
+        [
+          "Kao news release",
+          "https://www.kao.com/global/en/newsroom/news/release/2026/20261013-001/",
+          "Company announcement"
+        ],
+        [
+          "ITmedia Keyman's Net (Japanese)",
+          "https://kn.itmedia.co.jp/kn/articles/2608/19/news039.html",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Planning",
+      "audience": "Planners",
+      "img": "img/planning-2.webp",
+      "alt": "Flat illustration of a network of nodes above stacks of boxes, with a small bar chart",
+      "tags": [
+        "AI agents",
+        "forecasting"
+      ],
+      "lens": "AI in supply chain",
+      "so_short": "The useful pattern here is the split: a forecasting model for the baseline, and an AI agent that explains how promotions and launches change it."
+    },
+    {
+      "h": "Samsara opens its no-code AI agent builder to all fleet customers",
+      "sum": "Samsara made Agent Studio generally available on October 13. Fleets can build chat and voice agents on their own operating data, for example to compile reports, flag possible hours-of-service violations, or answer driver questions from company policy. Samsara says agent use is now running at about seven times its June launch pace, but it hasn't said how many customers run agents in production.",
+      "so": "Start with one narrow agent that has a clear owner and a checkable answer, like a daily hours-of-service risk list. Keep a person approving anything that changes a dispatch or touches a driver's record.",
+      "src": [
+        [
+          "Samsara press release",
+          "https://www.samsara.com/company/news/press-releases/agent-studio",
+          "Company announcement"
+        ],
+        [
+          "FreightWaves",
+          "https://www.freightwaves.com/news/samsara-makes-ai-agent-platform-generally-available-reports-7x-adoption-growth",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Logistics",
+      "audience": "Logistics leads",
+      "img": "img/logistics-5.webp",
+      "alt": "Flat illustration of a monitor showing truck routes and charts, with a truck beside the screen",
+      "tags": [
+        "AI agents",
+        "freight"
+      ],
+      "lens": "AI in supply chain",
+      "so_short": "Start with one narrow agent that has a clear owner and a checkable answer, like a daily hours-of-service risk list."
+    },
+    {
+      "h": "Physical Intelligence opens its robot models to outside developers",
+      "sum": "Physical Intelligence launched a waitlisted beta of its Pi API on October 13. Teams upload their own robot data, fine-tune the company's general-purpose models on its managed infrastructure, and run them through a hosted service. Robots-as-a-service provider Formic, which says 150 factories use its robots, is an early partner. The company noted that network connectivity was a challenge in some early cloud-run deployments.",
+      "so": "General-purpose robot AI is becoming something you rent, not build. If you evaluate it, plan for the plant network: test what happens when connectivity drops, where your production data goes, and who owns the fine-tuned model.",
+      "src": [
+        [
+          "Physical Intelligence blog",
+          "https://www.pi.website/blog/api-beta",
+          "Company announcement"
+        ],
+        [
+          "The Robot Daily",
+          "https://therobotdaily.com/physical-intelligence-pi-api-beta-formic",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Manufacturing",
+      "audience": "Operations and plant managers",
+      "img": "img/manufacturing-1.webp",
+      "alt": "Flat illustration of two machining centers and two robot arms welding on a factory line",
+      "tags": [
+        "robotics",
+        "AI adoption"
+      ],
+      "lens": "AI in supply chain",
+      "so_short": "General-purpose robot AI is becoming something you rent, not build."
+    },
+    {
+      "h": "Scimplify raises $25M to add US capacity for specialty and critical-materials chemistry",
+      "sum": "Scimplify, a Bengaluru-based specialty chemicals and advanced materials maker, raised $25M in a round led by Hitachi Ventures, with Henkel and Teknor Apex joining. Total funding is now about $80M. It plans US research and processing capacity for areas with thin domestic supply, such as rare-earth and critical-metal purification and high-purity semiconductor and battery chemicals, and will keep building its in-house AI platform for taking chemistry from lab to production.",
+      "so": "New suppliers for hard-to-source chemistries are forming, often backed by the customers who need them. Add players like this to your market scan, but qualify them like any new source: samples, quality systems, and proven capacity before you shift volume.",
+      "embed": "https://twitter.com/Inc42/status/2110648247890919640",
+      "x": "https://x.com/Inc42/status/2110648247890919640",
+      "src": [
+        [
+          "TechCrunch",
+          "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
+          "Independent reporting"
+        ],
+        [
+          "Global Venturing",
+          "https://globalventuring.com/corporate/asia/hitachi-ventures-leads-25m-strategic-round-in-chemicals-platform-scimplify/",
+          "Independent reporting"
+        ],
+        [
+          "Mint",
+          "https://www.livemint.com/companies/start-ups/b2b-manufacturing-startup-scimplify-raises-25-mn-led-by-hitachi-ventures-11791971883039.html",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Procurement",
+      "audience": "Procurement leaders",
+      "img": "img/procurement-2.webp",
+      "alt": "Flat illustration of a handshake over a signed contract, with a pen and a rising bar chart",
+      "tags": [
+        "funding",
+        "critical materials",
+        "manufacturing capacity"
+      ],
+      "lens": "AI in supply chain",
+      "so_short": "New suppliers for hard-to-source chemistries are forming, often backed by the customers who need them."
+    },
+    {
+      "h": "Chip tariffs: the data-center exemption is still in limbo",
+      "sum": "January's Section 232 tariff put 25% on certain advanced logic chips but exempted chips headed for US data centers, pending a Commerce Department review that hasn't been published. On October 2, five tech trade groups including CCIA and TechNet asked the White House to keep any further chip, robotics and machinery tariffs targeted, and to extend any tariff offset program to downstream buyers. No second-phase decision has been announced.",
+      "so": "If you import servers, accelerators or robotics, map which items fall under the current tariff codes and which end-use exemption you rely on. Keep the paperwork for that exemption ready, and model landed cost both with and without it.",
+      "src": [
+        [
+          "The White House proclamation",
+          "https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-semiconductors-semiconductor-manufacturing-equipment-and-their-derivative-products-into-the-united-states/",
+          "Government document"
+        ],
+        [
+          "CCIA",
+          "https://ccianet.org/news/2026/10/tech-associations-present-semiconductor-and-industrial-machinery-tariff-concerns-in-white-house-letter/",
+          "Industry association"
+        ],
+        [
+          "The Next Web",
+          "https://thenextweb.com/news/semiconductor-tariffs-data-centre-exemption-phase-two",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Trade",
+      "audience": "Trade compliance",
+      "img": "img/trade-4.webp",
+      "alt": "Flat illustration of customs forms, a rubber stamp, and a checklist clipboard",
+      "tags": [
+        "tariffs",
+        "chips",
+        "data centers"
+      ],
+      "lens": "Supply chain for AI",
+      "so_short": "If you import servers, accelerators or robotics, map which items fall under the current tariff codes and which end-use exemption you rely on."
+    }
+  ],
+  "tip": {
+    "role": "Logistics and warehouse teams",
+    "title": "Use AI to audit freight invoices against what you agreed to pay",
+    "how": "Accessorial charges like detention, lumper and liftgate fees are where freight bills quietly drift. Each week, export invoiced charges next to the rate confirmation for the same loads, swap carrier and customer names for neutral codes, and have your approved AI assistant flag every mismatch. You still decide what to dispute, but the AI does the line-by-line comparison.",
+    "prompt": "You are a freight audit assistant. Below are this week's loads (anonymized). For each load: load ID, carrier code, lane, agreed linehaul, agreed fuel surcharge %, agreed accessorials, then invoiced linehaul, invoiced fuel, and invoiced accessorials with amounts.\n[PASTE TABLE]\n1) Compare invoiced to agreed for every load and list each mismatch with the dollar difference.\n2) Flag accessorials that weren't on the rate confirmation, and any detention billed without times shown.\n3) Total the overbilled amount by carrier code.\n4) Draft a short, polite dispute note for the three largest mismatches, with [PLACEHOLDERS] for names.\nUse a table for step 1 and don't guess at missing values; list them separately."
+  },
+  "short_title": "Robot trucks take routine freight as chip demand runs hot",
+  "inside": [
+    "TSMC demand still above capacity",
+    "Waabi autonomous trucks on repeat lanes",
+    "Packing robots leased by the month",
+    "Kao's AI agent drafts demand plans",
+    "Chip-tariff data-center exemption in limbo"
+  ]
+}

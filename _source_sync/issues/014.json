@@ -1,0 +1,155 @@
+{
+ "num": 14,
+ "date": "2026-11-06",
+ "title": "Electrical gear leads stretch on AI power demand",
+ "short_title": "Electrical gear leads stretch on AI power demand",
+ "hook": "Eaton's rolling 12-month data-center orders rose more than 100%, and CEO Paulo Ruiz said demand \"continues to run ahead of what we can convert.\" Generac's data-center generator backlog is about $4.5 billion after its Amazon deal. If switchgear or backup power sits on your open PO list, treat this week's lead-time check as non-optional.",
+ "intro": "Four stories from the last few days, across electrical gear for data centers, backup generators, electronics BOM tools and warehouse autonomy. Every item links to the original source; summaries are our own.",
+ "inside": [
+  "Eaton's 101% data-center orders",
+  "Generac's $4.5B generator backlog",
+  "Luminovo opens BOMs to ChatGPT",
+  "Geek+ 24/7 warehouse plan"
+ ],
+ "email_top_story": "Eaton's rolling 12-month data-center orders rose more than 100%, with data-center revenue up about 65%, the company said on its November 3 earnings call. CEO Paulo Ruiz said Electrical Americas backlog is up 33% and \"demand continues to run ahead of what we can convert.\" Why it matters: materials managers buying switchgear, UPS and related electrical gear may see longer quotes and firmer price holds.",
+ "email_steps": [
+  "List open POs and planned buys for switchgear, UPS, breakers and related electrical gear, and ask each supplier for current lead time and quote validity.",
+  "Flag any quote older than 30 days or any lead time that slipped more than two weeks, and escalate those lines first."
+ ],
+ "stories": [
+  {
+   "top": true,
+   "h": "Eaton data-center orders more than double as electrical demand outruns new capacity",
+   "sum": "More than 100% growth in rolling 12-month data-center orders. That's what Eaton reported on its November 3 earnings call, alongside data-center revenue up about 65% and a ninth straight quarter of data-center growth above 35%. CEO Paulo Ruiz said Electrical Americas backlog is up 33% and \"demand continues to run ahead of what we can convert,\" even as organic sales in that segment rose 22%. Electrical book-to-bill sat at 1.2, with Americas at 1.3, and total electrical backlog above $20 billion, up 46% year over year. The company also announced general price increases for Electrical Americas and Global effective January 2, 2027. Why it matters: AI data-center buildouts are pulling the same switchgear, UPS and distribution gear plants and warehouses buy for everyday work. Materials managers with electrical lines on open POs or 2027 capital plans may be working from lead times and quotes that no longer hold.",
+   "so": "Re-check lead times and quote validity on electrical gear this week, and escalate any line that slipped more than two weeks.",
+   "so_short": "Re-check electrical-gear lead times and quote validity this week; escalate slips over two weeks.",
+   "next": [
+    "Export open POs and planned buys for switchgear, UPS, breakers, transformers and related electrical gear, with supplier, qty, promise date and quote date.",
+    "Ask each supplier for current standard lead time, expedite options and how long today's quote stays valid, especially into first-half 2027.",
+    "Flag any quote older than 30 days or any promise date that moved out more than two weeks, and decide which lines to firm with a blanket PO or alternate source."
+   ],
+   "prompt": "You are a materials manager checking whether electrical-gear lead times and quotes still match your open work. Inputs, anonymized, one row per line: item code, description (switchgear/UPS/breaker/other), supplier code, open qty, promise date, quote date, quoted unit price, planned need date.\n[PASTE TABLE]\nToday's date: [DATE]\n1) Flag every line whose quote is older than [30] days or whose promise date is after the planned need date.\n2) Flag every line where the promise date has slipped more than [14] days versus the original need date (note the gap in days).\n3) Rank flagged lines by open qty times quoted unit price and mark the top ten to call first.\n4) Draft three short questions to ask each supplier about current lead time, expedite options and quote validity into [FIRST HALF 2027].\nOutput: a table with columns item code, supplier code, open qty, quote age days, slip days, extended value, action; then the questions. Keep it under 300 words. Use anonymized data only. List any missing or inconsistent data instead of guessing.",
+   "src": [
+    [
+     "Eaton third quarter 2026 results",
+     "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-reports-record-third-quarter-2026-results.html",
+     "Company announcement"
+    ],
+    [
+     "The Motley Fool, Eaton Q3 2026 earnings call transcript",
+     "https://www.fool.com/earnings/call-transcripts/2026/11/03/eaton-etn-q3-2026-earnings-call-transcript/",
+     "Independent reporting"
+    ]
+   ],
+   "x": "https://x.com/AlphaAllocators/status/2117703651104084231",
+   "embed": "https://x.com/AlphaAllocators/status/2117703651104084231",
+   "cat": "Procurement",
+   "audience": "Materials managers",
+   "img": "img/manufacturing-6.webp",
+   "alt": "Flat illustration of electrical switchgear cabinets connected to a transformer",
+   "tags": [
+    "data centers",
+    "lead times",
+    "AI hardware",
+    "pricing"
+   ],
+   "lens": "Supply chain for AI"
+  },
+  {
+   "h": "Generac's data-center generator backlog hits about $4.5 billion after Amazon deal",
+   "sum": "About $4.5 billion. That's Generac's data-center generator backlog as of its October 28 results, nearly triple the level from 90 days earlier, after a long-term supply agreement with Amazon for backup power at data centers. Initial deliveries under that deal are expected to total a combined $2.4 billion in 2027 and 2028. C&I segment external sales rose about 28% in the quarter, and management said data-center demand is still adding orders from non-hyperscale customers too.",
+   "so": "If backup generators or related electrical packages sit on your 2027 plan, ask suppliers for slot dates and deposit terms now, not at kickoff.",
+   "so_short": "Backup generators on the 2027 plan? Ask for slot dates and deposit terms now.",
+   "src": [
+    [
+     "Generac third quarter 2026 results",
+     "https://investors.generac.com/news-releases/news-release-details/generac-reports-third-quarter-2026-results",
+     "Company announcement"
+    ],
+    [
+     "Zacks via Yahoo Finance",
+     "https://sg.finance.yahoo.com/news/gnrc-q3-earnings-call-highlights-140000760.html",
+     "Independent reporting"
+    ],
+    [
+     "AXON Technic summary",
+     "https://www.axontechnic.com/generac-q3-2026-data-center-backlog-4-5-billion-amazon-lead-times-45-50-weeks/",
+     "Independent reporting"
+    ]
+   ],
+   "x": "https://x.com/TheTranscript_/status/2116720122878362096",
+   "embed": "https://x.com/TheTranscript_/status/2116720122878362096",
+   "cat": "Manufacturing",
+   "audience": "Buyers",
+   "img": "img/manufacturing-7.webp",
+   "alt": "Flat illustration of three industrial backup generators cabled to a small cabinet",
+   "tags": [
+    "data centers",
+    "manufacturing capacity",
+    "lead times"
+   ],
+   "lens": "Supply chain for AI"
+  },
+  {
+   "h": "Luminovo opens electronics BOMs and lead times to ChatGPT, Claude and Copilot",
+   "sum": "Ask your AI assistant for the EOL parts and 12-week lead times in your active BOMs. On November 5 Luminovo said it is opening its electronics supply-chain platform to assistants such as ChatGPT, Claude and Microsoft Copilot through the Model Context Protocol, with a beta for selected customers at electronica in Munich. An EMS cost estimator can price a customer BOM against current contracts; a buyer can ask which active-BOM parts are end-of-life. Luminovo says Omega EMS cut complex BOM quoting from about half a day to about 20 minutes.",
+   "so": "If your BOM and lead-time data still live in spreadsheets and email, ask your approved AI tool what it can read today, and write down what still needs a human check.",
+   "so_short": "Ask what your approved AI tool can read from BOMs and lead times today, and what still needs a human.",
+   "src": [
+    [
+     "Luminovo MCP product page",
+     "https://luminovo.com/platform/mcp",
+     "Company announcement"
+    ],
+    [
+     "EMSNow",
+     "https://www.emsnow.com/luminovo-opens-its-electronics-supply-chain-platform-to-ai-assistants-like-chatgpt-claude-and-microsoft-copilot/",
+     "Independent reporting"
+    ]
+   ],
+   "cat": "Planning",
+   "audience": "Materials managers",
+   "img": "img/planning-8.webp",
+   "alt": "Flat illustration of a grid of chip icons beside a row of growing bars",
+   "tags": [
+    "AI agents",
+    "lead times",
+    "AI adoption"
+   ],
+   "lens": "AI in supply chain"
+  },
+  {
+   "h": "Geek+ maps a 24/7 warehouse autonomy plan around embodied AI and a warehouse brain",
+   "sum": "Overnight shifts without adding overnight headcount. On November 6 Geek+ announced a 24/7 Warehouse Autonomy Plan that pairs embodied AI for harder picking and exception handling with its Warehouse Brain software (robot management, warehouse execution and operations intelligence). The goal is warehouses that keep running nights and weekends with less continuous on-site supervision, while learning from live operations. CEO Yong Zheng said the next goal is for the warehouse as a whole to operate more autonomously.",
+   "so": "If you already run AMRs, ask your vendor which overnight exceptions still need a person on site, and what data would retire those exceptions.",
+   "so_short": "Running AMRs? Ask which overnight exceptions still need a person, and what data would retire them.",
+   "src": [
+    [
+     "Geek+ announcement",
+     "https://www.geekplus.com/resources/news/geek-unveils-24/7-warehouse-autonomy-plan-to-advance-self-optimizing-around-the-clock-operation",
+     "Company announcement"
+    ]
+   ],
+   "cat": "Warehousing",
+   "audience": "Warehouse managers",
+   "img": "img/warehousing-1.webp",
+   "alt": "Flat illustration of pallet racks and floor robots carrying boxes in a warehouse aisle",
+   "tags": [
+    "warehouse automation",
+    "robotics",
+    "AI agents"
+   ],
+   "lens": "AI in supply chain"
+  }
+ ],
+ "tip": {
+  "role": "Material managers",
+  "title": "Have AI rank your expedite list from open POs and shortages",
+  "how": "Expedite calls eat the morning when every past-due line looks urgent. Export open purchase orders and the shortage or MRP exception list for one planner, anonymized, and have your approved AI tool score each line by days late, shortage risk and extended value. It drafts the call order; you still decide who gets a phone call and who gets an email.",
+  "prompt": "You are a materials manager building today's expedite call list. Inputs, anonymized: (a) open POs, one row per line: PO number, item code, supplier code, open qty, promise date, unit price; (b) shortages or MRP exceptions, one row per item: item code, shortage qty, need date, customer or work-order code.\n[PASTE OPEN POS]\n[PASTE SHORTAGES]\nToday's date: [DATE]\n1) Join the two lists on item code. Flag every open PO line that covers a shortage or is already past the promise date.\n2) Score each flagged line: days late (or days until need date if not late), shortage qty, and extended value (open qty times unit price).\n3) Rank by a simple priority: shortages first, then days late, then extended value. List the top fifteen to work today.\n4) Draft a two-sentence expedite note template with blanks for promise date and ship method.\nOutput: a table with columns priority, PO number, item code, supplier code, days late, shortage qty, extended value, suggested action; then the note template. Keep it under 300 words. Use anonymized data only. List any missing or inconsistent data instead of guessing.",
+  "next": {
+   "text": "Next step: try these ChatGPT prompts for inventory management",
+   "url": "/guides/chatgpt-prompts-for-inventory-management.html"
+  }
+ }
+}

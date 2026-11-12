@@ -1,0 +1,162 @@
+{
+  "num": 5,
+  "date": "2026-10-20",
+  "title": "An AI agent joins the production planning meeting",
+  "short_title": "An AI agent joins the production planning meeting",
+  "hook": "Siemens says an AI agent that drafts production plans at its Erlangen electronics plant can cut costs by up to 20%. The hard part isn't the agent. It's agreeing which numbers a good plan has to hit, and planners who write those down first will get more out of any tool.",
+  "intro": "Four stories across manufacturing, procurement and freight: three from the last two days and one from last week that just got more relevant. Every item links to the original source; summaries are our own.",
+  "inside": [
+    "Siemens' AI agent drafts production plans",
+    "Micron's Taiwan memory union sets a strike",
+    "Motive's AI agents call truck drivers",
+    "BMW's procurement agent answers in minutes"
+  ],
+  "stories": [
+    {
+      "top": true,
+      "h": "Siemens puts an AI agent to work on production planning at its Erlangen plant",
+      "sum": "Up to 20% lower costs from an AI agent that drafts production plans: that's Siemens' own estimate from its electronics factory in Erlangen, Germany, where it showed new tools built with NVIDIA on October 19. When a new order arrives, the agent generates several production scenarios, shows planners how each one scores on defined KPIs, and checks the proposals against a digital twin of the whole plant before anything changes on the floor. A second tool trains the plant's inspection cameras on AI-generated images of new circuit boards, so quality checks can be set up before the first prototype exists; Siemens says that cuts engineering effort by up to 85% and time to market by up to 40%. German tech site Dr. Web notes these are best-case figures from Siemens and haven't been independently checked. Why it matters: a planning agent can only rank options against goals someone has written down, such as on-time delivery, changeovers, overtime and material shortages. Plants that haven't agreed on those will get fast answers to the wrong question.",
+      "so": "Before you buy or pilot a planning agent, write down the four to six KPIs your plant uses to judge a schedule and how much each one matters. That list is what any agent, or any new planner, needs first.",
+      "so_short": "A planning agent is only as good as the KPIs it ranks plans by. Write yours down before any pilot.",
+      "next": [
+        "Write down the four to six KPIs your team uses to judge a production plan (for example on-time delivery, changeovers, overtime hours, material shortages) and rank them.",
+        "Take one recent rush order and compare two or three ways you could have scheduled it against those KPIs, using anonymized data and the prompt below.",
+        "Ask your planning or scheduling software vendor whether its AI checks proposed plans against a simulation of your plant, and what data that needs."
+      ],
+      "prompt": "You are a production planning analyst. A new order needs to fit into next week's plan. Inputs, all anonymized:\nNew order: product code, quantity, due date, routing (work centers and hours per unit).\nCurrent plan: one row per work center with available hours, booked hours and planned changeovers.\nMaterial status: component code, quantity on hand, quantity on order, expected arrival date.\nKPIs in priority order: [LIST, e.g. on-time delivery, overtime hours, number of changeovers, expediting cost].\n[PASTE DATA]\n1) Build three scenarios: (a) fit the order into current capacity, (b) add overtime, (c) move a lower-priority order.\n2) For each scenario, estimate the effect on every KPI and show your math for one work center.\n3) Flag any component that arrives after the date it is needed.\n4) Recommend one scenario and state its main risk.\nOutput: a table with columns scenario, on-time orders, overtime hours, changeovers, material risks, recommendation; then 3 short takeaways. Keep it under 300 words. Use anonymized data only. List any missing or inconsistent data instead of guessing.",
+      "src": [
+        [
+          "Siemens press release (PDF)",
+          "https://assets.new.siemens.com/siemens/assets/api/uuid:2638f84d-0e0c-4f24-8f99-a8deb67399d3/HQCOPR202610177477EN.pdf",
+          "Company announcement"
+        ],
+        [
+          "Dr. Web (German)",
+          "https://www.drweb.de/siemens-nvidia-erlangen-ki-fabrik/",
+          "Independent reporting"
+        ],
+        [
+          "Manufacturing.net",
+          "https://www.manufacturing.net/operations/news/22976730/siemens-cuts-engineering-effort-by-85-timetomarket-by-40-at-ai-pilot-plant",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Manufacturing",
+      "audience": "Planners",
+      "img": "img/manufacturing-3.webp",
+      "alt": "Flat illustration of a factory building with robot arms working inside the windows",
+      "tags": [
+        "AI agents",
+        "AI adoption"
+      ],
+      "lens": "AI in supply chain"
+    },
+    {
+      "h": "Micron's Taiwan union plans a Thursday strike at an AI memory hub",
+      "sum": "A strike set for Thursday, October 22, at Micron's plant in Taoyuan, Taiwan, where the company makes DRAM and high-bandwidth memory (HBM) for AI servers. The Taoyuan union announced it on October 19 to back a second union in a bonus dispute, timing it to that union's mediation meeting with Micron the same day, Reuters reported. The union hasn't said how long the walkout will last, and TrendForce says any hit to output depends on its size, its length and Micron's contingency plans.",
+      "so": "If your boards, servers or modules use Micron DRAM, check this week which part numbers trace back to Micron's Taiwan fabs, ask your distributor or OEM for current lead-time and allocation status in writing, and hold off on panic buys until the strike's length is known.",
+      "so_short": "Check which memory parts trace to Micron Taiwan and get lead-time status in writing before anyone panic-buys.",
+      "src": [
+        [
+          "Reuters (via Y94)",
+          "https://y94.com/2026/10/19/micron-union-in-taiwan-to-launch-strike-as-bonus-dispute-escalates/",
+          "Independent reporting"
+        ],
+        [
+          "Seoul Economic Daily",
+          "https://en.sedaily.com/international/2026/10/20/microns-taiwan-union-to-strike-on-the-22nd-over-profit",
+          "Independent reporting"
+        ],
+        [
+          "TrendForce (Oct. 8 strike vote)",
+          "https://www.trendforce.com/news/2026/10/08/news-micron-taiwans-taoyuan-union-secures-right-to-strike-with-88-3-support-taichung-mediation-set-for-oct-22/",
+          "Research/data"
+        ]
+      ],
+      "cat": "Procurement",
+      "audience": "Buyers",
+      "img": "img/manufacturing-9.webp",
+      "alt": "Flat illustration of four stacks of memory chips linked on a board",
+      "tags": [
+        "memory",
+        "data centers",
+        "lead times"
+      ],
+      "lens": "Supply chain for AI"
+    },
+    {
+      "h": "Motive's new AI agents call truck drivers and open work orders on their own",
+      "sum": "It calls the driver itself. Motive launched Agents on October 19: AI that watches the safety and operations data on its fleet platform and acts, calling drivers in the cab through its Atlas assistant when it spots fatigue or bad weather ahead, opening a maintenance work order and marking a truck out of service when a fault code meets the fleet's rules, and prompting drivers to cut idling. Fleets choose the triggers and actions. Agents are available now to Motive customers, plain-language goals are promised for early next year, and Motive hasn't published results from fleets using it.",
+      "so": "AI that acts on its own needs clear rules. If you run or contract a fleet, write down the triggers and limits first (who gets called, when a truck comes out of service, who can override) and review every automatic action for the first month.",
+      "so_short": "Before AI acts on fleet alerts, write down who gets called, when a truck comes out of service, and who can override.",
+      "src": [
+        [
+          "Motive announcement",
+          "https://gomotive.com/motive-launches-agents-ai-that-acts-before-problems-start/",
+          "Company announcement"
+        ],
+        [
+          "SiliconANGLE",
+          "https://siliconangle.com/2026/10/19/motive-technologies-revs-up-new-ai-agents-to-automate-fleet-management/",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Logistics",
+      "audience": "Logistics leads",
+      "img": "img/logistics-5.webp",
+      "alt": "Flat illustration of a monitor showing truck routes and charts, with a truck beside the screen",
+      "tags": [
+        "AI agents",
+        "freight"
+      ],
+      "lens": "AI in supply chain"
+    },
+    {
+      "h": "BMW's procurement agent answers capacity questions in minutes, and its language model does no math",
+      "sum": "Weeks down to a few minutes: that's how long BMW says it now takes to answer a question like \"can we build more iX3s?\" with its procurement agent, Mr. Flexibility, which it showed to journalists, automotiveIT reported on October 12. The agent pulls together the production program, agreed supplier capacity and engineering data, including battery-cell capacity at 13 supplier sites. The design is the lesson: the language model \"calculates nothing,\" product owner Maik Leuthold told automotiveIT. Tested, rule-based tools do the math, each user sees only what they're allowed to see, stale data gets flagged, and people make the call. The weeks-to-minutes figure is BMW's own.",
+      "so": "The pattern to copy is the split: let AI read the question and pick the tool, but keep the math in calculations you already trust. Before any agent touches capacity or cost questions, give your supplier capacity data an owner and a last-confirmed date.",
+      "so_short": "Let AI pick the tool but keep the math in calculations you trust, and date-stamp your supplier capacity data.",
+      "src": [
+        [
+          "automotiveIT (German)",
+          "https://www.automotiveit.eu/technology/der-ki-kollege-am-fuehrungstisch/2750014",
+          "Independent reporting"
+        ],
+        [
+          "Golem.de (German)",
+          "https://www.golem.de/news/beschaffung-bmw-will-milliarden-mit-ki-agenten-sparen-2610-214049.html",
+          "Independent reporting"
+        ],
+        [
+          "Dr. Web (German)",
+          "https://www.drweb.de/bmw-ki-agenten-einkauf-2028/",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Procurement",
+      "audience": "Procurement leaders",
+      "img": "img/procurement-9.webp",
+      "alt": "Flat illustration of an analytics dashboard with a line chart, a dot calendar, and donut charts",
+      "tags": [
+        "AI agents",
+        "manufacturing capacity"
+      ],
+      "lens": "AI in supply chain"
+    }
+  ],
+  "tip": {
+    "role": "Planners",
+    "title": "Have AI draft the first explanation of a forecast miss",
+    "how": "When actuals miss the plan, the slow part is usually the first draft of why. Paste the planned and actual numbers for the item or family (codes, not customer names) and ask your approved AI tool for the three most likely drivers and the data that would confirm or rule out each one. You still check the data, but you walk into the review with hypotheses instead of a blank page.",
+    "prompt": "You are a demand planning analyst explaining a forecast miss. Inputs, all anonymized, one row per item or family per month: code, month, forecast units, actual units, prior-year actual units, price change (%), promo (Y/N), stock-out days, notes from sales.\n[PASTE TABLE]\n1) Calculate the miss in units and percent for each row, and show your math for the first row.\n2) List the three most likely drivers of the overall miss, ranked.\n3) For each driver, name the data that would confirm or rule it out.\n4) Say whether the miss looks like a one-off or a trend, and why.\nOutput: a table with columns driver, evidence so far, data to check, likelihood (high/medium/low); then a two-sentence summary for leadership. Keep it under 250 words. List any missing or inconsistent data instead of guessing.",
+    "next": {
+      "text": "Need the version for leadership? The full kit's \"Explain forecast error in plain English\" prompt writes it",
+      "url": "https://steadiwork.gumroad.com/l/bpcqpq"
+    }
+  },
+  "crosspromo": {
+    "text": "Make AI remember your role, your parts and your rules so you stop re-explaining them:",
+    "link": "grab the free Mini Context Card",
+    "url": "https://steadiwork.gumroad.com/l/zwoyz"
+  }
+}

@@ -2,7 +2,7 @@
 
 > AI Supply Chain Brief: a free newsletter every Monday, Wednesday and Friday with one practical AI move for supply chain jobs, curated by a working buyer.
 
-The free Mon/Wed/Fri email newsletter published at steadiwork.github.io/aisupplychainbrief, with a use-case directory, guides and a prompt kit. Not affiliated with other newsletters or posts that use a similar name. Every news item links to its public source. All worked examples in the guides use fictional data. Updated 2026-11-11.
+The free Mon/Wed/Fri email newsletter published at steadiwork.github.io/aisupplychainbrief, with a use-case directory, guides and a prompt kit. Not affiliated with other newsletters or posts that use a similar name. Every news item links to its public source. All worked examples in the guides use fictional data. Updated 2026-11-12.
 
 ## About
 

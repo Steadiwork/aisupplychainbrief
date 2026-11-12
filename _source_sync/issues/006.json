@@ -1,0 +1,206 @@
+{
+  "num": 6,
+  "date": "2026-10-23",
+  "title": "Walmart opens its doors to AI shopping agents",
+  "short_title": "Walmart opens its doors to AI shopping agents",
+  "hook": "Walmart will let customers' AI agents buy for them, with spending limits such as $50, $100 or $200, starting within the next month. When software does the shopping, it buys what your product data says, so clean item data is now a supply chain job, not just a marketing one.",
+  "intro": "Five stories from the last three days, across retail, warehousing, procurement, data centers and trade. Every item links to the original source; summaries are our own.",
+  "inside": [
+    "Walmart lets AI agents shop for customers",
+    "Robot returns fixes in days, not weeks",
+    "Opply's agents place and pay POs",
+    "NVIDIA ships data centers in containers",
+    "Treasury drafts new tech investment rules"
+  ],
+  "stories": [
+    {
+      "top": true,
+      "h": "Walmart lets customers' AI agents shop for them, with spending limits and rules",
+      "sum": "$50, $100 or $200: those are the example spending limits Walmart gave on October 21 for AI agents that will shop on a customer's behalf. Walmart announced three pieces. Agent Profiles, launching within the next month, give each authorized agent its own profile inside a customer's account, so its purchases show up separately; customers either approve every order or set a limit. The Walmart Agent Gateway, an invitation-only beta for agent builders, lets AI assistants connect directly to Walmart and Sam's Club systems to search and buy, Reuters reported. And new terms say agents need approval by default, never see payment card details, and get blocked if they break the rules. The Verge notes the contrast with Amazon, which has blocked outside shopping agents. Why it matters: an agent buying \"the usual\" picks from what product listings and stock data tell it, and launch lands right before holiday peak. Wrong pack sizes or stale availability can now cost an order without a human ever seeing the shelf.",
+      "so": "Treat item data as supply chain data. Check pack sizes, counts and availability on your top online listings now, and ask retail partners whether agent-placed orders will show up separately in the demand data they share.",
+      "so_short": "Agents buy what the item data says. Check pack sizes and availability on your top online listings before peak.",
+      "next": [
+        "Pull the online listing data for your top 20 items and check that title, pack size, unit count and availability agree, using anonymized data and the prompt below.",
+        "Ask your retail account or e-commerce team whether Walmart or other retailers will flag agent-placed orders in the sales data they share with suppliers.",
+        "Add a note to your peak-season forecast review: agent orders are a new channel to watch, not a reason to change the numbers before there's data."
+      ],
+      "prompt": "You are a supply chain analyst checking whether product listings are ready for AI shopping agents. Inputs, all anonymized, one row per item: item code, listing title, pack size, unit count, net weight or volume, in-stock flag, listed substitutes, date the listing data was last updated, weekly units sold.\n[PASTE TABLE]\n1) Flag rows where the title, pack size and unit count disagree.\n2) Flag missing fields an agent would need to tell two similar items apart.\n3) Flag items whose listing data is older than [NUMBER] days.\n4) Rank the top 10 fixes by weekly units sold.\nOutput: a table with columns item code, issue, field to fix, priority (high/medium/low); then 3 short takeaways. Keep it under 300 words. Use anonymized data only. List any missing or inconsistent data instead of guessing.",
+      "src": [
+        [
+          "Walmart announcement",
+          "https://corporate.walmart.com/news/2026/10/Making-It-Possible-for-Agents-to-Shop-on-Behalf-of-Customers",
+          "Company announcement"
+        ],
+        [
+          "The Verge",
+          "https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents",
+          "Independent reporting"
+        ],
+        [
+          "Reuters (via Investing.com)",
+          "https://www.investing.com/news/stock-market-news/walmart-launches-tools-for-ai-agents-to-shop-for-customers-4964210",
+          "Independent reporting"
+        ],
+        [
+          "PPC Land",
+          "https://ppc.land/walmart-lets-ai-agents-buy-within-customer-set-limits-such-as-50-or-100/",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Planning",
+      "audience": "Supply chain managers",
+      "img": "img/planning-9.webp",
+      "alt": "Flat illustration of a chat bubble, a product card with a shoe, and a rising chart",
+      "tags": [
+        "agentic commerce",
+        "AI agents",
+        "forecasting"
+      ],
+      "lens": "AI in supply chain"
+    },
+    {
+      "h": "Robots sorting Zalando returns now get tested fixes in days, not weeks",
+      "sum": "Days instead of weeks. That's how fast Sereact, NVIDIA, Nebius, CEVA Logistics and Zalando say a robot mistake on the returns line can now come back as a tested fix, under a training setup they announced on October 21. Recordings from the returns stations are turned into thousands of simulated variations, used to retrain Sereact's Cortex robot software, and scored against a pass mark before any update goes back to the floor. The first use is Zalando returns at CEVA sites, where Sereact's dual-arm stations went live in Greven, Germany and Świebodzin, Poland on October 7. The speed figure is the companies' own.",
+      "so": "If you run or are pricing warehouse robots, ask the vendor two questions: how long does it take for a failure on your floor to become a tested fix, and who signs off before an update goes live?",
+      "so_short": "Ask robot vendors how fast a failure on your floor becomes a tested fix, and who approves updates.",
+      "x": "https://x.com/Bearlovesbull/status/2112930208307175878",
+      "embed": "https://x.com/Bearlovesbull/status/2112930208307175878",
+      "src": [
+        [
+          "Sereact announcement",
+          "https://sereact.ai/posts/closed-training-loop-returns-handling",
+          "Company announcement"
+        ],
+        [
+          "CEVA Logistics press release",
+          "https://www.cevalogistics.com/en/news-and-media/newsroom/press-release/sereact-nvidia-nebius-ceva-zalando-robotic-returns-handling",
+          "Company announcement"
+        ],
+        [
+          "Financial News",
+          "https://www.financial-news.co.uk/sereact-nvidia-nebius-build-closed-training-loop-for-robot-brain/",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Warehousing",
+      "audience": "Warehouse managers",
+      "img": "img/warehousing-2.webp",
+      "alt": "Flat illustration of a robot arm above a conveyor of boxes, with a scanner gate",
+      "tags": [
+        "robotics",
+        "warehouse automation",
+        "returns"
+      ],
+      "lens": "AI in supply chain"
+    },
+    {
+      "h": "Opply raises $7.5M for AI agents that place and pay purchase orders",
+      "sum": "15 times the gross revenue in 12 months. That's the growth Opply reported on October 21 as it raised $7.5 million in a round led by Chalfen Ventures. The London company's agents find suppliers, place and track purchase orders, check compliance documents and pay suppliers for food and drink brands, which repay Opply within 90 days, Tech Funding News reported. Opply cites customer cost cuts of 40%; Tech Funding News points out that part of that benefit comes from longer payment terms Opply extends, not only from better prices.",
+      "so": "When you evaluate an AI procurement tool, ask for savings split into price, freight and payment terms, and set a spending limit above which a person must approve every order.",
+      "so_short": "Ask AI procurement vendors to split savings into price, freight and payment terms, and keep an approval limit.",
+      "x": "https://x.com/SR_Researcher_/status/2112904718229836199",
+      "embed": "https://x.com/SR_Researcher_/status/2112904718229836199",
+      "src": [
+        [
+          "Opply announcement (PR Newswire)",
+          "https://www.prnewswire.com/news-releases/opply-raises-7-5m-after-15x-growth-to-bring-agentic-ai-to-cpg-operations-302914661.html",
+          "Company announcement"
+        ],
+        [
+          "Tech Funding News",
+          "https://techfundingnews.com/opply-raises-7-5m-ai-agents-supply-chains/",
+          "Independent reporting"
+        ],
+        [
+          "Tech.eu",
+          "https://tech.eu/2026/10/21/opply-raises-75m-to-expand-its-agentic-ai-platform-for-cpg-brands/",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Procurement",
+      "audience": "Buyers",
+      "img": "img/procurement-4.webp",
+      "alt": "Flat illustration of three quote sheets fanned on a desk with a pen",
+      "tags": [
+        "AI agents",
+        "funding"
+      ],
+      "lens": "AI in supply chain"
+    },
+    {
+      "h": "NVIDIA's DSX POD ships AI data centers as factory-built containers",
+      "sum": "Six months down to as little as 14 days. That's NVIDIA's estimate for bringing AI computing online at a prepared site with DSX POD, a design it introduced on October 21 in which partners build complete data-center modules inside containers. Each holds seven Vera Rubin NVL72 racks plus networking, cabling and liquid cooling, all tested before shipping, Data Center Knowledge reported. NVIDIA names 17 partners, including Dell, HPE, Lenovo, Schneider Electric and Vertiv, with deliveries from early 2027. NVIDIA's own FAQ is clear that sites still need power, cooling water and network hookups ready first.",
+      "so": "If you buy for data-center projects, the 14 days only starts once site power, cooling and network are ready, so start those packages first and get container delivery slots in writing.",
+      "so_short": "The 14 days starts only when site power and cooling are ready. Buy those first; get delivery slots in writing.",
+      "src": [
+        [
+          "NVIDIA announcement",
+          "https://nvidianews.nvidia.com/news/nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europes-infrastructure-deployment",
+          "Company announcement"
+        ],
+        [
+          "NVIDIA DSX POD FAQ",
+          "https://www.nvidia.com/en-us/data-center/products/dsx/pod/",
+          "Company announcement"
+        ],
+        [
+          "Data Center Knowledge",
+          "https://www.datacenterknowledge.com/ai-data-centers/nvidia-unveils-dsx-pod-for-faster-ai-data-center-builds",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Manufacturing",
+      "audience": "Procurement leaders",
+      "img": "img/manufacturing-10.webp",
+      "alt": "Flat illustration of two prefabricated equipment modules on a factory floor under a crane hook",
+      "tags": [
+        "data centers",
+        "AI hardware",
+        "lead times"
+      ],
+      "lens": "Supply chain for AI"
+    },
+    {
+      "h": "Treasury proposes new rules on US investment in foreign AI and chip companies",
+      "sum": "Comments are due December 7. The US Treasury proposed rules on October 22 under a 2025 law, the COINS Act, that would make US persons notify Treasury of certain investments in companies from countries of concern working on semiconductors, AI, quantum, supercomputing or hypersonics, and ban others outright. Treasury also proposed adding biotechnology. AP reports the targets include China, Russia and North Korea. The rules are a draft and can change before they're final.",
+      "so": "If your company is weighing a joint venture or equity stake with a supplier in a country of concern that touches chips or AI, flag it to legal now; the comment window is open until December 7.",
+      "so_short": "Weighing a JV or stake in a chip or AI supplier abroad? Flag it to legal; comments are open until Dec. 7.",
+      "src": [
+        [
+          "US Treasury press release",
+          "https://home.treasury.gov/news/press-releases/sb0667/",
+          "Government document"
+        ],
+        [
+          "Proposed rule (PDF)",
+          "https://home.treasury.gov/system/files/206/COINS-NPRM.pdf",
+          "Government document"
+        ],
+        [
+          "AP News",
+          "https://apnews.com/article/treasury-china-tech-investments-rule-b742c292ff8eb19e6a4c8cf03d4d66b9",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Trade",
+      "audience": "Trade compliance",
+      "img": "img/trade-6.webp",
+      "alt": "Flat illustration of policy documents piled in front of a columned government building",
+      "tags": [
+        "trade policy",
+        "chips"
+      ],
+      "lens": "Supply chain for AI"
+    }
+  ],
+  "tip": {
+    "role": "Supply chain managers",
+    "title": "Have AI turn the week's exceptions into a one-page Friday update",
+    "how": "Friday afternoon is when the week's late orders, expedites and stock-outs need to become something leadership can read in two minutes. Paste your exception list (item and supplier codes, not names) into your approved AI tool and ask it to group the problems by root cause and flag what needs a decision. You still check every number, but the first draft takes minutes, and you might even leave on time.",
+    "prompt": "You are a supply chain manager writing a weekly exceptions update for leadership. Inputs, all anonymized, one row per exception: item code, supplier code, exception type (late PO, expedite, stock-out, quality hold, other), date opened, days late, units or value at risk, current status, owner, notes.\n[PASTE TABLE]\n1) Group the exceptions by likely root cause and count each group.\n2) Total the units or value at risk per group and show your math for the largest group.\n3) List the items that need a leadership decision this week, and the decision needed.\n4) Name anything that got worse since last week if the notes say so.\nOutput: a table with columns root cause, count, value at risk, top item, decision needed; then a three-sentence summary for leadership. Keep it under 300 words. Use anonymized data only. List any missing or inconsistent data instead of guessing.",
+    "next": {
+      "text": "Need the monthly version for executives? The full kit's \"Constraint summary for executives\" prompt builds it",
+      "url": "https://steadiwork.gumroad.com/l/bpcqpq"
+    }
+  }
+}

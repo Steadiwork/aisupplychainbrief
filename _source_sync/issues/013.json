@@ -1,0 +1,173 @@
+{
+ "num": 13,
+ "date": "2026-11-04",
+ "title": "Memory costs reach the warehouse floor",
+ "short_title": "Memory costs reach the warehouse floor",
+ "hook": "Zebra Technologies raised prices on its mobile computers by about 15% in October to cover extra memory costs it now puts at $145 million for the year. It expects memory to keep getting pricier into the first half of 2027. If a scanner refresh is in your 2027 plan, that September quote is already a collector's item.",
+ "intro": "Four stories from the last two days, across device costs, planning software, air freight and warehouse robots. Plus a new worked safety stock example in Guides. Every item links to the original source; summaries are our own.",
+ "inside": [
+  "Zebra's memory-driven 15% price rise",
+  "OMP's planning agents",
+  "Emirates flies AI servers",
+  "Warehouse robots by the hour"
+ ],
+ "email_top_story": "Zebra Technologies' October price increase adds about 15% across its mobile computing products, the company said on its November 3 earnings call. Memory is the reason: Zebra now expects about $145 million in extra memory costs this year, up from $120 million, and sees memory prices rising into the first half of 2027. Why it matters: device budgets written before October may already be short.",
+ "email_steps": [
+  "List the scanners, mobile computers and other memory-heavy devices in your 2027 plan, and ask suppliers to requote anything priced before October.",
+  "Ask suppliers how long quotes are valid and whether they will hold price on a firm order for first-half 2027 deliveries."
+ ],
+ "stories": [
+  {
+   "top": true,
+   "h": "Zebra raises mobile computer prices about 15% as memory costs climb toward $145 million",
+   "sum": "About 15% more for a handheld computer. That's what Zebra Technologies' October price increase adds across its mobile computing products, CFO Nathan Winters said on the company's November 3 earnings call. The reason is memory. Zebra now expects memory components to cost it about $145 million more this year, up from an earlier estimate of $120 million, and said memory costs rose more than $50 million year over year in the third quarter alone, with price increases covering about half. Winters expects memory prices to keep rising into the first half of 2027 before easing in the second half. Zebra is hedging too: inventory rose about $90 million in the quarter, mostly from stocking memory ahead, and it has qualified five new memory suppliers. Why it matters: memory costs are no longer just a server problem. Buyers and planners with scanner, mobile computer or other memory-heavy device refreshes in their 2027 budgets may be working from prices that no longer apply.",
+   "so": "Requote memory-heavy devices in your 2027 plan now, and ask suppliers how long they will hold today's price.",
+   "so_short": "Requote memory-heavy devices in your 2027 plan and ask how long suppliers will hold price.",
+   "next": [
+    "List the scanners, mobile computers, printers and other memory-heavy devices in your 2027 plan, and ask suppliers to requote anything priced before October.",
+    "Ask each device supplier how long its quotes are valid and whether it will hold price on a firm order or blanket PO for first-half 2027 deliveries.",
+    "For refreshes that can wait, compare the cost of ordering now with waiting for the second-half 2027 easing Zebra expects, and write down the assumption you used."
+   ],
+   "prompt": "You are a buyer checking how rising memory costs affect next year's device purchases. Inputs, anonymized, one row per planned purchase: device type, supplier code, quantity, quoted unit price, quote date, quote valid until, planned order month, planned delivery month.\n[PASTE TABLE]\nAssumed price increase for quotes dated before [DATE]: [X%]\n1) Flag every line whose quote is dated before [DATE] or expires before the planned order month.\n2) For flagged lines, calculate the budget at the assumed increase and the dollar difference.\n3) Rank lines by dollar difference and mark the top five to requote first.\n4) Draft three short questions to ask each supplier about price holds, quote validity and delivery dates.\nOutput: a table with columns device type, supplier code, quantity, quoted total, adjusted total, difference, action; then the questions. Keep it under 300 words. Use anonymized data only. List any missing or inconsistent data instead of guessing.",
+   "src": [
+    [
+     "Zebra Technologies third quarter 2026 results",
+     "https://www.zebra.com/us/en/about-zebra/newsroom/press-releases/2026/zebra-technologies-announces-third-quarter-2026-results.html",
+     "Company announcement"
+    ],
+    [
+     "The Motley Fool, Zebra Q3 2026 earnings call transcript",
+     "https://www.fool.com/earnings/call-transcripts/2026/11/03/zebra-zbra-q3-2026-earnings-call-transcript/",
+     "Independent reporting"
+    ],
+    [
+     "TipRanks",
+     "https://www.tipranks.com/news/company-announcements/zebra-technologies-earnings-call-signals-strong-growth-ahead",
+     "Independent reporting"
+    ]
+   ],
+   "x": "https://x.com/Finsee_main/status/2117626833701130473",
+   "embed": "https://x.com/Finsee_main/status/2117626833701130473",
+   "cat": "Procurement",
+   "audience": "Buyers",
+   "img": "img/procurement-10.webp",
+   "alt": "Flat illustration of a handheld computer, a blank price tag, a bar chart, and a stack of chips",
+   "tags": [
+    "memory",
+    "pricing",
+    "warehouse automation"
+   ],
+   "lens": "Supply chain for AI"
+  },
+  {
+   "h": "OMP adds ready-made planning agents that run on its optimization engines",
+   "sum": "Plain-language what-ifs, run on the real planning model. Steel wire maker Bekaert uses OMP's Unison Companion in S&OP: planners describe a scenario, such as adding capacity at a bottleneck while demand rises, and the tool models it and compares it with the current plan. On November 3 OMP added an Agent Library of ready-made agents and an Agent Studio for building custom ones, all working from a digital twin of the customer's supply chain. Each company sets what an agent may decide, execute or escalate.",
+   "so": "Before you trial any planning agent, write down which decisions it may only propose, which it may carry out, and which must come to you.",
+   "so_short": "Before trialing a planning agent, list what it may propose, what it may do, and what must come to you.",
+   "src": [
+    [
+     "OMP announcement",
+     "https://omp.com/news-events/news/2026/unisoniq-agent-library-agent-studio",
+     "Company announcement"
+    ],
+    [
+     "ACCESS Newswire release",
+     "https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/omp-extends-unisoniq-with-agent-library-and-agent-studio-ai-agent-1245035",
+     "Company announcement"
+    ],
+    [
+     "Global Sources",
+     "https://www.globalsources.com/sourcing-digest/omp-extends-unisoniq-with-an-ai-agent-library-and-agent-studio/",
+     "Independent reporting"
+    ]
+   ],
+   "cat": "Planning",
+   "audience": "Planners",
+   "img": "img/planning-6.webp",
+   "alt": "Flat illustration of three planning cards showing a line chart, a bar chart, and blocks",
+   "tags": [
+    "AI agents",
+    "forecasting"
+   ],
+   "lens": "AI in supply chain"
+  },
+  {
+   "h": "Emirates SkyCargo launches a dedicated air freight product for AI servers and chips",
+   "sum": "More than 700 tonnes in one month. That's how much AI infrastructure Emirates SkyCargo says it flew in July, and on November 3 it launched AI Tech, a product for server racks, semiconductors, GPUs and capital equipment. It adds priority loading, handling procedures that keep equipment in the right orientation, and airport-to-airport milestone tracking from its Dubai command centre; highly specialised machinery gets a station check first. The airline says it will run 23 freighters by March 2027, with main-deck room for racks that can weigh more than 3.5 tonnes.",
+   "so": "If you fly server racks or test equipment, ask your forwarder which handling, orientation and tracking commitments you get today, and put them in the booking.",
+   "so_short": "Flying server racks? Get handling, orientation and tracking commitments written into the booking.",
+   "src": [
+    [
+     "Emirates SkyCargo announcement",
+     "https://www.skycargo.com/media-centre/emirates-skycargo-launches-ai-tech-to-move-infrastructure-powering-artificial-intelligence/",
+     "Company announcement"
+    ],
+    [
+     "Air Cargo News",
+     "https://www.aircargonews.net/freighter-operator/2026/11/emirates-skycargo-launches-specialised-ai-tech-shipment-service/",
+     "Independent reporting"
+    ],
+    [
+     "Gulf News",
+     "https://gulfnews.com/business/aviation/emirates-skycargo-launches-ai-cargo-service-after-moving-700-tonnes-in-july-1.500734528",
+     "Independent reporting"
+    ]
+   ],
+   "x": "https://x.com/DXBMediaOffice/status/2117608134407487866",
+   "embed": "https://x.com/DXBMediaOffice/status/2117608134407487866",
+   "cat": "Logistics",
+   "audience": "Logistics leads",
+   "img": "img/logistics-3.webp",
+   "alt": "Flat illustration of a cargo airplane flying over a globe linked by glowing routes",
+   "tags": [
+    "data centers",
+    "AI hardware",
+    "freight"
+   ],
+   "lens": "Supply chain for AI"
+  },
+  {
+   "h": "Tutor Intelligence raises $75 million to rent out warehouse robots by the hour",
+   "sum": "No upfront purchase, no long-term contract. Tutor Intelligence charges for its robots by the hour or by the pick, and on November 2 it announced a $75 million Series B led by Andreessen Horowitz, bringing its total raised to $117 million. Its single-arm Cassie robot handles case picking and palletizing, while two-armed Sonny does finer e-commerce picking; remote human operators guide both as they learn. The company says its robots now work in almost four times as many facilities as a year ago, and it targets more than 1,000 robots under contract by the end of 2027.",
+   "so": "If capital approval keeps automation off your floor, ask robot vendors for per-hour or per-pick pricing and compare it with your fully loaded cost per pick.",
+   "so_short": "Ask robot vendors for per-hour or per-pick pricing and compare it with your loaded cost per pick.",
+   "src": [
+    [
+     "Tutor Intelligence via Business Wire",
+     "https://www.businesswire.com/news/home/20261102314852/en/Tutor-Intelligence-Raises-%2475-Million-Series-B-Led-by-Andreessen-Horowitz-to-Scale-Frontier-Robotics-Model-Training-Manufacturing-and-Deployment",
+     "Company announcement"
+    ],
+    [
+     "Andreessen Horowitz",
+     "https://a16z.com/announcement/investing-in-tutor-intelligence/",
+     "Company announcement"
+    ],
+    [
+     "The Next Web",
+     "https://thenextweb.com/news/tutor-intelligence-75m-series-b-a16z-robot-workers",
+     "Independent reporting"
+    ]
+   ],
+   "cat": "Warehousing",
+   "audience": "Warehouse managers",
+   "img": "img/warehousing-10.webp",
+   "alt": "Flat illustration of several floor robots carrying boxes around a warehouse control screen",
+   "tags": [
+    "robotics",
+    "warehouse automation",
+    "funding"
+   ],
+   "lens": "AI in supply chain"
+  }
+ ],
+ "tip": {
+  "role": "Planners",
+  "title": "Have AI find the safety stocks still running on old lead times",
+  "how": "Safety stock goes stale when the lead time in your system stops matching the lead time at your dock, and many of those settings were typed in during a calmer year. Export recent receipts and the planning parameters for one item group, anonymized, and have your approved AI tool compare planned and actual lead times item by item. It flags the gaps; you check a couple of rows by hand and decide which settings to change.",
+  "prompt": "You are an inventory planner checking whether planning lead times still match reality. Inputs, anonymized: (a) planning parameters, one row per item: item code, planned lead time (days), safety stock (units), average daily demand (units); (b) receipts from the last [6] months, one row per receipt: item code, PO date, receipt date.\n[PASTE PARAMETERS]\n[PASTE RECEIPTS]\n1) For each item, calculate actual lead time per receipt (receipt date minus PO date), then the average and standard deviation.\n2) Flag items where the average actual lead time differs from the planned lead time by more than [20%] or [5] days.\n3) For flagged items, estimate how many days of demand the current safety stock covers against the gap.\n4) Rank flagged items by the gap in days and list the top ten to review first.\nOutput: a table with columns item code, planned lead time, actual average, actual standard deviation, gap (days), safety stock days of cover, action; then the top ten. Keep it under 300 words. Use anonymized data only, and don't change any setting without your own review. List any missing or inconsistent data instead of guessing.",
+  "next": {
+   "text": "Next step: see how teams use AI for inventory optimization",
+   "url": "/use-cases/inventory-optimization.html"
+  }
+ }
+}

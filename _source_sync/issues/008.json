@@ -1,0 +1,149 @@
+{
+  "num": 8,
+  "date": "2026-10-27",
+  "title": "A U.S. robot factory says it beat China's PCB lead time",
+  "short_title": "A U.S. robot factory says it beat China's PCB lead time",
+  "hook": "CircuitHub says its robotic circuit board factory in Massachusetts ships boards in four days on average, versus nine at a typical quick-turn shop in China. If you buy low-volume electronics, the old rule that offshore is cheaper but slower deserves one fresh quote before you renew it.",
+  "intro": "Four stories from the last two days, across manufacturing, planning, chips for data centers and warehousing. Every item links to the original source; summaries are our own.",
+  "inside": [
+    "U.S. robot factory builds PCBs in 4 days",
+    "Oracle adds allocation and spend agents",
+    "TSMC weighs up to 20% higher packaging prices",
+    "GXO takes humanoid robots to two more sites"
+  ],
+  "stories": [
+    {
+      "top": true,
+      "h": "A robot-run U.S. factory says it builds circuit boards in 4 days, at China prices",
+      "sum": "Four days, not nine. That's the average build-and-ship time CircuitHub says its automated circuit board factory in South Deerfield, Massachusetts, now hits, compared with a typical quick-turn shop in China. The company announced on October 26 that the factory, called the Grid, has reached price parity with similar Chinese shops and is expanding capacity fivefold, with a UK site planned for 2027. Levitating movers carry each board between robots that print solder paste, place parts, solder and inspect, and AI routes every board on its own path, so there are no changeovers between designs. CircuitHub says one unit each of 100 designs runs as easily as 100 units of one design, and that it has shipped more than 2.2 million boards. Why it matters: CircuitHub says 95% of electronics projects involve fewer than 10,000 units, and those small, high-mix orders are where offshore lead time and freight hurt most. Price parity is the company's own claim, so test it with a quote.",
+      "so": "For low-volume, high-mix board assemblies, put one automated domestic quote next to your current offshore source and compare landed cost and total lead time, not unit price alone.",
+      "so_short": "Re-quote one low-volume board assembly domestically and compare landed cost and total lead time.",
+      "next": [
+        "Pull the last 12 months of circuit board assembly buys under 10,000 units and list the ones where lead time or expediting caused a problem.",
+        "Send the same anonymized package (quantity, BOM line count, required date) to your current source and one automated domestic shop, then compare landed cost and door-to-door lead time.",
+        "Before moving anything, confirm that quality requirements, approved-source rules and customer flowdowns allow the change."
+      ],
+      "prompt": "You are a procurement analyst choosing which circuit board assemblies to re-quote with a faster domestic source. Inputs, all anonymized, one row per assembly: part code, annual quantity, typical order quantity, orders per year, current unit price, current lead time in days (order to dock), expedite and premium freight cost in the last 12 months, late deliveries in the last 12 months.\n[PASTE TABLE]\nAssumption: cost per late delivery [AMOUNT].\n1) Flag assemblies with a typical order quantity under [10,000] units.\n2) For each flagged row, estimate the yearly cost of waiting: expedite and premium freight plus late deliveries times the cost per late delivery. Show your math for the first row.\n3) Rank the flagged assemblies by cost of waiting, then by lead time.\n4) Recommend the top 3 to re-quote and the one fact to confirm before moving each.\nOutput: a table with columns part code, order quantity, lead time, cost of waiting, rank; then the top 3 with one sentence each. Keep it under 300 words. Use anonymized data only. List any missing or inconsistent data instead of guessing.",
+      "src": [
+        [
+          "CircuitHub announcement (via EMSNow)",
+          "https://www.emsnow.com/on-demand-electronics-manufacturer-circuithub-achieves-price-parity-with-china/",
+          "Company announcement"
+        ],
+        [
+          "ASSEMBLY",
+          "https://www.assemblymag.com/articles/100532-us-pcb-factory-says-it-now-matches-china-on-price-and-builds-boards-in-half-the-time",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Manufacturing",
+      "audience": "Buyers",
+      "img": "img/manufacturing-8.webp",
+      "alt": "Flat illustration of a robot arm placing circuit boards on a line beside a server rack",
+      "tags": [
+        "manufacturing capacity",
+        "lead times",
+        "robotics"
+      ],
+      "lens": "AI in supply chain"
+    },
+    {
+      "h": "Oracle launches AI agents that draft allocation plans and hunt maverick spend",
+      "sum": "Twenty-five new agentic applications became available across Oracle's Fusion cloud apps on October 26, and three are aimed at supply chain teams. Oracle says Supply Planning Allocation compares scenarios for splitting scarce materials and capacity across competing demand, Shipment Load Planning looks for load consolidation to cut transport cost, and Procurement Spend flags maverick spend and contract leakage. According to Oracle, each one prepares plans or recommendations that people review and approve.",
+      "so": "If you plan on Oracle Fusion, ask your admin which of these you can use, and write down your allocation rules before an agent starts proposing its own.",
+      "so_short": "Write down your allocation rules before an AI agent starts proposing its own.",
+      "src": [
+        [
+          "Oracle announcement",
+          "https://www.oracle.com/news/announcement/ai-world-oracle-introduces-claw-powered-fusion-agentic-applications-for-supply-chain-2026-10-26/",
+          "Company announcement"
+        ],
+        [
+          "Diginomica",
+          "https://diginomica.com/oracle-ai-world-26-fusion-becoming-system-outcomes-are-organizations-ready-work-way",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Planning",
+      "audience": "Planners",
+      "img": "img/planning-7.webp",
+      "alt": "Flat illustration of boxes moving on arrows from a warehouse to three destinations",
+      "tags": [
+        "AI agents",
+        "AI adoption"
+      ],
+      "lens": "AI in supply chain"
+    },
+    {
+      "h": "TSMC weighs up to 20% higher prices for AI chip packaging",
+      "sum": "Six to eight months. That's how long equipment lead times for advanced chip packaging have stretched, up from three to six, as TSMC weighs raising prices for its CoWoS packaging by 10% to 20%, Taiwan's Commercial Times reported, citing supply chain sources. CoWoS joins AI processors to high-bandwidth memory in data center accelerators, and demand has spread from GPUs to server CPUs and custom chips. TSMC has not confirmed the plan. TrendForce, citing the Liberty Times, says TSMC has also set wafer price increases of 3% to 6% starting January 2027.",
+      "so": "If you buy AI servers or accelerator hardware for data centers, assume packaging costs keep rising into 2027 and ask suppliers now how much of an increase they plan to pass through.",
+      "so_short": "Ask AI hardware suppliers now how much of a packaging price increase they plan to pass through in 2027.",
+      "src": [
+        [
+          "TrendForce",
+          "https://www.trendforce.com/news/2026/10/27/news-tsmc-reportedly-eyes-20-cowos-price-hike-skips-equipment-price-renegotiations-amid-ai-demand-surge/",
+          "Independent reporting"
+        ],
+        [
+          "Yahoo Finance",
+          "https://finance.yahoo.com/technology/articles/nvidia-chipmakers-face-higher-costs-050030975.html",
+          "Independent reporting"
+        ],
+        [
+          "Investing.com",
+          "https://www.investing.com/news/stock-market-news/tsmc-to-raise-advanced-chip-packaging-prices-by-up-to-20-report-says-4974101",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Procurement",
+      "audience": "Procurement leaders",
+      "img": "img/procurement-5.webp",
+      "alt": "Flat illustration of a rising bar chart beside a blank purchase-order sheet",
+      "tags": [
+        "chips",
+        "pricing",
+        "lead times",
+        "data centers"
+      ],
+      "lens": "Supply chain for AI"
+    },
+    {
+      "h": "GXO takes Digit humanoid robots to two more U.S. warehouses",
+      "sum": "More than 100,000 totes. That's how many Agility Robotics' Digit humanoid has moved at GXO's Flowery Branch, Georgia, warehouse under a robots-as-a-service deal signed in 2024, GXO said on October 26. GXO now plans to put Digit to work on repetitive tote handling at e-commerce sites in Statesville, North Carolina, and Lebanon, Tennessee, starting in early 2027. The companies say Digit has logged more than 65,000 hours of real-world operation across all of its deployments.",
+      "so": "Humanoid pilots are turning into multi-site contracts. If you're evaluating one, ask the vendor for live-site numbers like totes moved and hours run, and price it per task.",
+      "so_short": "Ask humanoid robot vendors for live-site numbers like totes moved and hours run before you sign.",
+      "src": [
+        [
+          "GXO announcement",
+          "https://investors.gxo.com/news-releases/news-release-details/gxo-and-agility-robotics-expand-partnership-accelerate/",
+          "Company announcement"
+        ],
+        [
+          "Logistics Manager",
+          "https://www.logisticsmanager.com/humanoid-robot-deployment-expands-to-two-more-gxo-warehouses/",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Warehousing",
+      "audience": "Warehouse managers",
+      "img": "img/warehousing-7.webp",
+      "alt": "Flat illustration of a humanoid robot carrying a tote past warehouse racks",
+      "tags": [
+        "robotics",
+        "warehouse automation"
+      ],
+      "lens": "AI in supply chain"
+    }
+  ],
+  "tip": {
+    "role": "Planners",
+    "title": "Have AI lay out allocation options before you cut anyone short",
+    "how": "When supply falls short, the first allocation draft is often whoever called loudest. Paste the shortage, the open orders (customer names replaced with codes) and your written allocation rules into your approved AI tool, and have it compare two or three ways to split what you have. You still make the call and talk to sales, but you walk in with the trade-offs on one page.",
+    "prompt": "You are a supply planner preparing allocation options for a shortage. Inputs, all anonymized: available supply [QUANTITY] by week [WEEKS]; open demand, one row per order: customer code, order quantity, requested date, priority tier, margin per unit, contract penalty (yes/no). Allocation rules: [PASTE RULES, e.g. contract orders first, then priority tier].\n[PASTE TABLE]\n1) Build three options: by the stated rules, fair share (pro rata), and highest margin first.\n2) For each option, show units allocated and shortfall per customer code. Show your math for the first row.\n3) Flag any option that breaks a contract term or a stated rule.\n4) Recommend one option and list the two decisions a person must still make.\nOutput: a table with columns customer code, ordered, option A, option B, option C, notes; then the recommendation in 3 sentences. Keep it under 300 words. Use anonymized data only. List any missing or inconsistent data instead of guessing.",
+    "next": {
+      "text": "Need the rules themselves? The full kit's \"Allocation rules draft\" prompt writes them",
+      "url": "https://steadiwork.gumroad.com/l/bpcqpq"
+    }
+  }
+}

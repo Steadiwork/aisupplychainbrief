@@ -1,0 +1,191 @@
+{
+  "num": 7,
+  "date": "2026-10-26",
+  "title": "Most supply chain teams aren't ready for their AI",
+  "short_title": "Most supply chain teams aren't ready for their AI",
+  "hook": "83% of supply chain leaders in a new ASCM and DSCI survey say their employees aren't ready to use AI effectively. The tools are moving faster than the people using them, so this week's most useful AI project may be training the team on one process, not buying another agent.",
+  "intro": "Five stories from the last few days, across planning, data centers, warehousing and customs. Two are dated because they were announced earlier and covered again since Friday. Every item links to the original source; summaries are our own.",
+  "inside": [
+    "83% say their teams aren't AI-ready",
+    "Data center tenants ask $5M a day for delays",
+    "AWS agents rank planning exceptions by cost",
+    "Dexory robots spot open boxes and bad pallets",
+    "Mexico's customs agency targets undervaluation"
+  ],
+  "stories": [
+    {
+      "top": true,
+      "h": "83% of supply chain leaders say their people aren't ready to use AI",
+      "sum": "28% versus 71%. That's the AI project success rate for organizations whose people aren't ready, compared with those whose people are, in The People Paradox in Supply Chain AI Integration, a report the Association for Supply Chain Management (ASCM) and the Digital Supply Chain Institute (DSCI) released October 14. FreightWaves interviewed ASCM CEO Abe Eshkenazi about it on October 23. Of 107 qualified respondents, 83% said their employees are unprepared to use AI well, and 64% of the unprepared group is still stuck in pilots or planning. On a scale from 1 (no AI) to 5 (fully autonomous), adoption across 13 supply chain functions averaged 1.94. Demand planning led at 2.28; reverse logistics was last at 1.59. The top barriers tied at 33% each: missing skills and an unclear business case. Why it matters: involvement drops off below the top. 82% of C-suite respondents lead or scale AI work, but 70% of staff say they're aware of it without being involved. The people who run the process aren't helping shape the tool.",
+      "so": "Pick one process your team runs every week, measure how it works today, and get the people who do the work involved before anyone buys another AI tool for it.",
+      "so_short": "Pick one weekly process, measure it today, and involve the people who run it before adding more AI.",
+      "next": [
+        "Choose one high-volume, rule-based task your team owns (for example, past-due PO follow-up or exception triage) and write down how long it takes today.",
+        "Ask two people who do that task to try your approved AI tool on it for a week, using anonymized data, and note where it helps and where it gets things wrong.",
+        "Agree on the human decisions that stay human (sourcing awards, customer commitments, disruption calls) before any AI acts on its own."
+      ],
+      "prompt": "You are a supply chain process coach helping a team pick its first AI pilot. Inputs, all anonymized, one row per recurring task: task name, owner role, times per week, minutes per occurrence, systems used, rules followed (yes/no and short description), error rate or rework if known, decision risk (low/medium/high).\n[PASTE TABLE]\n1) Calculate weekly hours for each task and show your math for the first row.\n2) Score each task for AI fit: high volume, clear rules, low decision risk.\n3) Recommend the top 2 pilot tasks and explain why in one sentence each.\n4) For each, list the baseline measure to record now and one step a human must still approve.\nOutput: a table with columns task, weekly hours, AI fit (high/medium/low), reason, baseline measure; then the two recommendations. Keep it under 300 words. Use anonymized data only. List any missing or inconsistent data instead of guessing.",
+      "src": [
+        [
+          "ASCM and DSCI announcement",
+          "https://dscinstitute.org/supply-chain-ai-workforce-readiness-report/",
+          "Research/data"
+        ],
+        [
+          "The People Paradox report (DSCI)",
+          "https://dscinstitute.org/research/people-paradox-supply-chain-ai-report/",
+          "Research/data"
+        ],
+        [
+          "FreightWaves",
+          "https://www.freightwaves.com/news/ascm-dsci-supply-chain-ai-workforce-readiness",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Planning",
+      "audience": "Supply chain managers",
+      "img": "img/planning-10.webp",
+      "alt": "Flat illustration of four people standing in front of a bar chart",
+      "tags": [
+        "AI adoption",
+        "AI agents",
+        "forecasting"
+      ],
+      "lens": "AI in supply chain"
+    },
+    {
+      "h": "AI data center tenants now ask $5 million a day when builds run late",
+      "sum": "$5 million a day, up from $1 million this spring. That's what tenants in new AI data center leases are asking developers to pay when power and buildings aren't ready on time, The Information reported on October 25. Insurance broker Marsh designed a delay-in-delivery policy this spring for the $1 million case, then saw new deals ask for five times that within months. Marsh says contractors and suppliers can be asked to backstop those penalties in their own agreements, and that guarantees now cover equipment lead times and energization dates.",
+      "so": "If you sell into or buy for data center work, read the delay-damages clause before you sign. Make sure any penalty flowed down to you is capped and tied to delays you actually control.",
+      "so_short": "Check that delay damages flowed down to you are capped and tied to delays you control.",
+      "src": [
+        [
+          "The Information (via Benzinga)",
+          "https://www.benzinga.com/content/62579906/data-center-late-fees-hit-5-million-or-more-day-spawning-new-insurance",
+          "Independent reporting"
+        ],
+        [
+          "Marsh",
+          "https://www.marsh.com/en/industries/technology/insights/contractual-risk-allocation-data-center-development.html",
+          "Research/data"
+        ],
+        [
+          "WebProNews",
+          "https://www.webpronews.com/ai-data-center-late-fees-5-million-a-day-insurance/",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Procurement",
+      "audience": "Buyers",
+      "img": "img/procurement-8.webp",
+      "alt": "Flat illustration of a financing document with a seal and a stack of coins",
+      "tags": [
+        "data centers",
+        "lead times",
+        "pricing"
+      ],
+      "lens": "Supply chain for AI"
+    },
+    {
+      "h": "AWS says its planning agents now rank exceptions by financial impact",
+      "sum": "Close to 200,000 active SKUs across more than 25 plants: that's the network TE Connectivity's planners triage with Amazon Connect Decisions, which now ranks exceptions by financial impact and suggests order-level fixes, AWS wrote on October 23. The post says constraint-aware supply planning (inventory policies, capacity, supplier lead times) is now generally available. One unnamed manufacturer cut the time to build its 52-week plan by 40% while managing 30% more SKUs, per AWS. These are AWS's own figures; the product launched in April.",
+      "so": "When a planning tool says it ranks exceptions by financial impact, ask the vendor to show you how it calculates that impact on your own anonymized data before you trust the order of the list.",
+      "so_short": "Ask how a tool calculates financial impact before you trust its exception ranking.",
+      "src": [
+        [
+          "AWS blog",
+          "https://aws.amazon.com/blogs/contact-center/the-self-improving-supply-chain-what-were-learning-from-amazon-connect-decisions-and-ai-agents-in-production/",
+          "Company announcement"
+        ],
+        [
+          "Supply Chain Dive (April launch)",
+          "https://www.supplychaindive.com/news/amazon-web-services-unveils-agentic-ai-supply-chain-tool/818564/",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Planning",
+      "audience": "Planners",
+      "img": "img/planning-3.webp",
+      "alt": "Flat illustration of a balance scale holding boxes on one side and coins on the other",
+      "tags": [
+        "AI agents",
+        "forecasting"
+      ],
+      "lens": "AI in supply chain"
+    },
+    {
+      "h": "Dexory's scanning robots now flag open boxes and misaligned pallets",
+      "sum": "Open boxes, goods pulled forward and misaligned pallets are now on the list of rack problems Dexory's autonomous scanning robots can flag, the company announced October 21. Its Storage Health feature added NVIDIA's Cosmos-Reason2-2B model, fine-tuned on Dexory's own warehouse images, as a second check when its existing models aren't confident. Dexory says it tested the 2B and 8B versions and picked the smaller one for accuracy and speed. Robotics 24/7 covered the update October 23.",
+      "so": "If you run aisle-scanning robots or are pricing them, ask which storage problems they actually catch at height, and how often a person has to confirm a flag.",
+      "so_short": "Ask scanning-robot vendors which rack problems they catch at height and how often people must confirm.",
+      "src": [
+        [
+          "Dexory announcement",
+          "https://www.dexory.com/insights/dexory-identifies-a-broader-range-of-warehouse-storage-issues-with-storage-health-and-nvidia-cosmos",
+          "Company announcement"
+        ],
+        [
+          "Robotics 24/7",
+          "https://www.robotics247.com/article/dexory-expands-warehouse-ai-capabilities-with-nvidia-cosmos-and-halos",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Warehousing",
+      "audience": "Warehouse managers",
+      "img": "img/warehousing-6.webp",
+      "alt": "Flat illustration of a tall scanning robot in a rack aisle, with one box glowing",
+      "tags": [
+        "robotics",
+        "warehouse automation"
+      ],
+      "lens": "AI in supply chain"
+    },
+    {
+      "h": "Mexico's customs agency shows a tool that flags undervalued imports",
+      "sum": "Undervaluation is the target. Mexico's National Customs Agency (ANAM) demonstrated its Value Intelligence Platform, built to flag imports that may be declared below their real value, at the CONECTAA 2026 customs brokers' meeting, reported October 23. Sessions there, including a workshop with Google, covered AI for tariff classification, catching errors in customs declarations and predicting risk. Mexico Business News notes that automated flags don't prove wrongdoing on their own; people still review them.",
+      "so": "If you import into Mexico, check that declared values match invoices and transfer-pricing records now, because more of those mismatches will be flagged automatically.",
+      "so_short": "Importing into Mexico? Make sure declared values match invoices before software flags the gap.",
+      "src": [
+        [
+          "Desarrollo Siglo XXI (ANAM demo)",
+          "https://desarrollosiglo21.com/index.php/2026/10/23/anam-presenta-plataforma-de-inteligencia-de-valor-para-detectar-subvaluacion-en-importaciones/",
+          "Independent reporting"
+        ],
+        [
+          "Mexico Business News",
+          "https://mexicobusiness.news/cloudanddata/news/mexico-customs-brokers-back-ai-modernize-customs-operations",
+          "Independent reporting"
+        ],
+        [
+          "Excélsior",
+          "https://www.excelsior.com.mx/finanzas/caaarem-analiza-modernizacion-tecnologica-aduanera",
+          "Independent reporting"
+        ]
+      ],
+      "cat": "Trade",
+      "audience": "Trade compliance",
+      "img": "img/trade-3.webp",
+      "alt": "Flat illustration of a shipping container passing through an inspection arch beside a checklist",
+      "tags": [
+        "tariffs",
+        "trade policy"
+      ],
+      "lens": "AI in supply chain"
+    }
+  ],
+  "tip": {
+    "role": "Buyers",
+    "title": "Have AI put every quote on the same landed-cost basis",
+    "how": "Quotes rarely line up: one is FOB with 60-day terms, another is delivered with net 30 and a tooling charge. Before you compare unit prices, paste each quote's terms (supplier names replaced with codes) into your approved AI tool and have it convert them to one landed cost per unit with the assumptions spelled out. You still check the freight and duty numbers, but the cheapest quote is no longer the one with the smallest price on page one.",
+    "prompt": "You are a procurement analyst comparing supplier quotes on a landed-cost basis. Inputs, all anonymized, one row per quote: supplier code, unit price, currency, MOQ, Incoterms, payment terms, tooling or one-time charges, estimated freight per unit, duty rate (%), lead time in weeks.\n[PASTE TABLE]\nAssumptions: annual volume [NUMBER], exchange rate [RATE], cost of capital [PERCENT] per year.\n1) Convert each quote to landed cost per unit, spreading one-time charges over annual volume, and show your math for the first row.\n2) Adjust for payment terms using the cost of capital.\n3) Rank the quotes by landed cost and note where the ranking differs from unit price.\n4) Flag any quote missing data needed for the comparison.\nOutput: a table with columns supplier code, unit price, landed cost per unit, rank, notes; then 3 short takeaways. Keep it under 300 words. Use anonymized data only. List any missing or inconsistent data instead of guessing.",
+    "next": {
+      "text": "See a filled-in RFQ bid comparison, free",
+      "url": "/guides/rfq-bid-comparison-example.html"
+    }
+  },
+  "crosspromo": {
+    "text": "Make AI remember your role, your parts and your rules so you stop re-explaining them:",
+    "link": "grab the free Mini Context Card",
+    "url": "https://steadiwork.gumroad.com/l/zwoyz"
+  }
+}
