@@ -2,7 +2,7 @@
 
 > AI Supply Chain Brief: a free newsletter every Monday, Wednesday and Friday with one practical AI move for supply chain jobs, curated by a working buyer.
 
-The free Mon/Wed/Fri email newsletter published at steadiwork.github.io/aisupplychainbrief, with a use-case directory, guides and a prompt kit. Not affiliated with other newsletters or posts that use a similar name. Every news item links to its public source. All worked examples in the guides use fictional data. Updated 2026-11-12.
+The free Mon/Wed/Fri email newsletter published at steadiwork.github.io/aisupplychainbrief, with a use-case directory, guides and a prompt kit. Not affiliated with other newsletters or posts that use a similar name. Every news item links to its public source. All worked examples in the guides use fictional data. Updated 2026-11-13.
 
 ## About
 
@@ -55,6 +55,7 @@ The free Mon/Wed/Fri email newsletter published at steadiwork.github.io/aisupply
 
 ## Newsletter issues
 
+- [Issue #17: The one part that sets the lead time](https://steadiwork.github.io/aisupplychainbrief/issues/017.html) (2026-11-13)
 - [Issue #16: The inventory you own but can't sell](https://steadiwork.github.io/aisupplychainbrief/issues/016.html) (2026-11-11)
 - [Issue #15: What your AI tools can see, and who else might](https://steadiwork.github.io/aisupplychainbrief/issues/015.html) (2026-11-09)
 - [Issue #14: Electrical gear leads stretch on AI power demand](https://steadiwork.github.io/aisupplychainbrief/issues/014.html) (2026-11-06)
