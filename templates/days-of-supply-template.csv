@@ -1,0 +1,7 @@
+Item,Unit cost ($),On hand,Avg daily usage,Open PO qty,PO due (working day),Lead time (working days),Safety stock (days),Days of supply on hand,Days of supply incl. open PO,Gap days (runs out before supply),Coverage needed (days),Status,On-hand value ($),Daily usage value ($)
+V-100,42.00,1200,80,2000,10,30,8,=C2/D2,=(C2+E2)/D2,"=IF(AND(E2>0,F2>I2),F2-I2,IF(AND(E2=0,I2<G2),G2-I2,0))",=G2+H2,"=IF(OR(AND(E2>0,F2>I2),AND(E2=0,I2<G2)),""Short"",IF(J2>90,""Excess"",IF(J2<L2,""Watch"",""OK"")))",=B2*C2,=B2*D2
+S-220,6.00,300,60,1500,8,20,5,=C3/D3,=(C3+E3)/D3,"=IF(AND(E3>0,F3>I3),F3-I3,IF(AND(E3=0,I3<G3),G3-I3,0))",=G3+H3,"=IF(OR(AND(E3>0,F3>I3),AND(E3=0,I3<G3)),""Short"",IF(J3>90,""Excess"",IF(J3<L3,""Watch"",""OK"")))",=B3*C3,=B3*D3
+A-310,310.00,90,4,0,,45,10,=C4/D4,=(C4+E4)/D4,"=IF(AND(E4>0,F4>I4),F4-I4,IF(AND(E4=0,I4<G4),G4-I4,0))",=G4+H4,"=IF(OR(AND(E4>0,F4>I4),AND(E4=0,I4<G4)),""Short"",IF(J4>90,""Excess"",IF(J4<L4,""Watch"",""OK"")))",=B4*C4,=B4*D4
+G-415,0.80,18000,150,5000,15,20,5,=C5/D5,=(C5+E5)/D5,"=IF(AND(E5>0,F5>I5),F5-I5,IF(AND(E5=0,I5<G5),G5-I5,0))",=G5+H5,"=IF(OR(AND(E5>0,F5>I5),AND(E5=0,I5<G5)),""Short"",IF(J5>90,""Excess"",IF(J5<L5,""Watch"",""OK"")))",=B5*C5,=B5*D5
+B-520,3.00,2400,100,1000,20,25,10,=C6/D6,=(C6+E6)/D6,"=IF(AND(E6>0,F6>I6),F6-I6,IF(AND(E6=0,I6<G6),G6-I6,0))",=G6+H6,"=IF(OR(AND(E6>0,F6>I6),AND(E6=0,I6<G6)),""Short"",IF(J6>90,""Excess"",IF(J6<L6,""Watch"",""OK"")))",=B6*C6,=B6*D6
+Group (value-weighted),,,,,,,,=SUM(N2:N6)/SUM(O2:O6),,,,"=COUNTIF(M2:M6,""Short"")&"" short""",=SUM(N2:N6),=SUM(O2:O6)
